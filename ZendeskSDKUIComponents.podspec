@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKUIComponents"
-  s.version      = "0.4.1"
+  s.version      = "0.5.0"
   s.summary      = "ZendeskSDKUIComponents #{s.version.to_s}"
-  s.homepage     = "https://developer.zendesk.com/embeddables"
+  s.homepage     = "https://developer.zendesk.com/documentation/zendesk-sdks/"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -18,11 +18,8 @@ Pod::Spec.new do |s|
   s.author       = 'Zendesk'
   s.platform     = :ios, '10.0'
   s.requires_arc = true
-  s.swift_version = '5.3.2'
-  s.cocoapods_version = '>= 1.9.3'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.swift_version = '5.4'
+  s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/sdk_ui_components_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ZendeskSDKUIComponents.xcframework'
-  s.preserve_paths = 'ZendeskSDKUIComponents.xcframework', 'ZendeskSDKUIComponents.dSYMs/*.dSYM'
 end
