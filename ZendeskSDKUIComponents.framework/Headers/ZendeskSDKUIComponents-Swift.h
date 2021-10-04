@@ -224,6 +224,9 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
 @interface ConnectionBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -431,6 +434,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -670,6 +674,9 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
 @interface ConnectionBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -877,6 +884,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -1116,6 +1124,9 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
 @interface ConnectionBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -1323,6 +1334,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -1565,6 +1577,9 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
 @interface ConnectionBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -1772,6 +1787,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -2011,6 +2027,9 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
 @interface ConnectionBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -2218,6 +2237,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
