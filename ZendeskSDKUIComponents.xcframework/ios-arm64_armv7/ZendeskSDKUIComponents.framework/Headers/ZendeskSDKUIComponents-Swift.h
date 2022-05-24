@@ -289,10 +289,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15FileMessageView")
 @end
 
 
-@interface FileMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIGestureRecognizerDelegate>
-@end
-
-
 
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10FormButton")
 @interface FormButton : UIButton
@@ -321,6 +317,15 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents8FormView")
 
 
 
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14IconCircleView")
+@interface IconCircleView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 @interface ImageMessageView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -329,9 +334,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-
-@interface ImageMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIGestureRecognizerDelegate>
-@end
 
 
 
@@ -343,24 +345,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UIPickerView;
-@class NSString;
-
-@interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIPickerViewDelegate>
-- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nonnull)pickerView:(UIPickerView * _Nonnull)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView * _Nullable)view SWIFT_WARN_UNUSED_RESULT;
-- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
-@end
-
-
-@interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIPickerViewDataSource>
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
-@end
-
 
 @interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
-- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 @property (nonatomic, readonly) BOOL isFirstResponder;
 - (BOOL)becomeFirstResponder SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)resignFirstResponder;
@@ -400,6 +386,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 @end
 
 @class UITextView;
+@class NSString;
 
 @interface MessageComposerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
@@ -481,6 +468,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19TypingIndicatorView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 
@@ -792,10 +780,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15FileMessageView")
 @end
 
 
-@interface FileMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIGestureRecognizerDelegate>
-@end
-
-
 
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10FormButton")
 @interface FormButton : UIButton
@@ -824,6 +808,15 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents8FormView")
 
 
 
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14IconCircleView")
+@interface IconCircleView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 @interface ImageMessageView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -832,9 +825,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-
-@interface ImageMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIGestureRecognizerDelegate>
-@end
 
 
 
@@ -846,24 +836,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UIPickerView;
-@class NSString;
-
-@interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIPickerViewDelegate>
-- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
-- (UIView * _Nonnull)pickerView:(UIPickerView * _Nonnull)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView * _Nullable)view SWIFT_WARN_UNUSED_RESULT;
-- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
-@end
-
-
-@interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIPickerViewDataSource>
-- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
-@end
-
 
 @interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
-- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 @property (nonatomic, readonly) BOOL isFirstResponder;
 - (BOOL)becomeFirstResponder SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)resignFirstResponder;
@@ -903,6 +877,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 @end
 
 @class UITextView;
+@class NSString;
 
 @interface MessageComposerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
@@ -984,6 +959,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19TypingIndicatorView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 
