@@ -1,0 +1,11 @@
+framework module ZendeskSDKUIComponents {
+  umbrella header "ZendeskSDKUIComponents.h"
+
+  export *
+  module * { export * }
+}
+
+module ZendeskSDKUIComponents.Swift {
+    header "ZendeskSDKUIComponents-Swift.h"
+    requires objc
+}
