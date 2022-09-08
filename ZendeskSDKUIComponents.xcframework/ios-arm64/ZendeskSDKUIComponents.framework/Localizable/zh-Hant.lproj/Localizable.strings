@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "新增附件";
+"zma_attachment_button_accessibility_label" = "附加檔案";
+"zma_back_button_accessibility_label" = "返回";
+"zma_carousel_message_content_subtitle_accessibility_label" = "輪播圖內容：";
+"zma_carousel_message_content_title_accessibility_label" = "輪播圖標題：";
+"zma_form_dropdown_field_accessibility_label" = "有 %@ 個選項的下拉式功能表";
+"zma_form_dropdown_singular_field_accessibility_label" = "有 1 個選項的下拉式功能表";
+"zma_form_entry_error" = "%@ 表單欄位錯誤：";
+"zma_form_field_title_accessibility_label" = "輸入 %@";
+"zma_form_input_field_accessibility_label" = "輸入 %@";
+"zma_header_subtitle_accessibility_label" = "標語：";
+"zma_header_title_accessibility_label" = "品牌名稱：";
+"zma_inbound_text_message_accssibility_label" = "已接收訊息：";
+"zma_message_author_accessibility_label" = "寄件者";
+"zma_message_composer_accessibility_label" = "訊息撰寫欄位：";
+"zma_message_error_state_accessibility_label" = "未傳送訊息。點選以重試：";
+"zma_message_receipt_accessibility_label" = "接收時間：";
+"zma_message_sent_accessibility_label" = "時間：";
+"zma_new_message_divider_accessibility_label" = "新訊息分隔符號";
+"zma_offline_banner_accessibility_label" = "%@，點選以重新整理按鈕";
+"zma_outbound_text_message_accessibility_label" = "已傳送訊息";
+"zma_quick_reply_button_accessibility_label" = "%@，快速回覆按鈕";
+"zma_send_button_accessibility_label" = "傳送訊息";
+"zma_time_divider_accessibility_label" = "時間戳記";

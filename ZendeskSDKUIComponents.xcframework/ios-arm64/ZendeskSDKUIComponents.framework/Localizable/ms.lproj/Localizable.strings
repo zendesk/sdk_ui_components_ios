@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "Add attachments";
+"zma_attachment_button_accessibility_label" = "Attach file";
+"zma_back_button_accessibility_label" = "Go back";
+"zma_carousel_message_content_subtitle_accessibility_label" = "Carousel content:";
+"zma_carousel_message_content_title_accessibility_label" = "Carousel title:";
+"zma_form_dropdown_field_accessibility_label" = "Dropdown with %@ choices";
+"zma_form_dropdown_singular_field_accessibility_label" = "Dropdown with 1 choice";
+"zma_form_entry_error" = "%@ form field error:";
+"zma_form_field_title_accessibility_label" = "Enter %@";
+"zma_form_input_field_accessibility_label" = "Enter %@";
+"zma_header_subtitle_accessibility_label" = "Tagline:";
+"zma_header_title_accessibility_label" = "Brand name:";
+"zma_inbound_text_message_accssibility_label" = "Message received:";
+"zma_message_author_accessibility_label" = "Sender";
+"zma_message_composer_accessibility_label" = "Message composer:";
+"zma_message_error_state_accessibility_label" = "Message not sent. Tap to retry:";
+"zma_message_receipt_accessibility_label" = "Time received:";
+"zma_message_sent_accessibility_label" = "Time:";
+"zma_new_message_divider_accessibility_label" = "New messages divider";
+"zma_offline_banner_accessibility_label" = "%@, tap to refresh button";
+"zma_outbound_text_message_accessibility_label" = "Message sent";
+"zma_quick_reply_button_accessibility_label" = "%@, quick reply button";
+"zma_send_button_accessibility_label" = "Send message";
+"zma_time_divider_accessibility_label" = "Timestamp";

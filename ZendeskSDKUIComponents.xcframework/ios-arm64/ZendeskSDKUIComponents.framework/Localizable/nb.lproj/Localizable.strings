@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "Legg til vedlegg";
+"zma_attachment_button_accessibility_label" = "Legg ved fil";
+"zma_back_button_accessibility_label" = "Gå tilbake";
+"zma_carousel_message_content_subtitle_accessibility_label" = "Karusellinnhold:";
+"zma_carousel_message_content_title_accessibility_label" = "Karuselltittel:";
+"zma_form_dropdown_field_accessibility_label" = "Rullegardinmeny med %@ valg";
+"zma_form_dropdown_singular_field_accessibility_label" = "Rullegardinmeny med 1 valg";
+"zma_form_entry_error" = "%@ skjemafeltfeil:";
+"zma_form_field_title_accessibility_label" = "Skriv inn %@";
+"zma_form_input_field_accessibility_label" = "Skriv inn %@";
+"zma_header_subtitle_accessibility_label" = "Slagord:";
+"zma_header_title_accessibility_label" = "Merkevarenavn:";
+"zma_inbound_text_message_accssibility_label" = "Melding mottatt:";
+"zma_message_author_accessibility_label" = "Avsender";
+"zma_message_composer_accessibility_label" = "Meldingsskrivefunksjon:";
+"zma_message_error_state_accessibility_label" = "Meldingen ble ikke sendt. Trykk for å prøve igjen:";
+"zma_message_receipt_accessibility_label" = "Tid mottatt:";
+"zma_message_sent_accessibility_label" = "Tidspunkt:";
+"zma_new_message_divider_accessibility_label" = "Ny meldingsdeler";
+"zma_offline_banner_accessibility_label" = "%@, trykk for å oppdatere-knappen";
+"zma_outbound_text_message_accessibility_label" = "Melding sendt";
+"zma_quick_reply_button_accessibility_label" = "%@, hurtigsvar-knapp";
+"zma_send_button_accessibility_label" = "Send melding";
+"zma_time_divider_accessibility_label" = "Tidsstempel";

@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "첨부 파일 추가";
+"zma_attachment_button_accessibility_label" = "파일 첨부";
+"zma_back_button_accessibility_label" = "돌아가기";
+"zma_carousel_message_content_subtitle_accessibility_label" = "회전 슬라이드 콘텐츠:";
+"zma_carousel_message_content_title_accessibility_label" = "회전 슬라이드 제목:";
+"zma_form_dropdown_field_accessibility_label" = "%@개 선택 항목이 있는 드롭다운";
+"zma_form_dropdown_singular_field_accessibility_label" = "1개 선택 항목이 있는 드롭다운";
+"zma_form_entry_error" = "%@ 양식 필드 오류:";
+"zma_form_field_title_accessibility_label" = "%@ 입력";
+"zma_form_input_field_accessibility_label" = "%@ 입력";
+"zma_header_subtitle_accessibility_label" = "태그라인:";
+"zma_header_title_accessibility_label" = "브랜드 이름:";
+"zma_inbound_text_message_accssibility_label" = "메시지 수신됨:";
+"zma_message_author_accessibility_label" = "보낸 사람";
+"zma_message_composer_accessibility_label" = "메시지 작성기:";
+"zma_message_error_state_accessibility_label" = "메시지를 보내지 못했습니다. 다시 시도하려면 탭하세요:";
+"zma_message_receipt_accessibility_label" = "받은 시간:";
+"zma_message_sent_accessibility_label" = "시간:";
+"zma_new_message_divider_accessibility_label" = "새 메시지 구분선";
+"zma_offline_banner_accessibility_label" = "%@, 탭하여 새로 고침 버튼";
+"zma_outbound_text_message_accessibility_label" = "메시지를 전송했습니다.";
+"zma_quick_reply_button_accessibility_label" = "%@, 빠른 답장 버튼";
+"zma_send_button_accessibility_label" = "메시지 보내기";
+"zma_time_divider_accessibility_label" = "타임스탬프";

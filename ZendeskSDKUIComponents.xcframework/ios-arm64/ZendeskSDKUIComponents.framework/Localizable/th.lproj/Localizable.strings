@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "เพิ่มไฟล์แนบ";
+"zma_attachment_button_accessibility_label" = "แนบไฟล์";
+"zma_back_button_accessibility_label" = "ย้อนกลับ";
+"zma_carousel_message_content_subtitle_accessibility_label" = "เนื้อหาวงล้อ:";
+"zma_carousel_message_content_title_accessibility_label" = "ชื่อวงล้อ:";
+"zma_form_dropdown_field_accessibility_label" = "ดรอปดาวน์พร้อม %@ ตัวเลือก";
+"zma_form_dropdown_singular_field_accessibility_label" = "ดรอปดาวน์พร้อม 1 ตัวเลือก";
+"zma_form_entry_error" = "ข้อผิดพลาดของฟิลด์แบบฟอร์ม %@:";
+"zma_form_field_title_accessibility_label" = "ป้อน %@";
+"zma_form_input_field_accessibility_label" = "ป้อน %@";
+"zma_header_subtitle_accessibility_label" = "ข้อความประกอบ:";
+"zma_header_title_accessibility_label" = "ชื่อแบรนด์:";
+"zma_inbound_text_message_accssibility_label" = "ข้อความที่ได้รับ:";
+"zma_message_author_accessibility_label" = "ผู้ส่ง";
+"zma_message_composer_accessibility_label" = "พื้นที่เขียนข้อความ:";
+"zma_message_error_state_accessibility_label" = "ไม่ได้ส่งข้อความ แตะเพื่อลองอีกครั้ง";
+"zma_message_receipt_accessibility_label" = "เวลาที่ได้รับ:";
+"zma_message_sent_accessibility_label" = "เวลา:";
+"zma_new_message_divider_accessibility_label" = "ตัวแบ่งข้อความใหม่";
+"zma_offline_banner_accessibility_label" = "%@ แตะเพื่อรีเฟรชปุ่ม";
+"zma_outbound_text_message_accessibility_label" = "ส่งข้อความแล้ว";
+"zma_quick_reply_button_accessibility_label" = "%@ ปุ่มตอบกลับด่วน";
+"zma_send_button_accessibility_label" = "ส่งข้อความ";
+"zma_time_divider_accessibility_label" = "การประทับเวลา";

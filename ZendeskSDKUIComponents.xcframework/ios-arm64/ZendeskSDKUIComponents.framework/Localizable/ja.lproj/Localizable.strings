@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "ファイルを添付";
+"zma_attachment_button_accessibility_label" = "ファイルを添付";
+"zma_back_button_accessibility_label" = "戻る";
+"zma_carousel_message_content_subtitle_accessibility_label" = "カルーセル表示のコンテンツ：";
+"zma_carousel_message_content_title_accessibility_label" = "カルーセル表示のタイトル：";
+"zma_form_dropdown_field_accessibility_label" = "選択肢が%@つあるドロップダウン";
+"zma_form_dropdown_singular_field_accessibility_label" = "選択肢が1つあるドロップダウン";
+"zma_form_entry_error" = "%@フォームフィールドのエラー:";
+"zma_form_field_title_accessibility_label" = "%@を入力してください";
+"zma_form_input_field_accessibility_label" = "%@を入力してください";
+"zma_header_subtitle_accessibility_label" = "タグライン：";
+"zma_header_title_accessibility_label" = "ブランド名：";
+"zma_inbound_text_message_accssibility_label" = "受信メッセージ：";
+"zma_message_author_accessibility_label" = "送信者";
+"zma_message_composer_accessibility_label" = "メッセージ作成者：";
+"zma_message_error_state_accessibility_label" = "メッセージは送信されていません。タップしてやり直してください：";
+"zma_message_receipt_accessibility_label" = "受信時刻:";
+"zma_message_sent_accessibility_label" = "時刻：";
+"zma_new_message_divider_accessibility_label" = "新規メッセージの区切り線";
+"zma_offline_banner_accessibility_label" = "%@：タップして更新ボタン";
+"zma_outbound_text_message_accessibility_label" = "メッセージが送信されました";
+"zma_quick_reply_button_accessibility_label" = "%@：クイック返信ボタン";
+"zma_send_button_accessibility_label" = "メッセージの送信";
+"zma_time_divider_accessibility_label" = "タイムスタンプ";

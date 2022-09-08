@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "添加附件";
+"zma_attachment_button_accessibility_label" = "附加文件";
+"zma_back_button_accessibility_label" = "返回";
+"zma_carousel_message_content_subtitle_accessibility_label" = "轮播内容：";
+"zma_carousel_message_content_title_accessibility_label" = "轮播标题：";
+"zma_form_dropdown_field_accessibility_label" = "包含 %@ 个选项的下拉列表";
+"zma_form_dropdown_singular_field_accessibility_label" = "包含 1 个选项的下拉列表";
+"zma_form_entry_error" = "%@ 表格字段错误：";
+"zma_form_field_title_accessibility_label" = "输入 %@";
+"zma_form_input_field_accessibility_label" = "输入 %@";
+"zma_header_subtitle_accessibility_label" = "标语：";
+"zma_header_title_accessibility_label" = "品牌名称：";
+"zma_inbound_text_message_accssibility_label" = "已收到的消息：";
+"zma_message_author_accessibility_label" = "发送人";
+"zma_message_composer_accessibility_label" = "消息撰写区：";
+"zma_message_error_state_accessibility_label" = "消息未发送。点击以重试：";
+"zma_message_receipt_accessibility_label" = "收到的时间：";
+"zma_message_sent_accessibility_label" = "时间：";
+"zma_new_message_divider_accessibility_label" = "新消息分隔符";
+"zma_offline_banner_accessibility_label" = "%@，点击以刷新按钮";
+"zma_outbound_text_message_accessibility_label" = "消息已发送";
+"zma_quick_reply_button_accessibility_label" = "%@，快速回复按钮";
+"zma_send_button_accessibility_label" = "发送消息";
+"zma_time_divider_accessibility_label" = "时间戳";

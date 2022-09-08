@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "הוסף קבצים מצורפים";
+"zma_attachment_button_accessibility_label" = "צירוף קובץ";
+"zma_back_button_accessibility_label" = "הקודם";
+"zma_carousel_message_content_subtitle_accessibility_label" = "תוכן קרוסלה:";
+"zma_carousel_message_content_title_accessibility_label" = "כותרת קרוסלה:";
+"zma_form_dropdown_field_accessibility_label" = "תפריט נפתח עם %@ אפשרויות";
+"zma_form_dropdown_singular_field_accessibility_label" = "תפריט נפתח עם אפשרות אחת";
+"zma_form_entry_error" = "שגיאת שדה טופס (%@):";
+"zma_form_field_title_accessibility_label" = "הזן %@";
+"zma_form_input_field_accessibility_label" = "הזן %@";
+"zma_header_subtitle_accessibility_label" = "כותרת משנה:";
+"zma_header_title_accessibility_label" = "שם מותג:";
+"zma_inbound_text_message_accssibility_label" = "ההודעה שהתקבלה:";
+"zma_message_author_accessibility_label" = "שולח";
+"zma_message_composer_accessibility_label" = "מחבר ההודעה:";
+"zma_message_error_state_accessibility_label" = "ההודעה לא נשלחה. הקש לניסיון נוסף:";
+"zma_message_receipt_accessibility_label" = "שעת קבלה:";
+"zma_message_sent_accessibility_label" = "שעה:";
+"zma_new_message_divider_accessibility_label" = "מחלק הודעות חדשות";
+"zma_offline_banner_accessibility_label" = "%@, לחצן רענון";
+"zma_outbound_text_message_accessibility_label" = "ההודעה נשלחה";
+"zma_quick_reply_button_accessibility_label" = "%@, לחצן תשובה מהירה";
+"zma_send_button_accessibility_label" = "שליחת הודעה";
+"zma_time_divider_accessibility_label" = "חותמת זמן";

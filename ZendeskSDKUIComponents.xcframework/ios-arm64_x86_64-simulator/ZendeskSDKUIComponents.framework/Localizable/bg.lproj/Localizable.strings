@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "Прикачване на файлове";
+"zma_attachment_button_accessibility_label" = "Прикачване на файл";
+"zma_back_button_accessibility_label" = "Назад";
+"zma_carousel_message_content_subtitle_accessibility_label" = "Съдържание на каталога с елементи:";
+"zma_carousel_message_content_title_accessibility_label" = "Заглавие на каталога с елементи:";
+"zma_form_dropdown_field_accessibility_label" = "Падащо меню с %@ възможности за избор";
+"zma_form_dropdown_singular_field_accessibility_label" = "Падащо меню с 1 възможност за избор";
+"zma_form_entry_error" = "%@ грешка в полето на формуляра:";
+"zma_form_field_title_accessibility_label" = "Въведете %@";
+"zma_form_input_field_accessibility_label" = "Въведете %@";
+"zma_header_subtitle_accessibility_label" = "Слоган:";
+"zma_header_title_accessibility_label" = "Наименование на бранда:";
+"zma_inbound_text_message_accssibility_label" = "Съобщението е получено:";
+"zma_message_author_accessibility_label" = "Подател";
+"zma_message_composer_accessibility_label" = "Поле за съставяне на текстово съобщение:";
+"zma_message_error_state_accessibility_label" = "Съобщението не е изпратено. Докоснете за повторен опит:";
+"zma_message_receipt_accessibility_label" = "Час на получаване:";
+"zma_message_sent_accessibility_label" = "Час:";
+"zma_new_message_divider_accessibility_label" = "Разделител за нови текстови съобщения";
+"zma_offline_banner_accessibility_label" = "%@, докоснете, за да опресните бутона";
+"zma_outbound_text_message_accessibility_label" = "Съобщението е изпратено";
+"zma_quick_reply_button_accessibility_label" = "%@, бутон за бърз отговор";
+"zma_send_button_accessibility_label" = "Изпращане на съобщението";
+"zma_time_divider_accessibility_label" = "Дата/час";

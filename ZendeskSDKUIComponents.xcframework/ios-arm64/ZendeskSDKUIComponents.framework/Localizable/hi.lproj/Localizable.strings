@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "अनुलग्नक जोड़ें";
+"zma_attachment_button_accessibility_label" = "फ़ाइल संलग्न करें";
+"zma_back_button_accessibility_label" = "पीछे जाएं";
+"zma_carousel_message_content_subtitle_accessibility_label" = "हिंडोला सामग्री:";
+"zma_carousel_message_content_title_accessibility_label" = "हिंडोला शीर्षक:";
+"zma_form_dropdown_field_accessibility_label" = "%@विकल्पों के साथ ड्रॉपडाउन";
+"zma_form_dropdown_singular_field_accessibility_label" = "1 विकल्प के साथ ड्रॉपडाउन";
+"zma_form_entry_error" = "%@ फ़ॉर्म फ़ील्ड त्रुटि:";
+"zma_form_field_title_accessibility_label" = "%@ दर्ज करें";
+"zma_form_input_field_accessibility_label" = "%@ दर्ज करें";
+"zma_header_subtitle_accessibility_label" = "टैगलाइन:";
+"zma_header_title_accessibility_label" = "ब्रांड का नाम:";
+"zma_inbound_text_message_accssibility_label" = "Message मिल गया:";
+"zma_message_author_accessibility_label" = "प्रेषक";
+"zma_message_composer_accessibility_label" = "Message कम्पोज़र:";
+"zma_message_error_state_accessibility_label" = "Message नहीं भेजा गया। पुनः प्रयास करने के लिए टैप करें:";
+"zma_message_receipt_accessibility_label" = "प्राप्त समय:";
+"zma_message_sent_accessibility_label" = "समय:";
+"zma_new_message_divider_accessibility_label" = "नए Message विभक्त";
+"zma_offline_banner_accessibility_label" = "%@, रीफ्रेश करने के लिए टैप करें बटन";
+"zma_outbound_text_message_accessibility_label" = "Message भेजा गया";
+"zma_quick_reply_button_accessibility_label" = "%@, त्वरित जवाब दें बटन";
+"zma_send_button_accessibility_label" = "Message भेजें";
+"zma_time_divider_accessibility_label" = "टाइमस्टैम्प";

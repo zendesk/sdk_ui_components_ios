@@ -1,1 +1,24 @@
-
+"zma_add_attachments_button_accessibility_label" = "Mellékletek hozzáadása";
+"zma_attachment_button_accessibility_label" = "Fájl csatolása";
+"zma_back_button_accessibility_label" = "Visszalépés";
+"zma_carousel_message_content_subtitle_accessibility_label" = "Forgótár tartalma:";
+"zma_carousel_message_content_title_accessibility_label" = "Forgótár neve:";
+"zma_form_dropdown_field_accessibility_label" = "Legördülő menü %@ választási lehetőséggel";
+"zma_form_dropdown_singular_field_accessibility_label" = "Legördülő menü 1 választási lehetőséggel";
+"zma_form_entry_error" = "%@ – űrlapmezőhiba:";
+"zma_form_field_title_accessibility_label" = "Adja meg a következőt: %@";
+"zma_form_input_field_accessibility_label" = "Adja meg a következőt: %@";
+"zma_header_subtitle_accessibility_label" = "Mottó:";
+"zma_header_title_accessibility_label" = "Márkanév:";
+"zma_inbound_text_message_accssibility_label" = "Üzenet érkezett:";
+"zma_message_author_accessibility_label" = "Feladó";
+"zma_message_composer_accessibility_label" = "Üzenetszerkesztő:";
+"zma_message_error_state_accessibility_label" = "Az üzenet nincs elküldve. Koppintson az újrapróbálkozáshoz:";
+"zma_message_receipt_accessibility_label" = "Érkezett:";
+"zma_message_sent_accessibility_label" = "Idő:";
+"zma_new_message_divider_accessibility_label" = "Új üzenetek elválasztója";
+"zma_offline_banner_accessibility_label" = "%@: frissítéshez koppintható gomb";
+"zma_outbound_text_message_accessibility_label" = "Üzenet elküldve";
+"zma_quick_reply_button_accessibility_label" = "%@: gyors válasz gomb";
+"zma_send_button_accessibility_label" = "Üzenetküldés";
+"zma_time_divider_accessibility_label" = "Időbélyeg";
