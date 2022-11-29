@@ -6,6 +6,6 @@ framework module ZendeskSDKUIComponents {
 }
 
 module ZendeskSDKUIComponents.Swift {
-    header "ZendeskSDKUIComponents-Swift.h"
-    requires objc
+  header "ZendeskSDKUIComponents-Swift.h"
+  requires objc
 }
