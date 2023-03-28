@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Προσθήκη συνημμένων";
-"zma_attachment_button_accessibility_label" = "Επισύναψη αρχείου";
 "zma_back_button_accessibility_label" = "Επιστροφή";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Περιεχόμενο καρουζέλ:";
 "zma_carousel_message_content_title_accessibility_label" = "Τίτλος καρουζέλ:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Χρόνος λήψης:";
 "zma_message_sent_accessibility_label" = "Χρόνος:";
 "zma_new_message_divider_accessibility_label" = "Νέος διαχωριστής μηνυμάτων";
+"zma_new_messages_banner_close_button_accessibility_label" = "Πατήστε για κλείσιμο";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Πατήστε για μετάβαση στο παλαιότερο μη αναγνωσμένο μήνυμα.";
 "zma_offline_banner_accessibility_label" = "%@: κουμπί ανανέωσης";
 "zma_outbound_text_message_accessibility_label" = "Το μήνυμα έχει σταλεί";
 "zma_quick_reply_button_accessibility_label" = "%@: κουμπί γρήγορης απάντησης";

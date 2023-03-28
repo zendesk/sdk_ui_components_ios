@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Aggiungi allegati";
-"zma_attachment_button_accessibility_label" = "Allega file";
 "zma_back_button_accessibility_label" = "Torna indietro";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Contenuti sequenza:";
 "zma_carousel_message_content_title_accessibility_label" = "Titolo della sequenza:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Data/ora ricezione:";
 "zma_message_sent_accessibility_label" = "Data/ora:";
 "zma_new_message_divider_accessibility_label" = "Nuovo divisore di messaggi";
+"zma_new_messages_banner_close_button_accessibility_label" = "Tocca per ignorare";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Tocca per scorrere al primo messaggio non letto.";
 "zma_offline_banner_accessibility_label" = "%@: tocca per aggiornare";
 "zma_outbound_text_message_accessibility_label" = "Messaggio inviato";
 "zma_quick_reply_button_accessibility_label" = "%@: pulsante di risposta rapida";

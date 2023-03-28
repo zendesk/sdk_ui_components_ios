@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Legg til vedlegg";
-"zma_attachment_button_accessibility_label" = "Legg ved fil";
 "zma_back_button_accessibility_label" = "Gå tilbake";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Karusellinnhold:";
 "zma_carousel_message_content_title_accessibility_label" = "Karuselltittel:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Tid mottatt:";
 "zma_message_sent_accessibility_label" = "Tidspunkt:";
 "zma_new_message_divider_accessibility_label" = "Ny meldingsdeler";
+"zma_new_messages_banner_close_button_accessibility_label" = "Trykk for å avvise";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Trykk for å bla til den tidligste uleste meldingen.";
 "zma_offline_banner_accessibility_label" = "%@, trykk for å oppdatere-knappen";
 "zma_outbound_text_message_accessibility_label" = "Melding sendt";
 "zma_quick_reply_button_accessibility_label" = "%@, hurtigsvar-knapp";

@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "अनुलग्नक जोड़ें";
-"zma_attachment_button_accessibility_label" = "फ़ाइल संलग्न करें";
 "zma_back_button_accessibility_label" = "पीछे जाएं";
 "zma_carousel_message_content_subtitle_accessibility_label" = "हिंडोला सामग्री:";
 "zma_carousel_message_content_title_accessibility_label" = "हिंडोला शीर्षक:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "प्राप्त समय:";
 "zma_message_sent_accessibility_label" = "समय:";
 "zma_new_message_divider_accessibility_label" = "नए Message विभक्त";
+"zma_new_messages_banner_close_button_accessibility_label" = "खारिज करने के लिए टैप करें";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@। जल्द से जल्द अपठित संदेश तक स्क्रॉल करने के लिए टैप करें।";
 "zma_offline_banner_accessibility_label" = "%@, रीफ्रेश करने के लिए टैप करें बटन";
 "zma_outbound_text_message_accessibility_label" = "Message भेजा गया";
 "zma_quick_reply_button_accessibility_label" = "%@, त्वरित जवाब दें बटन";

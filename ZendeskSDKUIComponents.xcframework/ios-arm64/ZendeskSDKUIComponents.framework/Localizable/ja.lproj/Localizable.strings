@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "ファイルを添付";
-"zma_attachment_button_accessibility_label" = "ファイルを添付";
 "zma_back_button_accessibility_label" = "戻る";
 "zma_carousel_message_content_subtitle_accessibility_label" = "カルーセル表示のコンテンツ：";
 "zma_carousel_message_content_title_accessibility_label" = "カルーセル表示のタイトル：";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "受信時刻:";
 "zma_message_sent_accessibility_label" = "時刻：";
 "zma_new_message_divider_accessibility_label" = "新規メッセージの区切り線";
+"zma_new_messages_banner_close_button_accessibility_label" = "タップして閉じる";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@.タップすると、最も古い未読メッセージまでスクロールします。";
 "zma_offline_banner_accessibility_label" = "%@：タップして更新ボタン";
 "zma_outbound_text_message_accessibility_label" = "メッセージが送信されました";
 "zma_quick_reply_button_accessibility_label" = "%@：クイック返信ボタン";

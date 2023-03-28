@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "첨부 파일 추가";
-"zma_attachment_button_accessibility_label" = "파일 첨부";
 "zma_back_button_accessibility_label" = "돌아가기";
 "zma_carousel_message_content_subtitle_accessibility_label" = "회전 슬라이드 콘텐츠:";
 "zma_carousel_message_content_title_accessibility_label" = "회전 슬라이드 제목:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "받은 시간:";
 "zma_message_sent_accessibility_label" = "시간:";
 "zma_new_message_divider_accessibility_label" = "새 메시지 구분선";
+"zma_new_messages_banner_close_button_accessibility_label" = "탭하여 해제";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. 읽지 않은 메시지 중 가장 먼저 온 메시지로 스크롤하려면 탭하세요.";
 "zma_offline_banner_accessibility_label" = "%@, 탭하여 새로 고침 버튼";
 "zma_outbound_text_message_accessibility_label" = "메시지를 전송했습니다.";
 "zma_quick_reply_button_accessibility_label" = "%@, 빠른 답장 버튼";

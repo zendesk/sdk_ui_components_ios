@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Thêm các tập tin đính kèm";
-"zma_attachment_button_accessibility_label" = "Đính kèm tập tin";
 "zma_back_button_accessibility_label" = "Quay lại";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Nội dung quảng cáo băng chuyền:";
 "zma_carousel_message_content_title_accessibility_label" = "Tiêu đề quảng cáo băng chuyền:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Thời gian nhận:";
 "zma_message_sent_accessibility_label" = "Thời gian:";
 "zma_new_message_divider_accessibility_label" = "Trình chia tin nhắn mới";
+"zma_new_messages_banner_close_button_accessibility_label" = "Gõ để đóng";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Gõ để cuộn đến tin nhắn chưa đọc sớm nhất.";
 "zma_offline_banner_accessibility_label" = "%@, nhấn để làm mới nút";
 "zma_outbound_text_message_accessibility_label" = "Đã gửi tin nhắn";
 "zma_quick_reply_button_accessibility_label" = "%@, nút trả lời nhanh";

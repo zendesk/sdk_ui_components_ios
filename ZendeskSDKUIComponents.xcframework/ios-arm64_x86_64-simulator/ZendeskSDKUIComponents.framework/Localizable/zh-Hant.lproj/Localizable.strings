@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "新增附件";
-"zma_attachment_button_accessibility_label" = "附加檔案";
 "zma_back_button_accessibility_label" = "返回";
 "zma_carousel_message_content_subtitle_accessibility_label" = "輪播圖內容：";
 "zma_carousel_message_content_title_accessibility_label" = "輪播圖標題：";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "接收時間：";
 "zma_message_sent_accessibility_label" = "時間：";
 "zma_new_message_divider_accessibility_label" = "新訊息分隔符號";
+"zma_new_messages_banner_close_button_accessibility_label" = "點選即可關閉";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@。點選即可捲動至最早的未讀訊息。";
 "zma_offline_banner_accessibility_label" = "%@，點選以重新整理按鈕";
 "zma_outbound_text_message_accessibility_label" = "已傳送訊息";
 "zma_quick_reply_button_accessibility_label" = "%@，快速回覆按鈕";

@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Ek iliştir";
-"zma_attachment_button_accessibility_label" = "Dosya iliştir";
 "zma_back_button_accessibility_label" = "Geri dön";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Dönen içerik:";
 "zma_carousel_message_content_title_accessibility_label" = "Dönen başlığı:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Alınma zamanı:";
 "zma_message_sent_accessibility_label" = "Zaman:";
 "zma_new_message_divider_accessibility_label" = "Yeni mesaj ayırıcı";
+"zma_new_messages_banner_close_button_accessibility_label" = "Yok saymak için dokunun";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. En erken okunmamış mesaja gitmek için dokunun.";
 "zma_offline_banner_accessibility_label" = "%@, yenilemek için dokunun";
 "zma_outbound_text_message_accessibility_label" = "Mesaj gönderildi";
 "zma_quick_reply_button_accessibility_label" = "%@, hızlı yanıt düğmesi";

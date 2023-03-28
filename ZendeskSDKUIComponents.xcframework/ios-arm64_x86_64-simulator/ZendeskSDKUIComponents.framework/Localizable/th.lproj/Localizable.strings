@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "เพิ่มไฟล์แนบ";
-"zma_attachment_button_accessibility_label" = "แนบไฟล์";
 "zma_back_button_accessibility_label" = "ย้อนกลับ";
 "zma_carousel_message_content_subtitle_accessibility_label" = "เนื้อหาวงล้อ:";
 "zma_carousel_message_content_title_accessibility_label" = "ชื่อวงล้อ:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "เวลาที่ได้รับ:";
 "zma_message_sent_accessibility_label" = "เวลา:";
 "zma_new_message_divider_accessibility_label" = "ตัวแบ่งข้อความใหม่";
+"zma_new_messages_banner_close_button_accessibility_label" = "แตะเพื่อยกเลิก";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@ แตะเพื่อเลื่อนไปยังข้อความที่ยังไม่ได้อ่านที่เก่าที่สุด";
 "zma_offline_banner_accessibility_label" = "%@ แตะเพื่อรีเฟรชปุ่ม";
 "zma_outbound_text_message_accessibility_label" = "ส่งข้อความแล้ว";
 "zma_quick_reply_button_accessibility_label" = "%@ ปุ่มตอบกลับด่วน";

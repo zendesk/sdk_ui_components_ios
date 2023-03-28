@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "添加附件";
-"zma_attachment_button_accessibility_label" = "附加文件";
 "zma_back_button_accessibility_label" = "返回";
 "zma_carousel_message_content_subtitle_accessibility_label" = "轮播内容：";
 "zma_carousel_message_content_title_accessibility_label" = "轮播标题：";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "收到的时间：";
 "zma_message_sent_accessibility_label" = "时间：";
 "zma_new_message_divider_accessibility_label" = "新消息分隔符";
+"zma_new_messages_banner_close_button_accessibility_label" = "点击关闭";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@.点击滚动到最早的未读消息。";
 "zma_offline_banner_accessibility_label" = "%@，点击以刷新按钮";
 "zma_outbound_text_message_accessibility_label" = "消息已发送";
 "zma_quick_reply_button_accessibility_label" = "%@，快速回复按钮";

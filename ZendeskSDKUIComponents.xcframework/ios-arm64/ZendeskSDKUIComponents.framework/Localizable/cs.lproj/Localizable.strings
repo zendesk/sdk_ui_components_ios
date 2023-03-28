@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Přidat přílohy";
-"zma_attachment_button_accessibility_label" = "Přiložit soubor";
 "zma_back_button_accessibility_label" = "Vrátit se zpět";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Obsah karuselu:";
 "zma_carousel_message_content_title_accessibility_label" = "Název karuselu:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Čas přijetí:";
 "zma_message_sent_accessibility_label" = "Čas:";
 "zma_new_message_divider_accessibility_label" = "Rozdělovač nových zpráv";
+"zma_new_messages_banner_close_button_accessibility_label" = "Klepnutím zavřít";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Klepnutím přejděte na nejstarší nepřečtenou zprávu.";
 "zma_offline_banner_accessibility_label" = "%@, tlačítko pro obnovení klepnutím";
 "zma_outbound_text_message_accessibility_label" = "Zpráva byla odeslána.";
 "zma_quick_reply_button_accessibility_label" = "%@, tlačítko rychlé odpovědi";

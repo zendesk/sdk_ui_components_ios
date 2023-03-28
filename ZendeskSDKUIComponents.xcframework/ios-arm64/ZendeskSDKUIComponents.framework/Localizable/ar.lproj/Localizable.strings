@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "إضافة مرفقات";
-"zma_attachment_button_accessibility_label" = "إرفاق ملف";
 "zma_back_button_accessibility_label" = "رجوع";
 "zma_carousel_message_content_subtitle_accessibility_label" = "محتوى القائمة الدوّارة:";
 "zma_carousel_message_content_title_accessibility_label" = "عنوان القائمة الدوّارة:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "موعد الاستلام:";
 "zma_message_sent_accessibility_label" = "الوقت:";
 "zma_new_message_divider_accessibility_label" = "مُقسم رسائل جديد";
+"zma_new_messages_banner_close_button_accessibility_label" = "اضغط للرفض";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. اضغط للتمرير إلى أقرب رسالة غير مقروءة.";
 "zma_offline_banner_accessibility_label" = "%@: اضغط لتحديث الزر";
 "zma_outbound_text_message_accessibility_label" = "تم إرسال الرسالة";
 "zma_quick_reply_button_accessibility_label" = "%@: زر الرد السريع";

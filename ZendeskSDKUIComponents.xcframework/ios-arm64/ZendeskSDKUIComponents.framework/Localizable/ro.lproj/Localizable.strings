@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Adăugare fișiere atașate";
-"zma_attachment_button_accessibility_label" = "Atașare fișier";
 "zma_back_button_accessibility_label" = "Revenire";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Conținut carusel:";
 "zma_carousel_message_content_title_accessibility_label" = "Titlu carusel:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Oră de primire:";
 "zma_message_sent_accessibility_label" = "Oră:";
 "zma_new_message_divider_accessibility_label" = "Separator de mesaje noi";
+"zma_new_messages_banner_close_button_accessibility_label" = "Atingeți pentru anulare";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Atingeți pentru a derula până la cel mai vechi mesaj necitit.";
 "zma_offline_banner_accessibility_label" = "%@, atingeți pentru a reîmprospăta butonul";
 "zma_outbound_text_message_accessibility_label" = "Mesaj trimis";
 "zma_quick_reply_button_accessibility_label" = "%@, butonul de răspuns rapid";

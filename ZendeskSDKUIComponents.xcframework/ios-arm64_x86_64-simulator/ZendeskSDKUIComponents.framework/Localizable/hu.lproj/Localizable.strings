@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Mellékletek hozzáadása";
-"zma_attachment_button_accessibility_label" = "Fájl csatolása";
 "zma_back_button_accessibility_label" = "Visszalépés";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Forgótár tartalma:";
 "zma_carousel_message_content_title_accessibility_label" = "Forgótár neve:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Érkezett:";
 "zma_message_sent_accessibility_label" = "Idő:";
 "zma_new_message_divider_accessibility_label" = "Új üzenetek elválasztója";
+"zma_new_messages_banner_close_button_accessibility_label" = "Koppintson a bezáráshoz";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Koppintással a legkorábbi olvasatlan üzenethez görgethet.";
 "zma_offline_banner_accessibility_label" = "%@: frissítéshez koppintható gomb";
 "zma_outbound_text_message_accessibility_label" = "Üzenet elküldve";
 "zma_quick_reply_button_accessibility_label" = "%@: gyors válasz gomb";

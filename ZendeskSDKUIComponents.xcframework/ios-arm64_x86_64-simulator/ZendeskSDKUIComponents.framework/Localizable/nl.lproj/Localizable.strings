@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Bijlagen toevoegen";
-"zma_attachment_button_accessibility_label" = "Bestand bijvoegen";
 "zma_back_button_accessibility_label" = "Teruggaan";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Carrouselinhoud:";
 "zma_carousel_message_content_title_accessibility_label" = "Carrouselnaam:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Tijdstip ontvangen:";
 "zma_message_sent_accessibility_label" = "Tijdstip:";
 "zma_new_message_divider_accessibility_label" = "Scheidingsteken voor nieuwe berichten";
+"zma_new_messages_banner_close_button_accessibility_label" = "Tik om te negeren";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Tik om naar het eerste ongelezen bericht te scrollen.";
 "zma_offline_banner_accessibility_label" = "%@: knop tikken om te vernieuwen";
 "zma_outbound_text_message_accessibility_label" = "Bericht verzonden";
 "zma_quick_reply_button_accessibility_label" = "%@: knop voor snel reageren";

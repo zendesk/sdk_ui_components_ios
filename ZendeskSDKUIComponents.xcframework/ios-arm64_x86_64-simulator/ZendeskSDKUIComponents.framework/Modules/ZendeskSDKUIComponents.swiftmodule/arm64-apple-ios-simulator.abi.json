@@ -4613,21 +4613,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIImage?",
+                "printedName": "ZendeskSDKUIComponents.CardViewImage?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "CardViewImage",
+                    "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                    "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5imageSo7UIImageCSgvp",
-            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5imageSo7UIImageCSgvp",
+            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5imageAA0cD5ImageVSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5imageAA0cD5ImageVSgvp",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "HasStorage",
@@ -4644,21 +4644,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
+                    "printedName": "ZendeskSDKUIComponents.CardViewImage?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
+                        "name": "CardViewImage",
+                        "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                        "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5imageSo7UIImageCSgvg",
-                "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5imageSo7UIImageCSgvg",
+                "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5imageAA0cD5ImageVSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5imageAA0cD5ImageVSgvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4803,13 +4803,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "UIKit.UIImage?",
+                "printedName": "ZendeskSDKUIComponents.CardViewImage?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
+                    "name": "CardViewImage",
+                    "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                    "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
                   }
                 ],
                 "usr": "s:Sq"
@@ -4836,8 +4836,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgSo7UIImageCSgSayAA012ActionButtonE0VGAA0cD5StyleVtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgSo7UIImageCSgSayAA012ActionButtonE0VGAA0cD5StyleVtcfc",
+            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgAA0cD5ImageVSgSayAA012ActionButtonE0VGAA0cD5StyleVtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgAA0cD5ImageVSgSayAA012ActionButtonE0VGAA0cD5StyleVtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -4929,6 +4929,96 @@
         "declKind": "Struct",
         "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV",
         "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CardViewImage",
+        "printedName": "CardViewImage",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardViewImage",
+                "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewImageV5imageACSo7UIImageCSg_tcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewImageV5imageACSo7UIImageCSg_tcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardViewImage",
+                "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CardViewImage",
+                "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewImageV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewImageV2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKUIComponents",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZendeskSDKUIComponents13CardViewImageV",
+        "mangledName": "$s22ZendeskSDKUIComponents13CardViewImageV",
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "AccessControl"
@@ -5321,6 +5411,87 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(title:description:logo:verticalSizeClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConversationHeaderRendering",
+                "printedName": "ZendeskSDKUIComponents.ConversationHeaderRendering",
+                "usr": "s:22ZendeskSDKUIComponents27ConversationHeaderRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIUserInterfaceSizeClass?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIUserInterfaceSizeClass",
+                    "printedName": "UIKit.UIUserInterfaceSizeClass",
+                    "usr": "c:@E@UIUserInterfaceSizeClass"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents27ConversationHeaderRenderingV6update5title11description4logo17verticalSizeClassACSSSg_AISo7UIImageCSgSo015UIUserInterfacekL0VSgtF",
+            "mangledName": "$s22ZendeskSDKUIComponents27ConversationHeaderRenderingV6update5title11description4logo17verticalSizeClassACSSSg_AISo7UIImageCSgSo015UIUserInterfacekL0VSgtF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -5510,6 +5681,459 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnreadBannerView",
+        "printedName": "UnreadBannerView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerView",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerView",
+                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents16UnreadBannerViewC5styleAcA0cdE5StyleV_tcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC5styleAcA0cdE5StyleV_tcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:onBannerTap:onButtonTap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerView",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerView",
+                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents16UnreadBannerViewC5style02onD3Tap0g6ButtonH0AcA0cdE5StyleV_yycSgAItcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC5style02onD3Tap0g6ButtonH0AcA0cdE5StyleV_yycSgAItcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZendeskSDKUIComponents.UnreadBannerViewRendering) -> ZendeskSDKUIComponents.UnreadBannerViewRendering",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewRendering",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewRendering",
+                    "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewRendering",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewRendering",
+                    "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents16UnreadBannerViewC6renderyyAA0cdE9RenderingVAFXEF",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC6renderyyAA0cdE9RenderingVAFXEF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView(im)layoutSubviews",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC14layoutSubviewsyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hitTest",
+            "printedName": "hitTest(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView(im)hitTest:withEvent:",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC7hitTest_4withSo6UIViewCSgSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "overriding": true,
+            "objc_name": "hitTest:withEvent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "point",
+            "printedName": "point(inside:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView(im)pointInside:withEvent:",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "overriding": true,
+            "objc_name": "pointInside:withEvent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerView",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerView",
+                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView(im)initWithFrame:",
+            "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)UnreadBannerView",
+        "mangledName": "$s22ZendeskSDKUIComponents16UnreadBannerViewC",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Renderer",
+            "printedName": "Renderer",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Style",
+                "printedName": "Style",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewStyle",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Rendering",
+                "printedName": "Rendering",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewRendering",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewRendering",
+                    "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:22ZendeskSDKUIComponents8RendererP",
+            "mangledName": "$s22ZendeskSDKUIComponents8RendererP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -7208,9 +7832,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "withRetryIcon",
+            "printedName": "withRetryIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvp",
+            "mangledName": "$s22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvg",
+                "mangledName": "$s22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvs",
+                "mangledName": "$s22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvM",
+                "mangledName": "$s22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV13withRetryIconSbvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(text:style:lifetime:)",
+            "printedName": "init(text:style:lifetime:withRetryIcon:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7238,11 +7947,18 @@
                 "printedName": "ZendeskSDKUIComponents.ConnectionBannerLifetime",
                 "hasDefaultArg": true,
                 "usr": "s:22ZendeskSDKUIComponents24ConnectionBannerLifetimeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV4text5style8lifetimeACSS_AA0cdE5StyleOAA0cD8LifetimeOtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV4text5style8lifetimeACSS_AA0cdE5StyleOAA0cD8LifetimeOtcfc",
+            "usr": "s:22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV4text5style8lifetime13withRetryIconACSS_AA0cdE5StyleOAA0cD8LifetimeOSbtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents29ConnectionBannerViewRenderingV4text5style8lifetime13withRetryIconACSS_AA0cdE5StyleOAA0cD8LifetimeOSbtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -7426,6 +8142,160 @@
         "name": "MessageReceiptView",
         "printedName": "MessageReceiptView",
         "children": [
+          {
+            "kind": "Var",
+            "name": "onTap",
+            "printedName": "onTap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents18MessageReceiptViewC5onTapyycSgvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "tailPropertyAnimator",
@@ -13202,6 +14072,56 @@
         "printedName": "ConversationHeaderView",
         "children": [
           {
+            "kind": "Var",
+            "name": "rendering",
+            "printedName": "rendering",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConversationHeaderRendering",
+                "printedName": "ZendeskSDKUIComponents.ConversationHeaderRendering",
+                "usr": "s:22ZendeskSDKUIComponents27ConversationHeaderRenderingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents22ConversationHeaderViewC9renderingAA0cD9RenderingVvp",
+            "mangledName": "$s22ZendeskSDKUIComponents22ConversationHeaderViewC9renderingAA0cD9RenderingVvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConversationHeaderRendering",
+                    "printedName": "ZendeskSDKUIComponents.ConversationHeaderRendering",
+                    "usr": "s:22ZendeskSDKUIComponents27ConversationHeaderRenderingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents22ConversationHeaderViewC9renderingAA0cD9RenderingVvg",
+                "mangledName": "$s22ZendeskSDKUIComponents22ConversationHeaderViewC9renderingAA0cD9RenderingVvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(style:)",
@@ -15122,6 +16042,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ConnectionBannerViewStyle",
         "printedName": "ConnectionBannerViewStyle",
@@ -15926,9 +16856,288 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UnreadBannerViewRendering",
+        "printedName": "UnreadBannerViewRendering",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvp",
+            "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvg",
+                "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvs",
+                "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvM",
+                "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4textSSvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "style",
+            "printedName": "style",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvp",
+            "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewStyle",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvg",
+                "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewStyle",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvs",
+                "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvM",
+                "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV5styleAA0cdE5StyleVvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewRendering",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewRendering",
+                "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4text5styleACSS_AA0cdE5StyleVtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV4text5styleACSS_AA0cdE5StyleVtcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZendeskSDKUIComponents25UnreadBannerViewRenderingV",
+        "mangledName": "$s22ZendeskSDKUIComponents25UnreadBannerViewRenderingV",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ConversationListItemView",
         "printedName": "ConversationListItemView",
         "children": [
+          {
+            "kind": "Var",
+            "name": "imageView",
+            "printedName": "imageView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents24ConversationListItemViewC05imageF0So07UIImageF0Cvp",
+            "mangledName": "$s22ZendeskSDKUIComponents24ConversationListItemViewC05imageF0So07UIImageF0Cvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents24ConversationListItemViewC05imageF0So07UIImageF0Cvg",
+                "mangledName": "$s22ZendeskSDKUIComponents24ConversationListItemViewC05imageF0So07UIImageF0Cvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -16279,40 +17488,24 @@
           },
           {
             "kind": "Function",
-            "name": "show",
-            "printedName": "show()",
+            "name": "setVisibility",
+            "printedName": "setVisibility(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents18LoadingSpinnerViewC4showyyF",
-            "mangledName": "$s22ZendeskSDKUIComponents18LoadingSpinnerViewC4showyyF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "Custom",
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hide",
-            "printedName": "hide()",
-            "children": [
+              },
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents18LoadingSpinnerViewC4hideyyF",
-            "mangledName": "$s22ZendeskSDKUIComponents18LoadingSpinnerViewC4hideyyF",
+            "usr": "s:22ZendeskSDKUIComponents18LoadingSpinnerViewC13setVisibilityyySbF",
+            "mangledName": "$s22ZendeskSDKUIComponents18LoadingSpinnerViewC13setVisibilityyySbF",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "Custom",
@@ -19963,9 +21156,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "backgroudImageColor",
+            "printedName": "backgroudImageColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV19backgroudImageColorSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV19backgroudImageColorSo7UIColorCvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV19backgroudImageColorSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV19backgroudImageColorSo7UIColorCvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(actionColor:backgroundColor:textColor:)",
+            "printedName": "init(actionColor:backgroundColor:textColor:backgroudImageColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -19990,11 +21227,17 @@
                 "name": "UIColor",
                 "printedName": "UIKit.UIColor",
                 "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG004textG0ACSo7UIColorC_A2Htcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG004textG0ACSo7UIColorC_A2Htcfc",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG004textG0014backgroudImageG0ACSo7UIColorC_A3Itcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG004textG0014backgroudImageG0ACSo7UIColorC_A3Itcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -22690,102 +23933,6 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "update",
-            "printedName": "update(title:message:timestamp:unreadCount:icon:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ConversationListItemRendering",
-                "printedName": "ZendeskSDKUIComponents.ConversationListItemRendering",
-                "usr": "s:22ZendeskSDKUIComponents29ConversationListItemRenderingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents29ConversationListItemRenderingV6update5title7message9timestamp11unreadCount4iconACSSSg_A3JSo7UIImageCSgtF",
-            "mangledName": "$s22ZendeskSDKUIComponents29ConversationListItemRenderingV6update5title7message9timestamp11unreadCount4iconACSSSg_A3JSo7UIImageCSgtF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -23935,6 +25082,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "IconCircleStyle",
         "printedName": "IconCircleStyle",
@@ -24372,54 +25529,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "point",
-            "printedName": "point(inside:with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGPoint",
-                "printedName": "CoreFoundation.CGPoint",
-                "usr": "c:@S@CGPoint"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIEvent?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIEvent",
-                    "printedName": "UIKit.UIEvent",
-                    "usr": "c:objc(cs)UIEvent"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ConnectionBannerView(im)pointInside:withEvent:",
-            "mangledName": "$s22ZendeskSDKUIComponents20ConnectionBannerViewC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "overriding": true,
-            "objc_name": "pointInside:withEvent:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Custom",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -24644,6 +25753,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
@@ -27344,6 +28463,410 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UnreadBannerViewStyle",
+        "printedName": "UnreadBannerViewStyle",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ViewType",
+            "printedName": "ViewType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "newMessages",
+                "printedName": "newMessages",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType.Type) -> ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewType",
+                        "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                        "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ViewType",
+                            "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO11newMessagesyA2EmF",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO11newMessagesyA2EmF",
+                "moduleName": "ZendeskSDKUIComponents"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO9hashValueSivp",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO9hashValueSivp",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO9hashValueSivg",
+                    "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO9hashValueSivg",
+                    "moduleName": "ZendeskSDKUIComponents",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO",
+            "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV15backgroundColorSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV15backgroundColorSo7UIColorCvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV15backgroundColorSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV15backgroundColorSo7UIColorCvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "labelColor",
+            "printedName": "labelColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV10labelColorSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV10labelColorSo7UIColorCvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV10labelColorSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV10labelColorSo7UIColorCvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bannerType",
+            "printedName": "bannerType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ViewType",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV10bannerTypeAC0eH0Ovp",
+            "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV10bannerTypeAC0eH0Ovp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewType",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle.ViewType",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV0E4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV10bannerTypeAC0eH0Ovg",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV10bannerTypeAC0eH0Ovg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKUIComponents",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnreadBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV7defaultACvpZ",
+            "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV7defaultACvpZ",
+            "moduleName": "ZendeskSDKUIComponents",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnreadBannerViewStyle",
+                    "printedName": "ZendeskSDKUIComponents.UnreadBannerViewStyle",
+                    "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV7defaultACvgZ",
+                "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV7defaultACvgZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZendeskSDKUIComponents21UnreadBannerViewStyleV",
+        "mangledName": "$s22ZendeskSDKUIComponents21UnreadBannerViewStyleV",
+        "moduleName": "ZendeskSDKUIComponents",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
@@ -30847,6 +32370,192 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UITableView",
+        "printedName": "UITableView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dequeueReusableCell",
+            "printedName": "dequeueReusableCell(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE19dequeueReusableCell3forx10Foundation9IndexPathV_tSo0abG0CRbzlF",
+            "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE19dequeueReusableCell3forx10Foundation9IndexPathV_tSo0abG0CRbzlF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UITableViewCell>",
+            "sugared_genericSig": "<T where T : UIKit.UITableViewCell>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "contentSizeHeight",
+            "printedName": "contentSizeHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight14CoreFoundation7CGFloatVvp",
+            "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight12CoreGraphics7CGFloatVvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight14CoreFoundation7CGFloatVvg",
+                "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight12CoreGraphics7CGFloatVvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "removeHeaderLine",
+            "printedName": "removeHeaderLine()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE16removeHeaderLineyyF",
+            "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE16removeHeaderLineyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITableView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITableView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UIView",
         "printedName": "UIView",
         "children": [
@@ -34010,163 +35719,6 @@
             "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypeP"
           }
         ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UITableView",
-        "printedName": "UITableView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "contentSizeHeight",
-            "printedName": "contentSizeHeight",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight14CoreFoundation7CGFloatVvp",
-            "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight12CoreGraphics7CGFloatVvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight14CoreFoundation7CGFloatVvg",
-                "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE17contentSizeHeight12CoreGraphics7CGFloatVvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "removeHeaderLine",
-            "printedName": "removeHeaderLine()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So11UITableViewC22ZendeskSDKUIComponentsE16removeHeaderLineyyF",
-            "mangledName": "$sSo11UITableViewC22ZendeskSDKUIComponentsE16removeHeaderLineyyF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UITableView",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UITableView",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIScrollView",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIScrollView",
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
@@ -34455,14 +36007,14 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1416,
+      "offset": 1428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardViewRendering.swift",
       "kind": "Array",
-      "offset": 1486,
+      "offset": 1498,
       "length": 2,
       "value": "[]"
     },
@@ -34551,6 +36103,90 @@
       "value": "\"ZendeskSDKUIComponents.ErrorLabel\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1076,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1159,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1208,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1317,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1373,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1420,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1495,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1590,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1639,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 16,
+      "value": "\"ZendeskSDKUIComponents.UnreadBannerView\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/QuickReply\/QuickReplyView.swift",
       "kind": "StringLiteral",
       "offset": 751,
@@ -34616,84 +36252,91 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1172,
       "length": 2,
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerViewRendering.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1340,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 913,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 930,
+      "offset": 967,
       "length": 2,
       "value": "7"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 977,
+      "offset": 1014,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "FloatLiteral",
-      "offset": 1024,
+      "offset": 1061,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1077,
+      "offset": 1114,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1122,
+      "offset": 1159,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1167,
+      "offset": 1204,
       "length": 3,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1219,
+      "offset": 1256,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "FloatLiteral",
-      "offset": 1264,
+      "offset": 1301,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1938,
+      "offset": 2025,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageReceipt\/MessageReceiptView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2051,
+      "offset": 2138,
       "length": 4,
       "value": "true"
     },
@@ -35246,56 +36889,56 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1047,
+      "offset": 1059,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1214,
+      "offset": 1226,
       "length": 25,
       "value": "\"conversationHeaderTitle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1290,
+      "offset": 1302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1427,
+      "offset": 1439,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "StringLiteral",
-      "offset": 1595,
+      "offset": 1607,
       "length": 26,
       "value": "\"conversationHeaderByline\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1672,
+      "offset": 1684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1899,
+      "offset": 1911,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1935,
+      "offset": 1947,
       "length": 4,
       "value": "true"
     },
@@ -35426,6 +37069,13 @@
       "value": "\"ZendeskSDKUIComponents.ButtonsView\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerViewRendering.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageViewRendering.swift",
       "kind": "Array",
       "offset": 1331,
@@ -35433,170 +37083,184 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/UnreadBanner\/UnreadBannerViewRendering.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 780,
+      "offset": 782,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 844,
+      "offset": 846,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
-      "kind": "FloatLiteral",
-      "offset": 896,
-      "length": 4,
-      "value": "10.0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 950,
+      "offset": 899,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 962,
+      "offset": 911,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 995,
+      "offset": 944,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 1041,
+      "offset": 990,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 1083,
+      "offset": 1032,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 1128,
+      "offset": 1077,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "FloatLiteral",
-      "offset": 1170,
+      "offset": 1119,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1162,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1204,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1244,
+      "length": 4,
+      "value": "48.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1392,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1467,
+      "length": 32,
+      "value": "\"conversationListItemTitleLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1445,
+      "offset": 1550,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1480,
+      "offset": 1585,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1886,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1991,
+      "length": 34,
+      "value": "\"conversationListItemMessageLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1939,
+      "offset": 2076,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1974,
+      "offset": 2111,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
-      "length": 2,
-      "value": "\"\""
+      "offset": 2357,
+      "length": 36,
+      "value": "\"conversationListItemTimestampLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2273,
+      "offset": 2444,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2308,
+      "offset": 2479,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "StringLiteral",
-      "offset": 2831,
-      "length": 2,
-      "value": "\"\""
+      "offset": 3002,
+      "length": 42,
+      "value": "\"conversationListItemUnreadIndicatorLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2884,
+      "offset": 3095,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2919,
+      "offset": 3130,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3103,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationListItem\/ConversationListItemView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3659,
+      "offset": 3314,
       "length": 4,
       "value": "true"
     },
@@ -36247,42 +37911,42 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2008,
+      "offset": 2006,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2088,
+      "offset": 2086,
       "length": 23,
       "value": "\"connectionBannerLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2151,
+      "offset": 2149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2271,
+      "offset": 2269,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
-      "length": 29,
-      "value": "\"connectionBannerRetryButton\""
+      "offset": 2434,
+      "length": 27,
+      "value": "\"connectionBannerRetryIcon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5181,
+      "offset": 5147,
       "length": 1,
       "value": "1"
     },
@@ -36334,6 +37998,76 @@
       "offset": 882,
       "length": 8,
       "value": "\"ZendeskSDKUIComponents.CardView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 853,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1279,
+      "length": 26,
+      "value": "\"bannerContainerStackView\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1587,
+      "length": 30,
+      "value": "\"bannerTappableLabelContainer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1781,
+      "length": 31,
+      "value": "\"bannerTappableButtonContainer\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1938,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 13,
+      "value": "\"bannerLabel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 2403,
+      "length": 20,
+      "value": "\"bannerActionButton\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Banner\/BannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 10,
+      "value": "\"ZendeskSDKUIComponents.BannerView\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageViewStyle.swift",
@@ -36586,6 +38320,13 @@
       "offset": 686,
       "length": 11,
       "value": "\"ZendeskSDKUIComponents.InputBorder\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/CALayer+Styling.swift",
+      "kind": "FloatLiteral",
+      "offset": 2596,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/ButtonsViewRendering.swift",
@@ -36842,35 +38583,35 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 5999,
+      "offset": 6388,
       "length": 9,
       "value": "\"#2F3941\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6141,
+      "offset": 6530,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6172,
+      "offset": 6561,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6603,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6245,
+      "offset": 6634,
       "length": 4,
       "value": "0.65"
     }

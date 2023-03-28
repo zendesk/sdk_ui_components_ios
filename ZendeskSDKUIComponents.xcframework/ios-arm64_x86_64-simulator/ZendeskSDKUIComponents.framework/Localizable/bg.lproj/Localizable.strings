@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Прикачване на файлове";
-"zma_attachment_button_accessibility_label" = "Прикачване на файл";
 "zma_back_button_accessibility_label" = "Назад";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Съдържание на каталога с елементи:";
 "zma_carousel_message_content_title_accessibility_label" = "Заглавие на каталога с елементи:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Час на получаване:";
 "zma_message_sent_accessibility_label" = "Час:";
 "zma_new_message_divider_accessibility_label" = "Разделител за нови текстови съобщения";
+"zma_new_messages_banner_close_button_accessibility_label" = "Докоснете за затваряне";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Докоснете, за да превъртите до най-ранното непрочетено съобщение.";
 "zma_offline_banner_accessibility_label" = "%@, докоснете, за да опресните бутона";
 "zma_outbound_text_message_accessibility_label" = "Съобщението е изпратено";
 "zma_quick_reply_button_accessibility_label" = "%@, бутон за бърз отговор";

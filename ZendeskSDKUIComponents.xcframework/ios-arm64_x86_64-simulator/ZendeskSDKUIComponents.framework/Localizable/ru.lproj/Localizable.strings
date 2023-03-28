@@ -1,5 +1,4 @@
 "zma_add_attachments_button_accessibility_label" = "Прикрепить файлы";
-"zma_attachment_button_accessibility_label" = "Прикрепить файл";
 "zma_back_button_accessibility_label" = "Назад";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Контент карусели:";
 "zma_carousel_message_content_title_accessibility_label" = "Заголовок карусели:";
@@ -17,6 +16,8 @@
 "zma_message_receipt_accessibility_label" = "Время получения:";
 "zma_message_sent_accessibility_label" = "Время:";
 "zma_new_message_divider_accessibility_label" = "Разделитель новых сообщений";
+"zma_new_messages_banner_close_button_accessibility_label" = "Нажмите, чтобы отклонить";
+"zma_new_messages_banner_new_messages_accessibility_label" = "%@. Нажмите, чтобы перейти к первому непрочитанному сообщению.";
 "zma_offline_banner_accessibility_label" = "%@, кнопка обновления";
 "zma_outbound_text_message_accessibility_label" = "Сообщение отправлено";
 "zma_quick_reply_button_accessibility_label" = "%@, кнопка быстрого ответа";
