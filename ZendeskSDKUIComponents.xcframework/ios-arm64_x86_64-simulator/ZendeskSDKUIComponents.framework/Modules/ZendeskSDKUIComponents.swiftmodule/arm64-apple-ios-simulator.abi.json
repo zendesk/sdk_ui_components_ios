@@ -11046,7 +11046,8 @@
               "Custom",
               "Final",
               "AccessControl",
-              "Available"
+              "Available",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -33340,6 +33341,43 @@
                     "moduleName": "ZendeskSDKUIComponents"
                   },
                   {
+                    "kind": "Var",
+                    "name": "firstBaseline",
+                    "printedName": "firstBaseline",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIView.Constrainable.Attribute.Type) -> UIKit.UIView.Constrainable.Attribute",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Attribute",
+                            "printedName": "UIKit.UIView.Constrainable.Attribute",
+                            "usr": "s:So6UIViewC22ZendeskSDKUIComponentsE13ConstrainableO9AttributeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "UIKit.UIView.Constrainable.Attribute.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Attribute",
+                                "printedName": "UIKit.UIView.Constrainable.Attribute",
+                                "usr": "s:So6UIViewC22ZendeskSDKUIComponentsE13ConstrainableO9AttributeO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:So6UIViewC22ZendeskSDKUIComponentsE13ConstrainableO9AttributeO13firstBaselineyA2GmF",
+                    "mangledName": "$sSo6UIViewC22ZendeskSDKUIComponentsE13ConstrainableO9AttributeO13firstBaselineyA2GmF",
+                    "moduleName": "ZendeskSDKUIComponents"
+                  },
+                  {
                     "kind": "Constructor",
                     "name": "init",
                     "printedName": "init(rawValue:)",
@@ -35972,7 +36010,7 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4531,
+      "offset": 4535,
       "length": 5,
       "value": "false"
     },
@@ -36950,56 +36988,56 @@
       "value": "\"ZendeskSDKUIComponents.ConversationHeaderView\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "IntegerLiteral",
       "offset": 860,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "StringLiteral",
       "offset": 947,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "StringLiteral",
       "offset": 958,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "IntegerLiteral",
       "offset": 1063,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "BooleanLiteral",
       "offset": 1156,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "IntegerLiteral",
       "offset": 1291,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "BooleanLiteral",
       "offset": 1379,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponseView.swift",
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormFieldResponse\/FormFieldResponseView.swift",
       "kind": "StringLiteral",
       "offset": 694,
       "length": 21,
@@ -37722,140 +37760,140 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 3831,
+      "offset": 3941,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 4843,
+      "offset": 4953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 5767,
+      "offset": 5877,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 6332,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7081,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7227,
+      "offset": 6442,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "BooleanLiteral",
-      "offset": 7747,
+      "offset": 7191,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 7893,
+      "offset": 7337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "BooleanLiteral",
-      "offset": 8779,
+      "offset": 7857,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 10275,
+      "offset": 8003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8889,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 10330,
+      "offset": 10440,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 10994,
+      "offset": 11104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 11049,
+      "offset": 11159,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "FloatLiteral",
-      "offset": 12102,
+      "offset": 12212,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 14860,
+      "offset": 14970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 16408,
+      "offset": 16518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "BooleanLiteral",
-      "offset": 16990,
+      "offset": 17100,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 17035,
+      "offset": 17145,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "IntegerLiteral",
-      "offset": 17079,
+      "offset": 17189,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/UIView+Layout.swift",
       "kind": "BooleanLiteral",
-      "offset": 17984,
+      "offset": 18094,
       "length": 4,
       "value": "true"
     },
@@ -37896,57 +37934,50 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1166,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1222,
+      "offset": 1173,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2006,
+      "offset": 1957,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2086,
+      "offset": 2037,
       "length": 23,
       "value": "\"connectionBannerLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2149,
+      "offset": 2100,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2269,
+      "offset": 2220,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2434,
+      "offset": 2385,
       "length": 27,
       "value": "\"connectionBannerRetryIcon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5147,
+      "offset": 5098,
       "length": 1,
       "value": "1"
     },
@@ -38583,35 +38614,35 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6388,
+      "offset": 6499,
       "length": 9,
       "value": "\"#2F3941\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6530,
+      "offset": 6641,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6561,
+      "offset": 6672,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6603,
+      "offset": 6714,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6634,
+      "offset": 6745,
       "length": 4,
       "value": "0.65"
     }
