@@ -10320,8 +10320,8 @@
           },
           {
             "kind": "Var",
-            "name": "emptyBackgroundColor",
-            "printedName": "emptyBackgroundColor",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10331,8 +10331,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents15AvatarViewStyleV20emptyBackgroundColorSo7UIColorCvp",
-            "mangledName": "$s22ZendeskSDKUIComponents15AvatarViewStyleV20emptyBackgroundColorSo7UIColorCvp",
+            "usr": "s:22ZendeskSDKUIComponents15AvatarViewStyleV15backgroundColorSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents15AvatarViewStyleV15backgroundColorSo7UIColorCvp",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "HasStorage",
@@ -10354,8 +10354,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents15AvatarViewStyleV20emptyBackgroundColorSo7UIColorCvg",
-                "mangledName": "$s22ZendeskSDKUIComponents15AvatarViewStyleV20emptyBackgroundColorSo7UIColorCvg",
+                "usr": "s:22ZendeskSDKUIComponents15AvatarViewStyleV15backgroundColorSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents15AvatarViewStyleV15backgroundColorSo7UIColorCvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10409,7 +10409,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(emptyBackgroundColor:shape:)",
+            "printedName": "init(backgroundColor:shape:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10431,8 +10431,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents15AvatarViewStyleV20emptyBackgroundColor5shapeACSo7UIColorC_AA0C4MaskOtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents15AvatarViewStyleV20emptyBackgroundColor5shapeACSo7UIColorC_AA0C4MaskOtcfc",
+            "usr": "s:22ZendeskSDKUIComponents15AvatarViewStyleV15backgroundColor5shapeACSo7UIColorC_AA0C4MaskOtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents15AvatarViewStyleV15backgroundColor5shapeACSo7UIColorC_AA0C4MaskOtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -38033,7 +38033,7 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5098,
+      "offset": 5062,
       "length": 1,
       "value": "1"
     },
@@ -38670,35 +38670,35 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6499,
+      "offset": 6505,
       "length": 9,
       "value": "\"#2F3941\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6641,
+      "offset": 6647,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6672,
+      "offset": 6678,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6714,
+      "offset": 6720,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6745,
+      "offset": 6751,
       "length": 4,
       "value": "0.65"
     }

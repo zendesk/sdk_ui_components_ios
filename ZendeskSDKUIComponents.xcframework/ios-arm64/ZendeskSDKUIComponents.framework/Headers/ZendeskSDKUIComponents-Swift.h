@@ -399,7 +399,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 
 
 
-
 /// Embedded SelectInputView where the Picker is contained inside the InputView
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @interface InputFieldView : UIView

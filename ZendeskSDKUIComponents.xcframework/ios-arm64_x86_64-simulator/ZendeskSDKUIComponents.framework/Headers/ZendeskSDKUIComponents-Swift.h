@@ -399,7 +399,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 
 
 
-
 /// Embedded SelectInputView where the Picker is contained inside the InputView
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @interface InputFieldView : UIView
@@ -974,7 +973,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
-
 
 
 
