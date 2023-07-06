@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "رجوع";
 "zma_carousel_message_content_subtitle_accessibility_label" = "محتوى القائمة الدوّارة:";
 "zma_carousel_message_content_title_accessibility_label" = "عنوان القائمة الدوّارة:";
+"zma_dropdown_view_accessibility_announce" = "قائمة تضم خيارات %@";
+"zma_dropdown_view_singular_accessibility_announce" = "قائمة تضم خيارًا واحدًا";
+"zma_form_dropdown_field_accessibility_hint" = "اضغط ضغطة مزدوجة للتحرير";
 "zma_form_dropdown_field_accessibility_label" = "قائمة منسدلة تضم %@ مع الخيارات";
 "zma_form_dropdown_singular_field_accessibility_label" = "قائمة منسدلة تضم خيارًا واحدًا";
 "zma_form_entry_error" = "خطأ في حقل النموذج %@:";

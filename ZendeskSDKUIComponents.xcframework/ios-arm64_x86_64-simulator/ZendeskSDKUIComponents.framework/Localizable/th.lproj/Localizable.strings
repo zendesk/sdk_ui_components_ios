@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "ย้อนกลับ";
 "zma_carousel_message_content_subtitle_accessibility_label" = "เนื้อหาวงล้อ:";
 "zma_carousel_message_content_title_accessibility_label" = "ชื่อวงล้อ:";
+"zma_dropdown_view_accessibility_announce" = "รายการที่มี %@ ตัวเลือก";
+"zma_dropdown_view_singular_accessibility_announce" = "รายการที่มี 1 ตัวเลือก";
+"zma_form_dropdown_field_accessibility_hint" = "แตะสองครั้งเพื่อแก้ไข";
 "zma_form_dropdown_field_accessibility_label" = "ดรอปดาวน์พร้อม %@ ตัวเลือก";
 "zma_form_dropdown_singular_field_accessibility_label" = "ดรอปดาวน์พร้อม 1 ตัวเลือก";
 "zma_form_entry_error" = "ข้อผิดพลาดของฟิลด์แบบฟอร์ม %@:";

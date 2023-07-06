@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Revenire";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Conținut carusel:";
 "zma_carousel_message_content_title_accessibility_label" = "Titlu carusel:";
+"zma_dropdown_view_accessibility_announce" = "Listă cu %@ opțiuni";
+"zma_dropdown_view_singular_accessibility_announce" = "Listă cu 1 opțiune";
+"zma_form_dropdown_field_accessibility_hint" = "Atingeți de două ori pentru a edita";
 "zma_form_dropdown_field_accessibility_label" = "Listă derulantă cu %@ opțiuni";
 "zma_form_dropdown_singular_field_accessibility_label" = "Listă derulantă cu 1 opțiune";
 "zma_form_entry_error" = "%@ eroare de câmp de formular:";

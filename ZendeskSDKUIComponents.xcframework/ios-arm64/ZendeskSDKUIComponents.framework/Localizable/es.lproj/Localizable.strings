@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Volver";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Contenido del carrusel:";
 "zma_carousel_message_content_title_accessibility_label" = "Título del carrusel:";
+"zma_dropdown_view_accessibility_announce" = "Lista con %@ opciones";
+"zma_dropdown_view_singular_accessibility_announce" = "Lista con 1 opción";
+"zma_form_dropdown_field_accessibility_hint" = "Toque dos veces para editar";
 "zma_form_dropdown_field_accessibility_label" = "Menú desplegable con %@ opciones";
 "zma_form_dropdown_singular_field_accessibility_label" = "Menú desplegable con 1 opción";
 "zma_form_entry_error" = "Error %@ de campo de formulario:";

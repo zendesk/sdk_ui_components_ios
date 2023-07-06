@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Visszalépés";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Forgótár tartalma:";
 "zma_carousel_message_content_title_accessibility_label" = "Forgótár neve:";
+"zma_dropdown_view_accessibility_announce" = "Lista %@ választási lehetőséggel";
+"zma_dropdown_view_singular_accessibility_announce" = "Lista 1 választási lehetőséggel";
+"zma_form_dropdown_field_accessibility_hint" = "Koppintson duplán a szerkesztéshez";
 "zma_form_dropdown_field_accessibility_label" = "Legördülő menü %@ választási lehetőséggel";
 "zma_form_dropdown_singular_field_accessibility_label" = "Legördülő menü 1 választási lehetőséggel";
 "zma_form_entry_error" = "%@ – űrlapmezőhiba:";

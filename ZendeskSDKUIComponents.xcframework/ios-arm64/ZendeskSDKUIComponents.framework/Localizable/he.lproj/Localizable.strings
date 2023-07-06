@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "הקודם";
 "zma_carousel_message_content_subtitle_accessibility_label" = "תוכן קרוסלה:";
 "zma_carousel_message_content_title_accessibility_label" = "כותרת קרוסלה:";
+"zma_dropdown_view_accessibility_announce" = "רשימה עם %@ אפשרויות";
+"zma_dropdown_view_singular_accessibility_announce" = "רשימה עם אפשרות אחת";
+"zma_form_dropdown_field_accessibility_hint" = "הקש פעמיים כדי לערוך";
 "zma_form_dropdown_field_accessibility_label" = "תפריט נפתח עם %@ אפשרויות";
 "zma_form_dropdown_singular_field_accessibility_label" = "תפריט נפתח עם אפשרות אחת";
 "zma_form_entry_error" = "שגיאת שדה טופס (%@):";

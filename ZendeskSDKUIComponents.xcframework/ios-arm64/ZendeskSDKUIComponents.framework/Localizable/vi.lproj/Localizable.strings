@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Quay lại";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Nội dung quảng cáo băng chuyền:";
 "zma_carousel_message_content_title_accessibility_label" = "Tiêu đề quảng cáo băng chuyền:";
+"zma_dropdown_view_accessibility_announce" = "Danh sách có %@ lựa chọn";
+"zma_dropdown_view_singular_accessibility_announce" = "Danh sách có 1 lựa chọn";
+"zma_form_dropdown_field_accessibility_hint" = "Gõ hai lần để chỉnh sửa";
 "zma_form_dropdown_field_accessibility_label" = "Trình đơn thả xuống với %@ lựa chọn";
 "zma_form_dropdown_singular_field_accessibility_label" = "Trình đơn thả xuống với 1 lựa chọn";
 "zma_form_entry_error" = "%@ lỗi trường biểu mẫu:";

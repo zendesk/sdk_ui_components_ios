@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "返回";
 "zma_carousel_message_content_subtitle_accessibility_label" = "轮播内容：";
 "zma_carousel_message_content_title_accessibility_label" = "轮播标题：";
+"zma_dropdown_view_accessibility_announce" = "包含 %@ 个选项的列表";
+"zma_dropdown_view_singular_accessibility_announce" = "包含 1 个选项的列表";
+"zma_form_dropdown_field_accessibility_hint" = "双击以编辑";
 "zma_form_dropdown_field_accessibility_label" = "包含 %@ 个选项的下拉列表";
 "zma_form_dropdown_singular_field_accessibility_label" = "包含 1 个选项的下拉列表";
 "zma_form_entry_error" = "%@ 表格字段错误：";

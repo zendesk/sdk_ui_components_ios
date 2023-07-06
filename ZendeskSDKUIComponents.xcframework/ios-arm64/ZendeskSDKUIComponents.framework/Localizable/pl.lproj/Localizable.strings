@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Wstecz";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Zawartość karuzeli:";
 "zma_carousel_message_content_title_accessibility_label" = "Tytuł karuzeli:";
+"zma_dropdown_view_accessibility_announce" = "Lista z %@ wyborami";
+"zma_dropdown_view_singular_accessibility_announce" = "Lista z 1 wyborem";
+"zma_form_dropdown_field_accessibility_hint" = "Stuknij dwukrotnie, aby edytować";
 "zma_form_dropdown_field_accessibility_label" = "Lista rozwijana z %@ wyborami";
 "zma_form_dropdown_singular_field_accessibility_label" = "Lista rozwijana z 1 wyborem";
 "zma_form_entry_error" = "Błąd pola formularza %@:";

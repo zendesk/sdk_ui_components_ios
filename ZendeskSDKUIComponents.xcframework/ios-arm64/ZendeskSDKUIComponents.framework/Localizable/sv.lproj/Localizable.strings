@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Gå tillbaka";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Karusellinnehåll:";
 "zma_carousel_message_content_title_accessibility_label" = "Karuselltitel:";
+"zma_dropdown_view_accessibility_announce" = "Lista med %@ alternativ";
+"zma_dropdown_view_singular_accessibility_announce" = "Lista med 1 alternativ";
+"zma_form_dropdown_field_accessibility_hint" = "Tryck snabbt två gånger för att redigera";
 "zma_form_dropdown_field_accessibility_label" = "Listruta med %@ val";
 "zma_form_dropdown_singular_field_accessibility_label" = "Lustruta med 1 val";
 "zma_form_entry_error" = "%@ fel på formulärfält:";

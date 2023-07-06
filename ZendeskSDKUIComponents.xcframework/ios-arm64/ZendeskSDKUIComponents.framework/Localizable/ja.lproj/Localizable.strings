@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "戻る";
 "zma_carousel_message_content_subtitle_accessibility_label" = "カルーセル表示のコンテンツ：";
 "zma_carousel_message_content_title_accessibility_label" = "カルーセル表示のタイトル：";
+"zma_dropdown_view_accessibility_announce" = "選択肢が%@つあるリスト";
+"zma_dropdown_view_singular_accessibility_announce" = "選択肢が1つあるリスト";
+"zma_form_dropdown_field_accessibility_hint" = "ダブルタップして編集";
 "zma_form_dropdown_field_accessibility_label" = "選択肢が%@つあるドロップダウン";
 "zma_form_dropdown_singular_field_accessibility_label" = "選択肢が1つあるドロップダウン";
 "zma_form_entry_error" = "%@フォームフィールドのエラー:";

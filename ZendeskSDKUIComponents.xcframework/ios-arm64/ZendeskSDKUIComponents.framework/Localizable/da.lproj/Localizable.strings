@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Gå tilbage";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Indhold i karruselmeddelelse:";
 "zma_carousel_message_content_title_accessibility_label" = "Titel på karruselmeddelelse:";
+"zma_dropdown_view_accessibility_announce" = "Liste med %@ valg";
+"zma_dropdown_view_singular_accessibility_announce" = "Liste med 1 valg";
+"zma_form_dropdown_field_accessibility_hint" = "Dobbelttryk for at redigere";
 "zma_form_dropdown_field_accessibility_label" = "Rullemenu med %@ valg";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rullemenu med 1 valg";
 "zma_form_entry_error" = "%@ fejl på formularfelt:";

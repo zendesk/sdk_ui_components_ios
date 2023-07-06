@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Kembali";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Konten korsel:";
 "zma_carousel_message_content_title_accessibility_label" = "Judul korsel:";
+"zma_dropdown_view_accessibility_announce" = "Daftar dengan %@ pilihan";
+"zma_dropdown_view_singular_accessibility_announce" = "Daftar dengan 1 pilihan";
+"zma_form_dropdown_field_accessibility_hint" = "Ketuk dua kali untuk mengedit";
 "zma_form_dropdown_field_accessibility_label" = "Dropdown dengan %@ pilihan";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown dengan 1 pilihan";
 "zma_form_entry_error" = "%@ kesalahan bidang formulir:";

@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Geri dön";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Dönen içerik:";
 "zma_carousel_message_content_title_accessibility_label" = "Dönen başlığı:";
+"zma_dropdown_view_accessibility_announce" = "%@ seçenekli liste";
+"zma_dropdown_view_singular_accessibility_announce" = "1 seçenekli liste";
+"zma_form_dropdown_field_accessibility_hint" = "Düzenlemek için iki kez dokunun";
 "zma_form_dropdown_field_accessibility_label" = "%@ seçenekli açılır menü";
 "zma_form_dropdown_singular_field_accessibility_label" = "1 seçenekli açılır menü";
 "zma_form_entry_error" = "%@ form alanı hatası:";

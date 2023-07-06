@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Go back";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Carousel content:";
 "zma_carousel_message_content_title_accessibility_label" = "Carousel title:";
+"zma_dropdown_view_accessibility_announce" = "List with %@ choices";
+"zma_dropdown_view_singular_accessibility_announce" = "List with 1 choice";
+"zma_form_dropdown_field_accessibility_hint" = "Double-tap to edit";
 "zma_form_dropdown_field_accessibility_label" = "Dropdown with %@ choices";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown with 1 choice";
 "zma_form_entry_error" = "%@ form field error:";

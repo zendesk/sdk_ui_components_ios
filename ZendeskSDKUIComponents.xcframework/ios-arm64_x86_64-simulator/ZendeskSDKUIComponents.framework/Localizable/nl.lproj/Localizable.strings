@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Teruggaan";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Carrouselinhoud:";
 "zma_carousel_message_content_title_accessibility_label" = "Carrouselnaam:";
+"zma_dropdown_view_accessibility_announce" = "Lijst met %@ keuzes";
+"zma_dropdown_view_singular_accessibility_announce" = "Lijst met 1 keuze";
+"zma_form_dropdown_field_accessibility_hint" = "Dubbeltik om te bewerken";
 "zma_form_dropdown_field_accessibility_label" = "Vervolgkeuzelijst met %@ keuzes";
 "zma_form_dropdown_singular_field_accessibility_label" = "Vervolgkeuzelijst met 1 keuze";
 "zma_form_entry_error" = "Formulierveld %@ fout:";

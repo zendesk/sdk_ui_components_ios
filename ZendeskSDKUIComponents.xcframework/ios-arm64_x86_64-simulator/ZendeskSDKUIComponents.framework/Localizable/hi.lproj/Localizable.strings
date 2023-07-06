@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "पीछे जाएं";
 "zma_carousel_message_content_subtitle_accessibility_label" = "हिंडोला सामग्री:";
 "zma_carousel_message_content_title_accessibility_label" = "हिंडोला शीर्षक:";
+"zma_dropdown_view_accessibility_announce" = "%@ विकल्पों के साथ सूची";
+"zma_dropdown_view_singular_accessibility_announce" = "1 विकल्प के साथ सूची";
+"zma_form_dropdown_field_accessibility_hint" = "संपादित करने के लिए डबल-टैप करें";
 "zma_form_dropdown_field_accessibility_label" = "%@विकल्पों के साथ ड्रॉपडाउन";
 "zma_form_dropdown_singular_field_accessibility_label" = "1 विकल्प के साथ ड्रॉपडाउन";
 "zma_form_entry_error" = "%@ फ़ॉर्म फ़ील्ड त्रुटि:";

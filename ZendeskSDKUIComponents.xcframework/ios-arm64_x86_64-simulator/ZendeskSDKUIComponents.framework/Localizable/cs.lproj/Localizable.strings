@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Vrátit se zpět";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Obsah karuselu:";
 "zma_carousel_message_content_title_accessibility_label" = "Název karuselu:";
+"zma_dropdown_view_accessibility_announce" = "Seznam s %@ možnostmi";
+"zma_dropdown_view_singular_accessibility_announce" = "Seznam s 1 možností";
+"zma_form_dropdown_field_accessibility_hint" = "Upravit dvojím klepnutím";
 "zma_form_dropdown_field_accessibility_label" = "Rozbalovací seznam s %@ možnostmi";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rozbalovací nabídka s 1 možností";
 "zma_form_entry_error" = "Chyba pole formuláře %@:";

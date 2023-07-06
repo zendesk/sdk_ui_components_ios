@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "返回";
 "zma_carousel_message_content_subtitle_accessibility_label" = "輪播圖內容：";
 "zma_carousel_message_content_title_accessibility_label" = "輪播圖標題：";
+"zma_dropdown_view_accessibility_announce" = "包含 %@ 個選項的清單";
+"zma_dropdown_view_singular_accessibility_announce" = "包含 1 個選項的清單";
+"zma_form_dropdown_field_accessibility_hint" = "點兩下以編輯";
 "zma_form_dropdown_field_accessibility_label" = "有 %@ 個選項的下拉式功能表";
 "zma_form_dropdown_singular_field_accessibility_label" = "有 1 個選項的下拉式功能表";
 "zma_form_entry_error" = "%@ 表單欄位錯誤：";

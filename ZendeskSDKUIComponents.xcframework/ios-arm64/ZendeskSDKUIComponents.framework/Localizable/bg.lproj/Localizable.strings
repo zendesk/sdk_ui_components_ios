@@ -2,6 +2,9 @@
 "zma_back_button_accessibility_label" = "Назад";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Съдържание на каталога с елементи:";
 "zma_carousel_message_content_title_accessibility_label" = "Заглавие на каталога с елементи:";
+"zma_dropdown_view_accessibility_announce" = "Списък с %@ възможности";
+"zma_dropdown_view_singular_accessibility_announce" = "Списък с 1 възможност";
+"zma_form_dropdown_field_accessibility_hint" = "Докоснете двукратно за редактиране";
 "zma_form_dropdown_field_accessibility_label" = "Падащо меню с %@ възможности за избор";
 "zma_form_dropdown_singular_field_accessibility_label" = "Падащо меню с 1 възможност за избор";
 "zma_form_entry_error" = "%@ грешка в полето на формуляра:";
