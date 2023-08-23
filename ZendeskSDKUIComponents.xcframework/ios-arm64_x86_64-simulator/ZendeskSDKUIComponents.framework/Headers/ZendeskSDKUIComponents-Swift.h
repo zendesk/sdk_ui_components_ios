@@ -407,6 +407,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @end
 
 
+
 @interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
 @property (nonatomic, readonly) BOOL isFirstResponder;
 - (BOOL)becomeFirstResponder SWIFT_WARN_UNUSED_RESULT;
@@ -983,6 +984,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 @interface InputFieldView (SWIFT_EXTENSION(ZendeskSDKUIComponents))

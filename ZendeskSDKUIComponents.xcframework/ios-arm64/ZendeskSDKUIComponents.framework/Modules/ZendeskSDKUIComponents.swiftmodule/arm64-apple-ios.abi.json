@@ -18729,6 +18729,163 @@
           },
           {
             "kind": "Var",
+            "name": "onFieldContentDidChange",
+            "printedName": "onFieldContentDidChange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldRendering",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                        "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InputFieldRendering",
+                            "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                            "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InputFieldRendering",
+                            "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                            "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC02onD16ContentDidChangeyAA0cD9RenderingVcSgvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "text",
             "printedName": "text",
             "children": [
@@ -19022,6 +19179,173 @@
             "declKind": "Constructor",
             "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL0AcA0C5StyleV_yAA0cD9RenderingVcSgA2MyACcSgtcfc",
             "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL0AcA0C5StyleV_yAA0cD9RenderingVcSgA2MyACcSgtcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "deprecated": true,
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl",
+              "Available"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:onFocusChange:onNextSelected:onFieldFocused:onSelectFieldFocused:onFieldContentChanged:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InputFieldView",
+                "printedName": "ZendeskSDKUIComponents.InputFieldView",
+                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)InputFieldView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InputStyle",
+                "printedName": "ZendeskSDKUIComponents.InputStyle",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents10InputStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldRendering",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                        "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldRendering",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                        "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldRendering",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                        "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldView) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldView) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldView",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldView",
+                        "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)InputFieldView"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldRendering",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                        "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL00gD14ContentChangedAcA0C5StyleV_yAA0cD9RenderingVcSgA2NyACcSgANtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL00gD14ContentChangedAcA0C5StyleV_yAA0cD9RenderingVcSgA2NyACcSgANtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "Custom",
@@ -23020,6 +23344,163 @@
                 "declKind": "Accessor",
                 "usr": "s:22ZendeskSDKUIComponents8FormViewC02onC9SubmittedyAA0cD9RenderingVcSgvM",
                 "mangledName": "$s22ZendeskSDKUIComponents8FormViewC02onC9SubmittedyAA0cD9RenderingVcSgvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onFieldContentChange",
+            "printedName": "onFieldContentChange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InputFieldRendering",
+                        "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                        "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InputFieldRendering",
+                            "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                            "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZendeskSDKUIComponents.InputFieldRendering) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZendeskSDKUIComponents.InputFieldRendering) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "InputFieldRendering",
+                            "printedName": "ZendeskSDKUIComponents.InputFieldRendering",
+                            "usr": "s:22ZendeskSDKUIComponents19InputFieldRenderingV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents8FormViewC20onFieldContentChangeyAA05InputF9RenderingVcSgvM",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "declAttributes": [
@@ -37525,21 +38006,21 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1908,
+      "offset": 1981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1967,
+      "offset": 2040,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2298,
+      "offset": 2371,
       "length": 4,
       "value": "true"
     },
@@ -37567,14 +38048,14 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2011,
+      "offset": 2076,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2063,
+      "offset": 2128,
       "length": 4,
       "value": "true"
     },
@@ -38057,63 +38538,70 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1117,
+      "offset": 1109,
+      "length": 3,
+      "value": "340"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1157,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1173,
+      "offset": 1213,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1957,
+      "offset": 1997,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 2077,
       "length": 23,
       "value": "\"connectionBannerLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2100,
+      "offset": 2140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2220,
+      "offset": 2260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2385,
+      "offset": 2425,
       "length": 27,
       "value": "\"connectionBannerRetryIcon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2456,
+      "offset": 2496,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5226,
+      "offset": 5266,
       "length": 1,
       "value": "1"
     },
