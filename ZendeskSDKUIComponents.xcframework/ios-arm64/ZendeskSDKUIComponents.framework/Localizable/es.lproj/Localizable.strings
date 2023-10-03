@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "Menú desplegable con %@ opciones";
 "zma_form_dropdown_singular_field_accessibility_label" = "Menú desplegable con 1 opción";
 "zma_form_entry_error" = "Error %@ de campo de formulario:";
-"zma_form_field_title_accessibility_label" = "Ingrese %@";
-"zma_form_input_field_accessibility_label" = "Ingrese %@";
 "zma_header_subtitle_accessibility_label" = "Eslogan:";
 "zma_header_title_accessibility_label" = "Nombre de marca:";
 "zma_inbound_text_message_accssibility_label" = "Mensaje recibido:";

@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "Падащо меню с %@ възможности за избор";
 "zma_form_dropdown_singular_field_accessibility_label" = "Падащо меню с 1 възможност за избор";
 "zma_form_entry_error" = "%@ грешка в полето на формуляра:";
-"zma_form_field_title_accessibility_label" = "Въведете %@";
-"zma_form_input_field_accessibility_label" = "Въведете %@";
 "zma_header_subtitle_accessibility_label" = "Слоган:";
 "zma_header_title_accessibility_label" = "Наименование на бранда:";
 "zma_inbound_text_message_accssibility_label" = "Съобщението е получено:";

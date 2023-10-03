@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "Rozbalovací seznam s %@ možnostmi";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rozbalovací nabídka s 1 možností";
 "zma_form_entry_error" = "Chyba pole formuláře %@:";
-"zma_form_field_title_accessibility_label" = "Zadejte %@.";
-"zma_form_input_field_accessibility_label" = "Zadejte %@.";
 "zma_header_subtitle_accessibility_label" = "Doplňující text:";
 "zma_header_title_accessibility_label" = "Název značky:";
 "zma_inbound_text_message_accssibility_label" = "Zpráva přijata:";

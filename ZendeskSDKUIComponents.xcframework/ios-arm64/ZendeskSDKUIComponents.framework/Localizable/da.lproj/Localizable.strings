@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "Rullemenu med %@ valg";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rullemenu med 1 valg";
 "zma_form_entry_error" = "%@ fejl på formularfelt:";
-"zma_form_field_title_accessibility_label" = "Indtast %@";
-"zma_form_input_field_accessibility_label" = "Indtast %@";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Brandnavn:";
 "zma_inbound_text_message_accssibility_label" = "Meddelelse modtaget:";

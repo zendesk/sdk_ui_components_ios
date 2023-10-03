@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "قائمة منسدلة تضم %@ مع الخيارات";
 "zma_form_dropdown_singular_field_accessibility_label" = "قائمة منسدلة تضم خيارًا واحدًا";
 "zma_form_entry_error" = "خطأ في حقل النموذج %@:";
-"zma_form_field_title_accessibility_label" = "أدخِل الآتي: %@";
-"zma_form_input_field_accessibility_label" = "أدخِل الآتي: %@";
 "zma_header_subtitle_accessibility_label" = "سطر الوصف:";
 "zma_header_title_accessibility_label" = "اسم العلامة التجارية:";
 "zma_inbound_text_message_accssibility_label" = "موعد تلقي الرسالة:";

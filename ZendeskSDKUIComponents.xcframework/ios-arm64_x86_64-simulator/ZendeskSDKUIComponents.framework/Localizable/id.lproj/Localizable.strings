@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "Dropdown dengan %@ pilihan";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown dengan 1 pilihan";
 "zma_form_entry_error" = "%@ kesalahan bidang formulir:";
-"zma_form_field_title_accessibility_label" = "Masukkan %@";
-"zma_form_input_field_accessibility_label" = "Masukkan %@";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Nama merek:";
 "zma_inbound_text_message_accssibility_label" = "Pesan diterima:";

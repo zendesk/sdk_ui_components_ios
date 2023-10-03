@@ -264,6 +264,18 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+/// ButtonBannerView represents a banner. It always contains text and can optionally include a button on either the leading or trailing side.
+/// This banner supports tap events on both the banner, and button itself.
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ButtonBannerView")
+@interface ButtonBannerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents11ButtonsView")
 @interface ButtonsView : UIStackView
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -374,6 +386,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents8FormView")
 @interface FormView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -403,6 +416,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @interface InputFieldView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -843,6 +857,18 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
 
 
 
+/// ButtonBannerView represents a banner. It always contains text and can optionally include a button on either the leading or trailing side.
+/// This banner supports tap events on both the banner, and button itself.
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ButtonBannerView")
+@interface ButtonBannerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents11ButtonsView")
 @interface ButtonsView : UIStackView
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -953,6 +979,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents8FormView")
 @interface FormView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -982,6 +1009,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @interface InputFieldView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 

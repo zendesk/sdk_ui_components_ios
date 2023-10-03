@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "Menu a discesa con %@ scelte";
 "zma_form_dropdown_singular_field_accessibility_label" = "Menu a discesa con 1 scelta";
 "zma_form_entry_error" = "Errore campo modulo %@:";
-"zma_form_field_title_accessibility_label" = "Inserisci %@";
-"zma_form_input_field_accessibility_label" = "Inserisci %@";
 "zma_header_subtitle_accessibility_label" = "Didascalia:";
 "zma_header_title_accessibility_label" = "Nome brand:";
 "zma_inbound_text_message_accssibility_label" = "Messaggio ricevuto:";

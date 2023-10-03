@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "%@ seçenekli açılır menü";
 "zma_form_dropdown_singular_field_accessibility_label" = "1 seçenekli açılır menü";
 "zma_form_entry_error" = "%@ form alanı hatası:";
-"zma_form_field_title_accessibility_label" = "%@ girin";
-"zma_form_input_field_accessibility_label" = "%@ girin";
 "zma_header_subtitle_accessibility_label" = "Etiket satırı:";
 "zma_header_title_accessibility_label" = "Marka adı:";
 "zma_inbound_text_message_accssibility_label" = "Mesaj alındı:";

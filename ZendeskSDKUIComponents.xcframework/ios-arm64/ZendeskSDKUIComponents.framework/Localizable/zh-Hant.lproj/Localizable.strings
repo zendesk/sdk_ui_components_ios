@@ -8,8 +8,6 @@
 "zma_form_dropdown_field_accessibility_label" = "有 %@ 個選項的下拉式功能表";
 "zma_form_dropdown_singular_field_accessibility_label" = "有 1 個選項的下拉式功能表";
 "zma_form_entry_error" = "%@ 表單欄位錯誤：";
-"zma_form_field_title_accessibility_label" = "輸入 %@";
-"zma_form_input_field_accessibility_label" = "輸入 %@";
 "zma_header_subtitle_accessibility_label" = "標語：";
 "zma_header_title_accessibility_label" = "品牌名稱：";
 "zma_inbound_text_message_accssibility_label" = "已接收訊息：";
