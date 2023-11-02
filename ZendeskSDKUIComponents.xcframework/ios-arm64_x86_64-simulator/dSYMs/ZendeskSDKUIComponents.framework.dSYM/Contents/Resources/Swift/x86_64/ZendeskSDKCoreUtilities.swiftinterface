@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZendeskSDKCoreUtilities
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc(ZDKFeatureFlagManager) final public class FeatureFlagManager : ObjectiveC.NSObject {
+  final public let hipaaAttachmentFlag: Swift.Bool
+  final public let isMultiConvoEnabled: Swift.Bool
+  final public let canUserCreateMoreConversations: Swift.Bool
+  final public let enableColorsFromSettings: Swift.Bool
+  @objc convenience public init(hipaaAttachmentFlag: Swift.Bool)
+  @objc public init(hipaaAttachmentFlag: Swift.Bool, isMultiConvoEnabled: Swift.Bool = false, canUserCreateMoreConversations: Swift.Bool = false)
+  @objc deinit
+}
+public protocol Observable : AnyObject {
+  associatedtype Observed
+  var callbackQueue: Dispatch.DispatchQueue { get }
+  var observers: [Swift.ObjectIdentifier : (Self.Observed) -> Swift.Void] { get set }
+  func addObserver(_ observer: Swift.AnyObject, _ closure: @escaping (Self.Observed) -> Swift.Void)
+  func removeObserver(_ observer: Swift.AnyObject)
+}
+extension ZendeskSDKCoreUtilities.Observable {
+  public var callbackQueue: Dispatch.DispatchQueue {
+    get
+  }
+  public func addObserver(_ observer: Swift.AnyObject, _ closure: @escaping (Self.Observed) -> Swift.Void)
+  public func removeObserver(_ observer: Swift.AnyObject)
+  public func notifyObservers(_ observed: Self.Observed)
+}
+public struct JWT : Swift.Decodable {
+  public let externalId: Swift.String
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct JWTDecoder {
+  public static func decode<T>(jwt: Swift.String) -> T? where T : Swift.Decodable
+}
+extension Foundation.URLSessionConfiguration {
+  public static var defaultRespectingServerCache: Foundation.URLSessionConfiguration {
+    get
+  }
+}
+public enum ApplicationState {
+  case willEnterForeground
+  case didEnterBackground
+  case willTerminate
+  public static func == (a: ZendeskSDKCoreUtilities.ApplicationState, b: ZendeskSDKCoreUtilities.ApplicationState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol ApplicationStateObserver {
+  var onApplicationStateEvent: ((ZendeskSDKCoreUtilities.ApplicationState) -> Swift.Void)? { get set }
+  func registerForApplicationStateNotifications()
+  func unregisterForApplicationStateNotifications()
+}
+final public class DefaultApplicationStateObserver : ZendeskSDKCoreUtilities.ApplicationStateObserver {
+  final public var onApplicationStateEvent: ((ZendeskSDKCoreUtilities.ApplicationState) -> Swift.Void)?
+  public init()
+  final public func registerForApplicationStateNotifications()
+  final public func unregisterForApplicationStateNotifications()
+  @objc deinit
+}
+public protocol Scheduler {
+  @discardableResult
+  func schedule(after delay: Foundation.TimeInterval, _ action: @escaping () -> Swift.Void) -> ZendeskSDKCoreUtilities.ScheduledTask
+}
+public struct ScheduledTask {
+  public init(action: @escaping () -> Swift.Void, cancelAction: @escaping () -> Swift.Void)
+  public func cancel()
+}
+final public class DefaultTimeScheduler : ZendeskSDKCoreUtilities.Scheduler {
+  public init()
+  @discardableResult
+  final public func schedule(after delay: Foundation.TimeInterval, _ action: @escaping () -> Swift.Void) -> ZendeskSDKCoreUtilities.ScheduledTask
+  @objc deinit
+}
+extension ZendeskSDKCoreUtilities.ApplicationState : Swift.Equatable {}
+extension ZendeskSDKCoreUtilities.ApplicationState : Swift.Hashable {}

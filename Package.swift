@@ -13,10 +13,25 @@ let package = Package(
             ]
         )
     ],
+        dependencies: [
+        .package(
+            name: "ZendeskSDKCoreUtilities",
+            url: "https://github.com/zendesk/sdk_core_utilities_ios",
+            from: "1.7.0"
+        )
+    ],
     targets: [
         .binaryTarget(
             name: "ZendeskSDKUIComponents",
             path: "ZendeskSDKUIComponents.xcframework"
+        ),
+         .target(
+            name: "ZendeskSDKUIComponentsTargets",
+            dependencies: [
+                .target(name: "ZendeskSDKUIComponents"),
+                .product(name: "ZendeskSDKCoreUtilities", package: "ZendeskSDKCoreUtilities")
+            ],
+            path: "Sources"
         )
     ]
 )

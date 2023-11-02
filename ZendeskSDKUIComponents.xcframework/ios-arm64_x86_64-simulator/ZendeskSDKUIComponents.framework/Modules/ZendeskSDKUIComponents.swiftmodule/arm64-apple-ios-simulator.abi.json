@@ -662,6 +662,40 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "updateActionButton",
+            "printedName": "updateActionButton(to:actionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomButtonState",
+                "printedName": "ZendeskSDKUIComponents.CustomButtonState",
+                "usr": "s:22ZendeskSDKUIComponents17CustomButtonStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents24TextAndMessageButtonViewC012updateActionF02to8actionIdyAA06CustomF5StateO_SStF",
+            "mangledName": "$s22ZendeskSDKUIComponents24TextAndMessageButtonViewC012updateActionF02to8actionIdyAA06CustomF5StateO_SStF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -4673,21 +4707,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[ZendeskSDKUIComponents.ActionButtonRendering]",
+                "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ActionButtonRendering",
-                    "printedName": "ZendeskSDKUIComponents.ActionButtonRendering",
-                    "usr": "s:22ZendeskSDKUIComponents21ActionButtonRenderingV"
+                    "name": "CustomButtonRendering",
+                    "printedName": "ZendeskSDKUIComponents.CustomButtonRendering",
+                    "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012ActionButtonE0VGvp",
-            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012ActionButtonE0VGvp",
+            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012CustomButtonE0VGvp",
+            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012CustomButtonE0VGvp",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "HasStorage",
@@ -4704,21 +4738,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[ZendeskSDKUIComponents.ActionButtonRendering]",
+                    "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ActionButtonRendering",
-                        "printedName": "ZendeskSDKUIComponents.ActionButtonRendering",
-                        "usr": "s:22ZendeskSDKUIComponents21ActionButtonRenderingV"
+                        "name": "CustomButtonRendering",
+                        "printedName": "ZendeskSDKUIComponents.CustomButtonRendering",
+                        "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012ActionButtonE0VGvg",
-                "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012ActionButtonE0VGvg",
+                "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012CustomButtonE0VGvg",
+                "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV13actionButtonsSayAA012CustomButtonE0VGvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4817,13 +4851,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[ZendeskSDKUIComponents.ActionButtonRendering]",
+                "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ActionButtonRendering",
-                    "printedName": "ZendeskSDKUIComponents.ActionButtonRendering",
-                    "usr": "s:22ZendeskSDKUIComponents21ActionButtonRenderingV"
+                    "name": "CustomButtonRendering",
+                    "printedName": "ZendeskSDKUIComponents.CustomButtonRendering",
+                    "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV"
                   }
                 ],
                 "usr": "s:Sa"
@@ -4836,13 +4870,117 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgAA0cD5ImageVSgSayAA012ActionButtonE0VGAA0cD5StyleVtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgAA0cD5ImageVSgSayAA012ActionButtonE0VGAA0cD5StyleVtcfc",
+            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgAA0cD5ImageVSgSayAA012CustomButtonE0VGAA0cD5StyleVtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV5title8subtitle5image13actionButtons5styleACSS_SSSgAA0cD5ImageVSgSayAA012CustomButtonE0VGAA0cD5StyleVtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(title:subtitle:image:actionButtons:style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardViewRendering",
+                "printedName": "ZendeskSDKUIComponents.CardViewRendering",
+                "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKUIComponents.CardViewImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardViewImage",
+                    "printedName": "ZendeskSDKUIComponents.CardViewImage",
+                    "usr": "s:22ZendeskSDKUIComponents13CardViewImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomButtonRendering",
+                        "printedName": "ZendeskSDKUIComponents.CustomButtonRendering",
+                        "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskSDKUIComponents.CardViewStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardViewStyle",
+                    "printedName": "ZendeskSDKUIComponents.CardViewStyle",
+                    "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents17CardViewRenderingV6update5title8subtitle5image13actionButtons5styleACSSSg_AjA0cD5ImageVSgSayAA012CustomButtonE0VGSgAA0cD5StyleVSgtF",
+            "mangledName": "$s22ZendeskSDKUIComponents17CardViewRenderingV6update5title8subtitle5image13actionButtons5styleACSSSg_AjA0cD5ImageVSgSayAA012CustomButtonE0VGSgAA0cD5StyleVSgtF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -7273,6 +7411,478 @@
         "printedName": "ButtonBannerStyle",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(iconPosition:foregroundColor:backgroundColor:iconSize:hasShadow:cornerStyle:verticalPadding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonBannerStyle",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IconPosition",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "hasDefaultArg": true,
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CornerStyle",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12iconPosition15foregroundColor010backgroundI00F4Size9hasShadow06cornerE015verticalPaddingA2C04IconG0O_So7UIColorCANSo6CGSizeVSbAC06CornerE0O14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12iconPosition15foregroundColor010backgroundI00F4Size9hasShadow06cornerE015verticalPaddingA2C04IconG0O_So7UIColorCANSo6CGSizeVSbAC06CornerE0O12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "IconPosition",
+            "printedName": "IconPosition",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "leading",
+                "printedName": "leading",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition.Type) -> ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IconPosition",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                        "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IconPosition",
+                            "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO7leadingyA2EmF",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO7leadingyA2EmF",
+                "moduleName": "ZendeskSDKUIComponents"
+              },
+              {
+                "kind": "Var",
+                "name": "trailing",
+                "printedName": "trailing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition.Type) -> ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IconPosition",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                        "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IconPosition",
+                            "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO8trailingyA2EmF",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO8trailingyA2EmF",
+                "moduleName": "ZendeskSDKUIComponents"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IconPosition",
+                    "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                    "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IconPosition",
+                    "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.IconPosition",
+                    "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO2eeoiySbAE_AEtFZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO9hashValueSivp",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO9hashValueSivp",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO9hashValueSivg",
+                    "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO9hashValueSivg",
+                    "moduleName": "ZendeskSDKUIComponents",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO4hash4intoys6HasherVz_tF",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO",
+            "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV12IconPositionO",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CornerStyle",
+            "printedName": "CornerStyle",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "square",
+                "printedName": "square",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle.Type) -> ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CornerStyle",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                        "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CornerStyle",
+                            "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O6squareyA2EmF",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O6squareyA2EmF",
+                "moduleName": "ZendeskSDKUIComponents"
+              },
+              {
+                "kind": "Var",
+                "name": "rounded",
+                "printedName": "rounded",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle.Type) -> ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CornerStyle",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                        "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CornerStyle",
+                            "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O7roundedyA2EmF",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O7roundedyA2EmF",
+                "moduleName": "ZendeskSDKUIComponents"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CornerStyle",
+                    "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                    "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CornerStyle",
+                    "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle.CornerStyle",
+                    "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O2eeoiySbAE_AEtFZ",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O2eeoiySbAE_AEtFZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O9hashValueSivp",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O9hashValueSivp",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O9hashValueSivg",
+                    "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O9hashValueSivg",
+                    "moduleName": "ZendeskSDKUIComponents",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O4hash4intoys6HasherVz_tF",
+                "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O4hash4intoys6HasherVz_tF",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O",
+            "mangledName": "$s22ZendeskSDKUIComponents17ButtonBannerStyleV06CornerE0O",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
             "kind": "Var",
             "name": "default",
             "printedName": "default",
@@ -7292,8 +7902,7 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "hasStorage": true,
             "accessors": [
@@ -11443,6 +12052,32 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)MessageComposerView(im)layoutSubviews",
+            "mangledName": "$s22ZendeskSDKUIComponents19MessageComposerViewC14layoutSubviewsyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -12635,6 +13270,202 @@
           },
           {
             "kind": "Var",
+            "name": "onMessageActionButtonSelect",
+            "printedName": "onMessageActionButtonSelect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC27onMessageActionButtonSelectySS_SStcSgvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "onOffsetDidChange",
             "printedName": "onOffsetDidChange",
             "children": [
@@ -12968,6 +13799,40 @@
               "ObjC",
               "Custom",
               "Override"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateActionButton",
+            "printedName": "updateActionButton(to:actionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomButtonState",
+                "printedName": "ZendeskSDKUIComponents.CustomButtonState",
+                "usr": "s:22ZendeskSDKUIComponents17CustomButtonStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents12CarouselViewC18updateActionButton2to8actionIdyAA06CustomG5StateO_SStF",
+            "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC18updateActionButton2to8actionIdyAA06CustomG5StateO_SStF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -15024,9 +15889,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV2idSSSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents21CustomButtonRenderingV2idSSSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV2idSSSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents21CustomButtonRenderingV2idSSSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(state:title:style:uri:source:)",
+            "printedName": "init(state:title:style:uri:source:id:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -15083,11 +16008,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV5state5title5style3uri6sourceAcA0cD5StateO_SSAA0cD5StyleVSSSgAMtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents21CustomButtonRenderingV5state5title5style3uri6sourceAcA0cD5StateO_SSAA0cD5StyleVSSSgAMtcfc",
+            "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV5state5title5style3uri6source2idAcA0cD5StateO_SSAA0cD5StyleVSSSgA2Ntcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents21CustomButtonRenderingV5state5title5style3uri6source2idAcA0cD5StateO_SSAA0cD5StyleVSSSgA2Ntcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -16028,6 +16968,62 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:onTap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonBannerView",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerView",
+                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ButtonBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonBannerStyle",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerStyle",
+                "hasDefaultArg": true,
+                "usr": "s:22ZendeskSDKUIComponents17ButtonBannerStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents16ButtonBannerViewC5style5onTapAcA0cD5StyleV_yycSgtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents16ButtonBannerViewC5style5onTapAcA0cD5StyleV_yycSgtcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
             "kind": "Function",
             "name": "layoutSubviews",
             "printedName": "layoutSubviews()",
@@ -16090,6 +17086,70 @@
             "declKind": "Func",
             "usr": "s:22ZendeskSDKUIComponents16ButtonBannerViewC6renderyyAA0cD9RenderingVAFXEF",
             "mangledName": "$s22ZendeskSDKUIComponents16ButtonBannerViewC6renderyyAA0cD9RenderingVAFXEF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessibility",
+            "printedName": "setAccessibility(textAccessbilityLabel:iconAccessibilityLabel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents16ButtonBannerViewC16setAccessibility21textAccessbilityLabel04icongJ0ySS_SStF",
+            "mangledName": "$s22ZendeskSDKUIComponents16ButtonBannerViewC16setAccessibility21textAccessbilityLabel04icongJ0ySS_SStF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessibility",
+            "printedName": "setAccessibility(accessbilityLabel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents16ButtonBannerViewC16setAccessibility17accessbilityLabelySS_tF",
+            "mangledName": "$s22ZendeskSDKUIComponents16ButtonBannerViewC16setAccessibility17accessbilityLabelySS_tF",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "Custom",
@@ -22697,9 +23757,141 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onActionColor",
+            "printedName": "onActionColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV13onActionColorSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV13onActionColorSo7UIColorCvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV13onActionColorSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV13onActionColorSo7UIColorCvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "disabledColor",
+            "printedName": "disabledColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV13disabledColorSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV13disabledColorSo7UIColorCvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV13disabledColorSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV13disabledColorSo7UIColorCvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onBackgroundColorWithAlpha",
+            "printedName": "onBackgroundColorWithAlpha",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV26onBackgroundColorWithAlphaSo7UIColorCvp",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV26onBackgroundColorWithAlphaSo7UIColorCvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV26onBackgroundColorWithAlphaSo7UIColorCvg",
+                "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV26onBackgroundColorWithAlphaSo7UIColorCvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(actionColor:backgroundColor:itemBackgroundColor:textColor:backgroundImageColor:borderColor:elevatedColor:iconColor:shimmerColor:)",
+            "printedName": "init(actionColor:backgroundColor:itemBackgroundColor:textColor:backgroundImageColor:borderColor:elevatedColor:iconColor:shimmerColor:onActionColor:disabledColor:onBackgroundColorWithAlpha:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -22769,11 +23961,29 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG0014itemBackgroundG004textG00h5ImageG006borderG008elevatedG004iconG007shimmerG0ACSo7UIColorC_A8NSgtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG0014itemBackgroundG004textG00h5ImageG006borderG008elevatedG004iconG007shimmerG0ACSo7UIColorC_A8NSgtcfc",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG0014itemBackgroundG004textG00h5ImageG006borderG008elevatedG004iconG007shimmerG008onActionG008disabledG00qjG9WithAlphaACSo7UIColorC_A8QSgA3Qtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV11actionColor010backgroundG0014itemBackgroundG004textG00h5ImageG006borderG008elevatedG004iconG007shimmerG008onActionG008disabledG00qjG9WithAlphaACSo7UIColorC_A8QSgA3Qtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -27094,6 +28304,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ButtonBannerRendering",
         "printedName": "ButtonBannerRendering",
@@ -27136,8 +28353,49 @@
             "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV4icon4textACSo7UIImageCSg_SStcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(icon:text:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonBannerRendering",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerRendering",
+                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV4icon4textACSo7UIImageCSg_So18NSAttributedStringCtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV4icon4textACSo7UIImageCSg_So18NSAttributedStringCtcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -27906,6 +29164,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "ZendeskSDKCoreUtilities",
+        "printedName": "ZendeskSDKCoreUtilities",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ConnectionBannerView",
         "printedName": "ConnectionBannerView",
@@ -28039,6 +29304,160 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "onRetryTap",
+            "printedName": "onRetryTap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents20ConnectionBannerViewC10onRetryTapyycSgvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -31844,6 +33263,65 @@
           },
           {
             "kind": "Function",
+            "name": "update",
+            "printedName": "update(customButtonRenderings:isTopPaddingEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonsViewRendering",
+                "printedName": "ZendeskSDKUIComponents.ButtonsViewRendering",
+                "usr": "s:22ZendeskSDKUIComponents20ButtonsViewRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ZendeskSDKUIComponents.CustomButtonRendering]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomButtonRendering",
+                        "printedName": "ZendeskSDKUIComponents.CustomButtonRendering",
+                        "usr": "s:22ZendeskSDKUIComponents21CustomButtonRenderingV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents20ButtonsViewRenderingV6update22customButtonRenderings19isTopPaddingEnabledACSayAA06CustomhE0VGSg_SbSgtF",
+            "mangledName": "$s22ZendeskSDKUIComponents20ButtonsViewRenderingV6update22customButtonRenderings19isTopPaddingEnabledACSayAA06CustomhE0VGSg_SbSgtF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
             "children": [
@@ -32723,6 +34201,82 @@
               "Final",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stringWithBoldedArgs",
+            "printedName": "stringWithBoldedArgs(for:with:attributes:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSAttributedString",
+                "printedName": "Foundation.NSAttributedString",
+                "usr": "c:objc(cs)NSAttributedString"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSAttributedString.Key : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Key",
+                        "printedName": "Foundation.NSAttributedString.Key",
+                        "usr": "c:@T@NSAttributedStringKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents11BundleUtilsC20stringWithBoldedArgs3for4with10attributes12defaultValueSo18NSAttributedStringCSS_SaySSGSDySo0nO3KeyaypGSgSStF",
+            "mangledName": "$s22ZendeskSDKUIComponents11BundleUtilsC20stringWithBoldedArgs3for4with10attributes12defaultValueSo18NSAttributedStringCSS_SaySSGSDySo0nO3KeyaypGSgSStF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -34865,6 +36419,34 @@
             "name": "AccessibilityStrings",
             "printedName": "AccessibilityStrings",
             "children": [
+              {
+                "kind": "Function",
+                "name": "postbackErrorBanner",
+                "printedName": "postbackErrorBanner(error:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents8ResourceO20AccessibilityStringsO19postbackErrorBanner5errorS2S_tFZ",
+                "mangledName": "$s22ZendeskSDKUIComponents8ResourceO20AccessibilityStringsO19postbackErrorBanner5errorS2S_tFZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
               {
                 "kind": "Var",
                 "name": "author",
@@ -38915,14 +40497,14 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1410,
+      "offset": 1918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardViewRendering.swift",
       "kind": "Array",
-      "offset": 1480,
+      "offset": 1988,
       "length": 2,
       "value": "[]"
     },
@@ -39118,56 +40700,56 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 831,
+      "offset": 838,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 843,
+      "offset": 850,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 874,
+      "offset": 881,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 961,
+      "offset": 968,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1471,
+      "offset": 1637,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1483,
+      "offset": 1649,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1507,
+      "offset": 1673,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 1569,
+      "offset": 1735,
       "length": 1,
       "value": "6"
     },
@@ -39706,56 +41288,56 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "Array",
-      "offset": 1232,
+      "offset": 1304,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1345,
+      "offset": 1530,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1613,
+      "offset": 1798,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1654,
+      "offset": 1839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 2016,
       "length": 23,
       "value": "\"leadingCarouselButton\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1902,
+      "offset": 2087,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "StringLiteral",
-      "offset": 2076,
+      "offset": 2261,
       "length": 24,
       "value": "\"trailingCarouselButton\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/CarouselView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2148,
+      "offset": 2333,
       "length": 5,
       "value": "false"
     },
@@ -39986,91 +41568,105 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Button\/CustomButtonRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1718,
+      "offset": 1824,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Button\/CustomButtonRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1810,
+      "offset": 1916,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 2910,
-      "length": 4,
-      "value": "16.0"
+      "offset": 4399,
+      "length": 3,
+      "value": "8.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 2957,
+      "offset": 4445,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3009,
+      "offset": 4496,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3087,
+      "offset": 4574,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3136,
+      "offset": 4623,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3182,
+      "offset": 4669,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3231,
+      "offset": 4718,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3585,
+      "offset": 5072,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 5121,
+      "length": 19,
+      "value": "\"buttonBannerImage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3731,
+      "offset": 5282,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3820,
+      "offset": 5371,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 5416,
+      "length": 19,
+      "value": "\"buttonBannerLabel\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3992,
+      "offset": 5667,
       "length": 5,
       "value": "false"
     },
@@ -40769,8 +42365,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerRendering.swift",
+      "kind": "FloatLiteral",
+      "offset": 833,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerRendering.swift",
       "kind": "StringLiteral",
-      "offset": 862,
+      "offset": 1439,
       "length": 2,
       "value": "\"\""
     },
@@ -40938,105 +42541,105 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 932,
+      "offset": 963,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 982,
+      "offset": 1013,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1030,
+      "offset": 1061,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1070,
+      "offset": 1101,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1109,
+      "offset": 1140,
       "length": 3,
       "value": "340"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1157,
+      "offset": 1188,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1213,
+      "offset": 1244,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1997,
+      "offset": 2023,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2077,
+      "offset": 2103,
       "length": 23,
       "value": "\"connectionBannerLabel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2140,
+      "offset": 2166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2260,
+      "offset": 2286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2425,
+      "offset": 2451,
       "length": 27,
       "value": "\"connectionBannerRetryIcon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2496,
+      "offset": 2522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5268,
+      "offset": 5703,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 846,
       "length": 20,
       "value": "\"ZendeskSDKUIComponents.ConnectionBannerView\""
     },
@@ -41070,8 +42673,29 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1213,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1266,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1578,
+      "offset": 1785,
       "length": 4,
       "value": "true"
     },
@@ -41414,7 +43038,7 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/ButtonsViewRendering.swift",
       "kind": "Array",
-      "offset": 1099,
+      "offset": 1464,
       "length": 2,
       "value": "[]"
     },
@@ -41659,35 +43283,35 @@
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6351,
+      "offset": 6692,
       "length": 9,
       "value": "\"#2F3941\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6493,
+      "offset": 6834,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6524,
+      "offset": 6865,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 6566,
+      "offset": 6907,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 6597,
+      "offset": 6938,
       "length": 4,
       "value": "0.65"
     }
