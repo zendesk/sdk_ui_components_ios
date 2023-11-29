@@ -1,3 +1,6 @@
+"zma_accessibility_guide_navigation_back" = "Back";
+"zma_accessibility_guide_navigation_close" = "Close";
+"zma_accessibility_guide_navigation_share" = "Share";
 "zma_add_attachments_button_accessibility_label" = "Tambah lampiran";
 "zma_back_button_accessibility_label" = "Kembali";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Konten korsel:";
@@ -8,6 +11,10 @@
 "zma_form_dropdown_field_accessibility_label" = "Dropdown dengan %@ pilihan";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown dengan 1 pilihan";
 "zma_form_entry_error" = "%@ kesalahan bidang formulir:";
+"zma_guide_feedback_banner_label" = "Was this article helpful?";
+"zma_guide_feedback_banner_no_button" = "No";
+"zma_guide_feedback_banner_yes_button" = "Yes";
+"zma_guide_page_failed_label" = "Page failed to load";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Nama merek:";
 "zma_inbound_text_message_accssibility_label" = "Pesan diterima:";

@@ -1,3 +1,6 @@
+"zma_accessibility_guide_navigation_back" = "Back";
+"zma_accessibility_guide_navigation_close" = "Close";
+"zma_accessibility_guide_navigation_share" = "Share";
 "zma_add_attachments_button_accessibility_label" = "अनुलग्नक जोड़ें";
 "zma_back_button_accessibility_label" = "पीछे जाएं";
 "zma_carousel_message_content_subtitle_accessibility_label" = "हिंडोला सामग्री:";
@@ -8,6 +11,10 @@
 "zma_form_dropdown_field_accessibility_label" = "%@विकल्पों के साथ ड्रॉपडाउन";
 "zma_form_dropdown_singular_field_accessibility_label" = "1 विकल्प के साथ ड्रॉपडाउन";
 "zma_form_entry_error" = "%@ फ़ॉर्म फ़ील्ड त्रुटि:";
+"zma_guide_feedback_banner_label" = "Was this article helpful?";
+"zma_guide_feedback_banner_no_button" = "No";
+"zma_guide_feedback_banner_yes_button" = "Yes";
+"zma_guide_page_failed_label" = "Page failed to load";
 "zma_header_subtitle_accessibility_label" = "टैगलाइन:";
 "zma_header_title_accessibility_label" = "ब्रांड का नाम:";
 "zma_inbound_text_message_accssibility_label" = "Message मिल गया:";

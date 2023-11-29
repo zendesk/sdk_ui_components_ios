@@ -15242,13 +15242,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UICollectionReusableViewType",
-            "printedName": "UICollectionReusableViewType",
-            "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypeP",
-            "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypeP"
           }
         ]
       },
@@ -23884,6 +23877,46 @@
                 "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV26onBackgroundColorWithAlphaSo7UIColorCvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonStyle",
+            "printedName": "buttonStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomButtonStyle",
+                "printedName": "ZendeskSDKUIComponents.CustomButtonStyle",
+                "usr": "s:22ZendeskSDKUIComponents17CustomButtonStyleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV06buttonE0AA012CustomButtonE0Vvp",
+            "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV06buttonE0AA012CustomButtonE0Vvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomButtonStyle",
+                    "printedName": "ZendeskSDKUIComponents.CustomButtonStyle",
+                    "usr": "s:22ZendeskSDKUIComponents17CustomButtonStyleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents13CardViewStyleV06buttonE0AA012CustomButtonE0Vvg",
+                "mangledName": "$s22ZendeskSDKUIComponents13CardViewStyleV06buttonE0AA012CustomButtonE0Vvg",
+                "moduleName": "ZendeskSDKUIComponents",
                 "accessorKind": "get"
               }
             ]
@@ -33940,108 +33973,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "UICollectionReusableViewType",
-        "printedName": "UICollectionReusableViewType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "identifier",
-            "printedName": "identifier",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypeP10identifierSSvpZ",
-            "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypeP10identifierSSvpZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypeP10identifierSSvgZ",
-                "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypeP10identifierSSvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKUIComponents.UICollectionReusableViewType>",
-                "sugared_genericSig": "<Self where Self : ZendeskSDKUIComponents.UICollectionReusableViewType>",
-                "static": true,
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "viewIdentifier",
-            "printedName": "viewIdentifier",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypePAASo0cdE0CRbzrlE14viewIdentifierSSvpZ",
-            "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypePAASo0cdE0CRbzrlE14viewIdentifierSSvpZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypePAASo0cdE0CRbzrlE14viewIdentifierSSvgZ",
-                "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypePAASo0cdE0CRbzrlE14viewIdentifierSSvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UICollectionReusableView>",
-                "sugared_genericSig": "<Self where Self : UIKit.UICollectionReusableView>",
-                "static": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypeP",
-        "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypeP",
-        "moduleName": "ZendeskSDKUIComponents",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -40065,57 +39996,6 @@
         "kind": "TypeDecl",
         "name": "UICollectionReusableView",
         "printedName": "UICollectionReusableView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "identifier",
-            "printedName": "identifier",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So24UICollectionReusableViewC22ZendeskSDKUIComponentsE10identifierSSvpZ",
-            "mangledName": "$sSo24UICollectionReusableViewC22ZendeskSDKUIComponentsE10identifierSSvpZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So24UICollectionReusableViewC22ZendeskSDKUIComponentsE10identifierSSvgZ",
-                "mangledName": "$sSo24UICollectionReusableViewC22ZendeskSDKUIComponentsE10identifierSSvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
         "declKind": "Class",
         "usr": "c:objc(cs)UICollectionReusableView",
         "moduleName": "UIKit",
@@ -40200,13 +40080,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UICollectionReusableViewType",
-            "printedName": "UICollectionReusableViewType",
-            "usr": "s:22ZendeskSDKUIComponents28UICollectionReusableViewTypeP",
-            "mangledName": "$s22ZendeskSDKUIComponents28UICollectionReusableViewTypeP"
           }
         ]
       }

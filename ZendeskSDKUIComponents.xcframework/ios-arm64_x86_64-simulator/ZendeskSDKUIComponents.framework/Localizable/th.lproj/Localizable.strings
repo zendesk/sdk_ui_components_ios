@@ -1,3 +1,6 @@
+"zma_accessibility_guide_navigation_back" = "Back";
+"zma_accessibility_guide_navigation_close" = "Close";
+"zma_accessibility_guide_navigation_share" = "Share";
 "zma_add_attachments_button_accessibility_label" = "เพิ่มไฟล์แนบ";
 "zma_back_button_accessibility_label" = "ย้อนกลับ";
 "zma_carousel_message_content_subtitle_accessibility_label" = "เนื้อหาวงล้อ:";
@@ -8,6 +11,10 @@
 "zma_form_dropdown_field_accessibility_label" = "ดรอปดาวน์พร้อม %@ ตัวเลือก";
 "zma_form_dropdown_singular_field_accessibility_label" = "ดรอปดาวน์พร้อม 1 ตัวเลือก";
 "zma_form_entry_error" = "ข้อผิดพลาดของฟิลด์แบบฟอร์ม %@:";
+"zma_guide_feedback_banner_label" = "Was this article helpful?";
+"zma_guide_feedback_banner_no_button" = "No";
+"zma_guide_feedback_banner_yes_button" = "Yes";
+"zma_guide_page_failed_label" = "Page failed to load";
 "zma_header_subtitle_accessibility_label" = "ข้อความประกอบ:";
 "zma_header_title_accessibility_label" = "ชื่อแบรนด์:";
 "zma_inbound_text_message_accssibility_label" = "ข้อความที่ได้รับ:";

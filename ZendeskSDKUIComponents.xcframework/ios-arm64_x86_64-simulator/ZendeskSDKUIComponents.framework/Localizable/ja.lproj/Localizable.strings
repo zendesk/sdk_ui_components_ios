@@ -1,3 +1,6 @@
+"zma_accessibility_guide_navigation_back" = "Back";
+"zma_accessibility_guide_navigation_close" = "Close";
+"zma_accessibility_guide_navigation_share" = "Share";
 "zma_add_attachments_button_accessibility_label" = "ファイルを添付";
 "zma_back_button_accessibility_label" = "戻る";
 "zma_carousel_message_content_subtitle_accessibility_label" = "カルーセル表示のコンテンツ：";
@@ -8,6 +11,10 @@
 "zma_form_dropdown_field_accessibility_label" = "選択肢が%@つあるドロップダウン";
 "zma_form_dropdown_singular_field_accessibility_label" = "選択肢が1つあるドロップダウン";
 "zma_form_entry_error" = "%@フォームフィールドのエラー:";
+"zma_guide_feedback_banner_label" = "Was this article helpful?";
+"zma_guide_feedback_banner_no_button" = "No";
+"zma_guide_feedback_banner_yes_button" = "Yes";
+"zma_guide_page_failed_label" = "Page failed to load";
 "zma_header_subtitle_accessibility_label" = "タグライン：";
 "zma_header_title_accessibility_label" = "ブランド名：";
 "zma_inbound_text_message_accssibility_label" = "受信メッセージ：";

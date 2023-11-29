@@ -1,3 +1,6 @@
+"zma_accessibility_guide_navigation_back" = "Back";
+"zma_accessibility_guide_navigation_close" = "Close";
+"zma_accessibility_guide_navigation_share" = "Share";
 "zma_add_attachments_button_accessibility_label" = "Agregar adjuntos";
 "zma_back_button_accessibility_label" = "Volver";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Contenido del carrusel:";
@@ -8,6 +11,10 @@
 "zma_form_dropdown_field_accessibility_label" = "Menú desplegable con %@ opciones";
 "zma_form_dropdown_singular_field_accessibility_label" = "Menú desplegable con 1 opción";
 "zma_form_entry_error" = "Error %@ de campo de formulario:";
+"zma_guide_feedback_banner_label" = "Was this article helpful?";
+"zma_guide_feedback_banner_no_button" = "No";
+"zma_guide_feedback_banner_yes_button" = "Yes";
+"zma_guide_page_failed_label" = "Page failed to load";
 "zma_header_subtitle_accessibility_label" = "Eslogan:";
 "zma_header_title_accessibility_label" = "Nombre de marca:";
 "zma_inbound_text_message_accssibility_label" = "Mensaje recibido:";

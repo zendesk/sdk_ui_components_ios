@@ -1,3 +1,6 @@
+"zma_accessibility_guide_navigation_back" = "Back";
+"zma_accessibility_guide_navigation_close" = "Close";
+"zma_accessibility_guide_navigation_share" = "Share";
 "zma_add_attachments_button_accessibility_label" = "첨부 파일 추가";
 "zma_back_button_accessibility_label" = "돌아가기";
 "zma_carousel_message_content_subtitle_accessibility_label" = "회전 슬라이드 콘텐츠:";
@@ -8,6 +11,10 @@
 "zma_form_dropdown_field_accessibility_label" = "%@개 선택 항목이 있는 드롭다운";
 "zma_form_dropdown_singular_field_accessibility_label" = "1개 선택 항목이 있는 드롭다운";
 "zma_form_entry_error" = "%@ 양식 필드 오류:";
+"zma_guide_feedback_banner_label" = "Was this article helpful?";
+"zma_guide_feedback_banner_no_button" = "No";
+"zma_guide_feedback_banner_yes_button" = "Yes";
+"zma_guide_page_failed_label" = "Page failed to load";
 "zma_header_subtitle_accessibility_label" = "태그라인:";
 "zma_header_title_accessibility_label" = "브랜드 이름:";
 "zma_inbound_text_message_accssibility_label" = "메시지 수신됨:";
