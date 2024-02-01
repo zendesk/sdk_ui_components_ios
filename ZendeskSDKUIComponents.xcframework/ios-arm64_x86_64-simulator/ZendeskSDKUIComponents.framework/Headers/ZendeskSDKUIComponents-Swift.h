@@ -234,6 +234,7 @@ using UInt = size_t;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
+@import WebKit;
 #endif
 
 #endif
@@ -256,8 +257,111 @@ using UInt = size_t;
 #if defined(__OBJC__)
 @class NSCoder;
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
-@interface AvatarView : UIView
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents29ArticleAttachmentCarouselView")
+@interface ArticleAttachmentCarouselView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+@class UICollectionViewLayout;
+@class NSIndexPath;
+
+@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIScrollView;
+
+@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@class UICollectionViewCell;
+
+@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@class NSString;
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents21ArticleAttachmentCell")
+@interface ArticleAttachmentCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleHeaderView")
+@interface ArticleHeaderView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents22ArticleViewerTitleCell")
+@interface ArticleViewerTitleCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleViewerView")
+@interface ArticleViewerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+@interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDelegate>
+@end
+
+
+
+
+
+
+
+
+
+
+@class UITableView;
+
+@interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDataSource>
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24ArticleViewerWebViewCell")
+@interface ArticleViewerWebViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+@class WKWebView;
+@class WKNavigation;
+@class WKNavigationAction;
+
+@interface ArticleViewerWebViewCell (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+@end
+
+
+SWIFT_CLASS_NAMED("AvatarView")
+@interface ZDKAvatarView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -294,7 +398,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UIScrollView;
 
 @interface CarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIScrollViewDelegate>
 /// note:
@@ -412,6 +515,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 
 
 
+
+
 /// Embedded SelectInputView where the Picker is contained inside the InputView
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @interface InputFieldView : UIView
@@ -463,7 +568,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 @end
 
 @class UITextView;
-@class NSString;
 
 @interface MessageComposerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
@@ -472,6 +576,13 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 
 
 
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17MessageFooterView")
+@interface MessageFooterView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
 
 
 /// <code>MessageReceiptView</code> is a view which can be used to display message information such as message status
@@ -500,9 +611,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14QuickReplyView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UICollectionView;
-@class NSIndexPath;
-@class UICollectionViewCell;
 
 @interface QuickReplyView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource, UICollectionViewDelegate>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -540,11 +648,13 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+
 @class NSURL;
 
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -554,6 +664,10 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19TypingIndicatorView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
+
+
+
 
 
 
@@ -829,6 +943,7 @@ using UInt = size_t;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
+@import WebKit;
 #endif
 
 #endif
@@ -851,8 +966,111 @@ using UInt = size_t;
 #if defined(__OBJC__)
 @class NSCoder;
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents10AvatarView")
-@interface AvatarView : UIView
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents29ArticleAttachmentCarouselView")
+@interface ArticleAttachmentCarouselView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@class UICollectionView;
+@class UICollectionViewLayout;
+@class NSIndexPath;
+
+@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegateFlowLayout>
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class UIScrollView;
+
+@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegate>
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+
+@class UICollectionViewCell;
+
+@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource>
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@class NSString;
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents21ArticleAttachmentCell")
+@interface ArticleAttachmentCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleHeaderView")
+@interface ArticleHeaderView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents22ArticleViewerTitleCell")
+@interface ArticleViewerTitleCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleViewerView")
+@interface ArticleViewerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+@interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDelegate>
+@end
+
+
+
+
+
+
+
+
+
+
+@class UITableView;
+
+@interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDataSource>
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24ArticleViewerWebViewCell")
+@interface ArticleViewerWebViewCell : UITableViewCell
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+@class WKWebView;
+@class WKNavigation;
+@class WKNavigationAction;
+
+@interface ArticleViewerWebViewCell (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <WKNavigationDelegate>
+- (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
+- (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
+@end
+
+
+SWIFT_CLASS_NAMED("AvatarView")
+@interface ZDKAvatarView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -889,7 +1107,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UIScrollView;
 
 @interface CarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIScrollViewDelegate>
 /// note:
@@ -1007,6 +1224,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
 
 
 
+
+
 /// Embedded SelectInputView where the Picker is contained inside the InputView
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14InputFieldView")
 @interface InputFieldView : UIView
@@ -1058,7 +1277,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 @end
 
 @class UITextView;
-@class NSString;
 
 @interface MessageComposerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
@@ -1067,6 +1285,13 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 
 
 
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17MessageFooterView")
+@interface MessageFooterView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
 
 
 /// <code>MessageReceiptView</code> is a view which can be used to display message information such as message status
@@ -1095,9 +1320,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14QuickReplyView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UICollectionView;
-@class NSIndexPath;
-@class UICollectionViewCell;
 
 @interface QuickReplyView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource, UICollectionViewDelegate>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -1135,11 +1357,13 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+
 @class NSURL;
 
 @interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 
 
@@ -1149,6 +1373,10 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19TypingIndicatorView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
+
+
+
 
 
 
