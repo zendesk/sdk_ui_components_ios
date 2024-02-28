@@ -392,6 +392,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents11ButtonsView")
 
 
 
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
 @interface CarouselView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -638,6 +639,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24TextAndMessageButtonView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
@@ -1101,6 +1103,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents11ButtonsView")
 
 
 
+
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
 @interface CarouselView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -1347,6 +1350,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24TextAndMessageButtonView")
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
+
 
 
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
