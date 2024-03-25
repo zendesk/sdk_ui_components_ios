@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Tryck för att försöka igen";
 "zma_header_subtitle_accessibility_label" = "Tagline:";
 "zma_header_title_accessibility_label" = "Märkets namn:";
+"zma_image_message_accessibility_label" = "Dubbeltryck för att öppna";
 "zma_inbound_text_message_accssibility_label" = "Meddelande mottaget:";
 "zma_message_author_accessibility_label" = "Avsändare";
 "zma_message_composer_accessibility_label" = "Skrivfält för meddelande:";

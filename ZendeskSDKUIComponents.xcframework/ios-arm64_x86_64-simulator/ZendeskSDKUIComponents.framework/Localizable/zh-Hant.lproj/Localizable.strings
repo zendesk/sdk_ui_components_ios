@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "點選以重試";
 "zma_header_subtitle_accessibility_label" = "標語：";
 "zma_header_title_accessibility_label" = "品牌名稱：";
+"zma_image_message_accessibility_label" = "點兩下以開啟";
 "zma_inbound_text_message_accssibility_label" = "已接收訊息：";
 "zma_message_author_accessibility_label" = "寄件者";
 "zma_message_composer_accessibility_label" = "訊息撰寫欄位：";

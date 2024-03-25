@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "แตะเพื่อลองอีกครั้ง";
 "zma_header_subtitle_accessibility_label" = "ข้อความประกอบ:";
 "zma_header_title_accessibility_label" = "ชื่อแบรนด์:";
+"zma_image_message_accessibility_label" = "แตะสองครั้งเพื่อเปิด";
 "zma_inbound_text_message_accssibility_label" = "ข้อความที่ได้รับ:";
 "zma_message_author_accessibility_label" = "ผู้ส่ง";
 "zma_message_composer_accessibility_label" = "พื้นที่เขียนข้อความ:";

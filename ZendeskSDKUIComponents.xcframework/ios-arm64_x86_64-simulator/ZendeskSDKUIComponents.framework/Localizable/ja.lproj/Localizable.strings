@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "タップして再試行";
 "zma_header_subtitle_accessibility_label" = "タグライン：";
 "zma_header_title_accessibility_label" = "ブランド名：";
+"zma_image_message_accessibility_label" = "ダブルタップして開く";
 "zma_inbound_text_message_accssibility_label" = "受信メッセージ：";
 "zma_message_author_accessibility_label" = "送信者";
 "zma_message_composer_accessibility_label" = "メッセージ作成者：";

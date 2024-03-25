@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Tocar para volver a intentar";
 "zma_header_subtitle_accessibility_label" = "Eslogan:";
 "zma_header_title_accessibility_label" = "Nombre de marca:";
+"zma_image_message_accessibility_label" = "Toque dos veces para abrir";
 "zma_inbound_text_message_accssibility_label" = "Mensaje recibido:";
 "zma_message_author_accessibility_label" = "Remitente";
 "zma_message_composer_accessibility_label" = "Redactor de mensajes:";

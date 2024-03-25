@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Yeniden denemek için dokun";
 "zma_header_subtitle_accessibility_label" = "Etiket satırı:";
 "zma_header_title_accessibility_label" = "Marka adı:";
+"zma_image_message_accessibility_label" = "Açmak için iki kez dokunun";
 "zma_inbound_text_message_accssibility_label" = "Mesaj alındı:";
 "zma_message_author_accessibility_label" = "Gönderen";
 "zma_message_composer_accessibility_label" = "Mesaj oluşturucu:";

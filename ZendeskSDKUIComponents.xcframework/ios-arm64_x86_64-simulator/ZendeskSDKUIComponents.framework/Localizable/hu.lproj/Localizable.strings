@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Koppintson az újrapróbálkozáshoz";
 "zma_header_subtitle_accessibility_label" = "Mottó:";
 "zma_header_title_accessibility_label" = "Márkanév:";
+"zma_image_message_accessibility_label" = "Koppintson duplán a megnyitáshoz";
 "zma_inbound_text_message_accssibility_label" = "Üzenet érkezett:";
 "zma_message_author_accessibility_label" = "Feladó";
 "zma_message_composer_accessibility_label" = "Üzenetszerkesztő:";

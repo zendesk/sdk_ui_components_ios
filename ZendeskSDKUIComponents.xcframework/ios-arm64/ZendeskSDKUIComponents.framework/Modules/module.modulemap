@@ -1,7 +1,7 @@
 framework module ZendeskSDKUIComponents {
   umbrella header "ZendeskSDKUIComponents.h"
-
   export *
+
   module * { export * }
 }
 

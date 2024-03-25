@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Gõ để thử lại";
 "zma_header_subtitle_accessibility_label" = "Dòng chú thích:";
 "zma_header_title_accessibility_label" = "Tên thương hiệu:";
+"zma_image_message_accessibility_label" = "Gõ hai lần để mở";
 "zma_inbound_text_message_accssibility_label" = "Tin nhắn đã nhận:";
 "zma_message_author_accessibility_label" = "Người gửi";
 "zma_message_composer_accessibility_label" = "Người soạn tin nhắn:";

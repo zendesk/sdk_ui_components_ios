@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "הקש לניסיון נוסף";
 "zma_header_subtitle_accessibility_label" = "כותרת משנה:";
 "zma_header_title_accessibility_label" = "שם מותג:";
+"zma_image_message_accessibility_label" = "הקש פעמיים כדי לפתוח";
 "zma_inbound_text_message_accssibility_label" = "ההודעה שהתקבלה:";
 "zma_message_author_accessibility_label" = "שולח";
 "zma_message_composer_accessibility_label" = "מחבר ההודעה:";

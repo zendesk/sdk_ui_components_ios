@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Atingeți pentru a reîncerca";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Nume marcă:";
+"zma_image_message_accessibility_label" = "Atingeți de două ori pentru a deschide";
 "zma_inbound_text_message_accssibility_label" = "Mesaj primit:";
 "zma_message_author_accessibility_label" = "Expeditor";
 "zma_message_composer_accessibility_label" = "Zona de compunere mesaje:";

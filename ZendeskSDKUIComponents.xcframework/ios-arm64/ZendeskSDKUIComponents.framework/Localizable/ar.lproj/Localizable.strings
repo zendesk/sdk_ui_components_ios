@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "اضغط لإعادة المحاولة";
 "zma_header_subtitle_accessibility_label" = "سطر الوصف:";
 "zma_header_title_accessibility_label" = "اسم العلامة التجارية:";
+"zma_image_message_accessibility_label" = "اضغط ضغطة مزدوجة للفتح";
 "zma_inbound_text_message_accssibility_label" = "موعد تلقي الرسالة:";
 "zma_message_author_accessibility_label" = "المُرسِل";
 "zma_message_composer_accessibility_label" = "مؤلّف الرسالة:";

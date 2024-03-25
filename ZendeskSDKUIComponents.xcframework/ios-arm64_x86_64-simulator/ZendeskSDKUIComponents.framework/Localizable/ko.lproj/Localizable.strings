@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "다시 시도하려면 탭하세요";
 "zma_header_subtitle_accessibility_label" = "태그라인:";
 "zma_header_title_accessibility_label" = "브랜드 이름:";
+"zma_image_message_accessibility_label" = "열려면 두 번 탭하세요.";
 "zma_inbound_text_message_accssibility_label" = "메시지 수신됨:";
 "zma_message_author_accessibility_label" = "보낸 사람";
 "zma_message_composer_accessibility_label" = "메시지 작성기:";

@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Tryk for at prøve igen";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Brandnavn:";
+"zma_image_message_accessibility_label" = "Dobbelttryk for at åbne";
 "zma_inbound_text_message_accssibility_label" = "Meddelelse modtaget:";
 "zma_message_author_accessibility_label" = "Afsender";
 "zma_message_composer_accessibility_label" = "Opbygning af meddelelser:";

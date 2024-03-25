@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Tocca per riprovare";
 "zma_header_subtitle_accessibility_label" = "Didascalia:";
 "zma_header_title_accessibility_label" = "Nome brand:";
+"zma_image_message_accessibility_label" = "Tocca due volte per aprire";
 "zma_inbound_text_message_accssibility_label" = "Messaggio ricevuto:";
 "zma_message_author_accessibility_label" = "Mittente";
 "zma_message_composer_accessibility_label" = "Riquadro di composizione messaggio:";

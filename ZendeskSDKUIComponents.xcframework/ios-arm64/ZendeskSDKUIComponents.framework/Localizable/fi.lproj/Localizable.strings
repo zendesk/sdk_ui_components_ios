@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Yritä uudelleen napauttamalla";
 "zma_header_subtitle_accessibility_label" = "Iskulause:";
 "zma_header_title_accessibility_label" = "Brändin nimi:";
+"zma_image_message_accessibility_label" = "Avaa kaksoisnapauttamalla";
 "zma_inbound_text_message_accssibility_label" = "Viesti vastaanotettu:";
 "zma_message_author_accessibility_label" = "Lähettäjä";
 "zma_message_composer_accessibility_label" = "Viestin viestinlaatija:";

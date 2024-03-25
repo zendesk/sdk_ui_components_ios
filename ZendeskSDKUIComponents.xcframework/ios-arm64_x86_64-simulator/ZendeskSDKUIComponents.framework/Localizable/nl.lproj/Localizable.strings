@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Tik om het opnieuw te proberen";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Merknaam:";
+"zma_image_message_accessibility_label" = "Dubbeltik om te openen";
 "zma_inbound_text_message_accssibility_label" = "Bericht ontvangen:";
 "zma_message_author_accessibility_label" = "Afzender";
 "zma_message_composer_accessibility_label" = "Samensteller van bericht:";

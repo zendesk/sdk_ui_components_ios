@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Trykk for å prøve igjen";
 "zma_header_subtitle_accessibility_label" = "Slagord:";
 "zma_header_title_accessibility_label" = "Merkevarenavn:";
+"zma_image_message_accessibility_label" = "Dobbelttrykk for å åpne";
 "zma_inbound_text_message_accssibility_label" = "Melding mottatt:";
 "zma_message_author_accessibility_label" = "Avsender";
 "zma_message_composer_accessibility_label" = "Meldingsskrivefunksjon:";

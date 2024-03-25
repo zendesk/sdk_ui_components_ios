@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Докоснете за повторен опит";
 "zma_header_subtitle_accessibility_label" = "Слоган:";
 "zma_header_title_accessibility_label" = "Наименование на бранда:";
+"zma_image_message_accessibility_label" = "Докоснете двукратно за отваряне";
 "zma_inbound_text_message_accssibility_label" = "Съобщението е получено:";
 "zma_message_author_accessibility_label" = "Подател";
 "zma_message_composer_accessibility_label" = "Поле за съставяне на текстово съобщение:";

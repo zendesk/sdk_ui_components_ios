@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Πατήστε για επανάληψη";
 "zma_header_subtitle_accessibility_label" = "Λεζάντα:";
 "zma_header_title_accessibility_label" = "Όνομα επωνυμίας:";
+"zma_image_message_accessibility_label" = "Πατήστε δύο φορές για άνοιγμα";
 "zma_inbound_text_message_accssibility_label" = "Το μήνυμα ελήφθη:";
 "zma_message_author_accessibility_label" = "Αποστολέας";
 "zma_message_composer_accessibility_label" = "Συντάκτης μηνύματος:";

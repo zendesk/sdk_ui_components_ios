@@ -21,6 +21,7 @@
 "zma_guide_tap_to_retry" = "Ketuk untuk mencoba lagi";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
 "zma_header_title_accessibility_label" = "Nama merek:";
+"zma_image_message_accessibility_label" = "Ketuk dua kali untuk membuka";
 "zma_inbound_text_message_accssibility_label" = "Pesan diterima:";
 "zma_message_author_accessibility_label" = "Pengirim";
 "zma_message_composer_accessibility_label" = "Area penulisan pesan:";
