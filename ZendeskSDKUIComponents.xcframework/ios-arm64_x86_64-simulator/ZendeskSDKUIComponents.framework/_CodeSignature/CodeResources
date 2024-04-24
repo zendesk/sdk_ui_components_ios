@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aqMh1GIbqjubsWooLuklYZhheAA=
+		cuxA0cs6jJJy4ADx1Am4JGxn9QY=
 		</data>
 		<key>Localizable/ar.lproj/Localizable.strings</key>
 		<dict>
@@ -369,6 +369,10 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		wGptwutK/8YD74Q6+iyLzXQ12z8=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		x8OSduvNEZnEiC0Cwt2ElqWEqsE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -775,6 +779,13 @@
 			<key>hash2</key>
 			<data>
 			mP593LsAO9q1F0gbQPhUejPC3tyEGW5cGpgBNN6D4GI=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			++dRAyp7mI/fCp6lEeupDQOaAOa99Mr/Q2xKk8fsVMM=
 			</data>
 		</dict>
 	</dict>
