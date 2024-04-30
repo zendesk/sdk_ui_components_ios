@@ -26565,6 +26565,160 @@
           },
           {
             "kind": "Var",
+            "name": "onSubmitForm",
+            "printedName": "onSubmitForm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvs",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC12onSubmitFormyycSgvM",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "text",
             "printedName": "text",
             "children": [
@@ -26776,7 +26930,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(style:onFocusChange:onNextSelected:onFieldFocused:onSelectFieldFocused:onFieldContentChanged:)",
+            "printedName": "init(style:onFocusChange:onNextSelected:onFieldFocused:onSelectFieldFocused:onFieldContentChanged:onSubmitForm:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -26925,11 +27079,37 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL00gD14ContentChangedAcA0C5StyleV_yAA0cD9RenderingVcSgA2NyACcSgANtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL00gD14ContentChangedAcA0C5StyleV_yAA0cD9RenderingVcSgA2NyACcSgANtcfc",
+            "usr": "s:22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL00gD14ContentChanged0G10SubmitFormAcA0C5StyleV_yAA0cD9RenderingVcSgA2OyACcSgAOyycSgtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents14InputFieldViewC5style13onFocusChange0G12NextSelected0gD7Focused0g6SelectdL00gD14ContentChanged0G10SubmitFormAcA0C5StyleV_yAA0cD9RenderingVcSgA2OyACcSgAOyycSgtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "Custom",
@@ -53001,35 +53181,35 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 1528,
+      "offset": 1571,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2068,
+      "offset": 2111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2127,
+      "offset": 2170,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2494,
+      "offset": 2537,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 3581,
+      "offset": 3708,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
@@ -53043,63 +53223,63 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 6881,
+      "offset": 6973,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7647,
+      "offset": 7739,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7695,
+      "offset": 7787,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8166,
+      "offset": 8258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8224,
+      "offset": 8316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 9161,
+      "offset": 9253,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9346,
+      "offset": 9438,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 9561,
+      "offset": 9653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/Input\/InputFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10132,
+      "offset": 10338,
       "length": 4,
       "value": "true"
     },
@@ -53120,21 +53300,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2076,
+      "offset": 2113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2128,
+      "offset": 2165,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 3287,
+      "offset": 3407,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
@@ -53148,14 +53328,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 5236,
+      "offset": 5356,
       "length": 35,
       "value": "\"formFieldTitle.\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormField\/FormFieldView.swift",
       "kind": "StringLiteral",
-      "offset": 5270,
+      "offset": 5390,
       "length": 1,
       "value": "\"\""
     },
@@ -53694,21 +53874,28 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7493,
+      "offset": 7803,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8148,
+      "offset": 8506,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8874,
+      "offset": 8851,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8959,
       "length": 1,
       "value": "1"
     },
