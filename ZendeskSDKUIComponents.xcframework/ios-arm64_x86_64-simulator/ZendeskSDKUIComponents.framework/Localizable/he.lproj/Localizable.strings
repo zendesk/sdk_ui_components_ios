@@ -5,6 +5,10 @@
 "zma_back_button_accessibility_label" = "הקודם";
 "zma_carousel_message_content_subtitle_accessibility_label" = "תוכן קרוסלה:";
 "zma_carousel_message_content_title_accessibility_label" = "כותרת קרוסלה:";
+"zma_conversation_list_item_content_accessibility_label" = "%@,הודעה מאת %@: %@, %@, %@";
+"zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "אתה";
+"zma_conversation_list_item_one_unread_message_accessibility_label" = "הודעה אחת שלא נקראה";
+"zma_conversation_list_item_unread_messages_accessibility_label" = "%@ הודעות שלא נקראו";
 "zma_dropdown_view_accessibility_announce" = "רשימה עם %@ אפשרויות";
 "zma_dropdown_view_singular_accessibility_announce" = "רשימה עם אפשרות אחת";
 "zma_form_dropdown_field_accessibility_hint" = "הקש פעמיים כדי לערוך";

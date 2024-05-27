@@ -5,6 +5,10 @@
 "zma_back_button_accessibility_label" = "Visszalépés";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Forgótár tartalma:";
 "zma_carousel_message_content_title_accessibility_label" = "Forgótár neve:";
+"zma_conversation_list_item_content_accessibility_label" = "%@, %@ üzenete: %@, %@, %@";
+"zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Ön";
+"zma_conversation_list_item_one_unread_message_accessibility_label" = "1 olvasatlan üzenet";
+"zma_conversation_list_item_unread_messages_accessibility_label" = "%@ olvasatlan üzenet";
 "zma_dropdown_view_accessibility_announce" = "Lista %@ választási lehetőséggel";
 "zma_dropdown_view_singular_accessibility_announce" = "Lista 1 választási lehetőséggel";
 "zma_form_dropdown_field_accessibility_hint" = "Koppintson duplán a szerkesztéshez";

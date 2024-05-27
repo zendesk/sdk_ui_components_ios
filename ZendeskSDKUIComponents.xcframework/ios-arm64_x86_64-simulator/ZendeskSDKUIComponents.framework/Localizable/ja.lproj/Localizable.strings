@@ -5,6 +5,10 @@
 "zma_back_button_accessibility_label" = "戻る";
 "zma_carousel_message_content_subtitle_accessibility_label" = "カルーセルのコンテンツ：";
 "zma_carousel_message_content_title_accessibility_label" = "カルーセルのタイトル：";
+"zma_conversation_list_item_content_accessibility_label" = "%@、%@からのメッセージ：%@、%@、%@";
+"zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "あなた";
+"zma_conversation_list_item_one_unread_message_accessibility_label" = "1件の未読メッセージ";
+"zma_conversation_list_item_unread_messages_accessibility_label" = "%@件の未読メッセージ";
 "zma_dropdown_view_accessibility_announce" = "選択肢が%@つあるリスト";
 "zma_dropdown_view_singular_accessibility_announce" = "選択肢が1つあるリスト";
 "zma_form_dropdown_field_accessibility_hint" = "ダブルタップして編集";

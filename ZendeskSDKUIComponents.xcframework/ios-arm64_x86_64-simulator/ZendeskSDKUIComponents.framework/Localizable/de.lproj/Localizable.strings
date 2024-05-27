@@ -5,6 +5,10 @@
 "zma_back_button_accessibility_label" = "Zurück";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Inhalt des Karussells:";
 "zma_carousel_message_content_title_accessibility_label" = "Titel des Karussells:";
+"zma_conversation_list_item_content_accessibility_label" = "%@, Nachricht von %@: %@, %@, %@";
+"zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Sie";
+"zma_conversation_list_item_one_unread_message_accessibility_label" = "1 ungelesene Nachricht";
+"zma_conversation_list_item_unread_messages_accessibility_label" = "%@ ungelesene Nachrichten";
 "zma_dropdown_view_accessibility_announce" = "Liste mit %@ Auswahlmöglichkeiten";
 "zma_dropdown_view_singular_accessibility_announce" = "Liste mit 1 Auswahlmöglichkeit";
 "zma_form_dropdown_field_accessibility_hint" = "Zum Bearbeiten doppeltippen";

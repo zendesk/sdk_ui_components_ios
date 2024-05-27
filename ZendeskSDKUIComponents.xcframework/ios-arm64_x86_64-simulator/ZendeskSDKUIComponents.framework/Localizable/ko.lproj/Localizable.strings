@@ -5,6 +5,10 @@
 "zma_back_button_accessibility_label" = "돌아가기";
 "zma_carousel_message_content_subtitle_accessibility_label" = "회전 슬라이드 콘텐츠:";
 "zma_carousel_message_content_title_accessibility_label" = "회전 슬라이드 제목:";
+"zma_conversation_list_item_content_accessibility_label" = "%@, %@의 메시지: %@, %@, %@";
+"zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "나";
+"zma_conversation_list_item_one_unread_message_accessibility_label" = "1개의 읽지 않은 메시지";
+"zma_conversation_list_item_unread_messages_accessibility_label" = "%@개의 읽지 않은 메시지";
 "zma_dropdown_view_accessibility_announce" = "%@가지 선택 항목이 있는 목록";
 "zma_dropdown_view_singular_accessibility_announce" = "1가지 선택 항목이 있는 목록";
 "zma_form_dropdown_field_accessibility_hint" = "편집하려면 두 번 탭하세요.";
