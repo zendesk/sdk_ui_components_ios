@@ -18073,12 +18073,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ())?",
+                "printedName": "(((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ()",
+                    "printedName": "((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -18088,18 +18088,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), (Swift.Bool) -> ())",
+                        "printedName": "((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), (Swift.Bool) -> ())",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?)",
+                            "printedName": "(Swift.String, ZendeskSDKUIComponents.CustomButtonType?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
-                                "name": "URL",
-                                "printedName": "Foundation.URL",
-                                "usr": "s:10Foundation3URLV"
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -18144,8 +18144,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvp",
-            "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvp",
+            "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvp",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "Custom",
@@ -18164,12 +18164,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ())?",
+                    "printedName": "(((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ()",
+                        "printedName": "((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -18179,18 +18179,18 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), (Swift.Bool) -> ())",
+                            "printedName": "((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), (Swift.Bool) -> ())",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Tuple",
-                                "printedName": "(Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?)",
+                                "printedName": "(Swift.String, ZendeskSDKUIComponents.CustomButtonType?)",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
-                                    "name": "URL",
-                                    "printedName": "Foundation.URL",
-                                    "usr": "s:10Foundation3URLV"
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
                                   },
                                   {
                                     "kind": "TypeNominal",
@@ -18235,8 +18235,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvg",
-                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvg",
+                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "declAttributes": [
@@ -18257,12 +18257,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ())?",
+                    "printedName": "(((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ()",
+                        "printedName": "((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), @escaping (Swift.Bool) -> ()) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -18272,18 +18272,18 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "((Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?), (Swift.Bool) -> ())",
+                            "printedName": "((Swift.String, ZendeskSDKUIComponents.CustomButtonType?), (Swift.Bool) -> ())",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Tuple",
-                                "printedName": "(Foundation.URL, ZendeskSDKUIComponents.CustomButtonType?)",
+                                "printedName": "(Swift.String, ZendeskSDKUIComponents.CustomButtonType?)",
                                 "children": [
                                   {
                                     "kind": "TypeNominal",
-                                    "name": "URL",
-                                    "printedName": "Foundation.URL",
-                                    "usr": "s:10Foundation3URLV"
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
                                   },
                                   {
                                     "kind": "TypeNominal",
@@ -18328,8 +18328,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvs",
-                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvs",
+                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvs",
+                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvs",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "declAttributes": [
@@ -18349,8 +18349,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvM",
-                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapy10Foundation3URLV_AA16CustomButtonTypeOSgt_ySbctcSgvM",
+                "usr": "s:22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvM",
+                "mangledName": "$s22ZendeskSDKUIComponents12CarouselViewC8onURLTapySS_AA16CustomButtonTypeOSgt_ySbctcSgvM",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "declAttributes": [
@@ -30759,6 +30759,28 @@
               "Custom",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessibility",
+            "printedName": "setAccessibility()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents21ConversationErrorViewC16setAccessibilityyyF",
+            "mangledName": "$s22ZendeskSDKUIComponents21ConversationErrorViewC16setAccessibilityyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -52432,63 +52454,63 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 15733,
+      "offset": 15846,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 15955,
+      "offset": 16068,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 16411,
+      "offset": 16524,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 16434,
+      "offset": 16547,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 16752,
+      "offset": 16865,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 17314,
+      "offset": 17427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 17369,
+      "offset": 17482,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 17392,
+      "offset": 17505,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/ThirdParty\/AlignedCollectionViewFlowLayout\/AlignedCollectionViewFlowLayout.swift",
       "kind": "BooleanLiteral",
-      "offset": 17710,
+      "offset": 17823,
       "length": 4,
       "value": "true"
     },
@@ -53909,7 +53931,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationError\/ConversationErrorView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4651,
+      "offset": 4771,
       "length": 4,
       "value": "true"
     },
@@ -54938,28 +54960,42 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4475,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4604,
+      "offset": 4449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 4522,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 4540,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 4578,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5750,
+      "offset": 5623,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6659,
+      "offset": 6532,
       "length": 1,
       "value": "0"
     },
@@ -54973,154 +55009,154 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7592,
+      "offset": 7465,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7633,
+      "offset": 7506,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 7859,
+      "offset": 7732,
       "length": 25,
       "value": "\"failedLoadingBannerView\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8275,
+      "offset": 8148,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 8741,
+      "offset": 8614,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 9234,
+      "offset": 9107,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConnectionBanner\/ConnectionBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 10148,
+      "offset": 10021,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1083,
+      "offset": 1086,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1128,
+      "offset": 1131,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1173,
+      "offset": 1176,
       "length": 3,
       "value": "148"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1220,
+      "offset": 1223,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1261,
+      "offset": 1264,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "FloatLiteral",
-      "offset": 1313,
+      "offset": 1316,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "FloatLiteral",
-      "offset": 1366,
+      "offset": 1369,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1893,
+      "offset": 1896,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "StringLiteral",
-      "offset": 2273,
+      "offset": 2276,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3439,
+      "offset": 3442,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3445,
+      "offset": 3448,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 985,
       "length": 8,
       "value": "\"ZendeskSDKUIComponents.CardView\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4326,
+      "offset": 4329,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "Dictionary",
-      "offset": 7036,
+      "offset": 7092,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7461,
+      "offset": 7517,
       "length": 1,
       "value": "0"
     },
