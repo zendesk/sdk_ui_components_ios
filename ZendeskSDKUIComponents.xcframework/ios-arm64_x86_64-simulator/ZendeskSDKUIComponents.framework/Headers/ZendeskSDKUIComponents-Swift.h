@@ -478,6 +478,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents31ConversationExtensionHeaderView")
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents25ConversationExtensionView")
 @interface ConversationExtensionView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1266,6 +1267,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents31ConversationExtensionHeaderView")
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents25ConversationExtensionView")
 @interface ConversationExtensionView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
