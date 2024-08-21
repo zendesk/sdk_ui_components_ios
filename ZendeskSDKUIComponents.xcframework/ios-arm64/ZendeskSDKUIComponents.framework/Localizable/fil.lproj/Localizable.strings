@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ unread messages";
 "zma_dropdown_view_accessibility_announce" = "List with %@ choices";
 "zma_dropdown_view_singular_accessibility_announce" = "List with 1 choice";
+"zma_end_user_expectation_join_in_about_days" = "An agent will join you in about %@ days";
+"zma_end_user_expectation_join_in_about_hours" = "An agent will join you in about %@ hours";
+"zma_end_user_expectation_join_in_about_minute" = "An agent will join you in about %@ minute";
+"zma_end_user_expectation_join_in_about_minutes" = "An agent will join you in about %@ minutes";
+"zma_end_user_expectation_join_in_days" = "An agent will join you in %@-%@ days";
+"zma_end_user_expectation_join_in_hours" = "An agent will join you in %@-%@ hours";
+"zma_end_user_expectation_join_in_minutes" = "An agent will join you in %@-%@ minutes";
+"zma_end_user_expectation_join_shortly" = "An agent will be with you shortly";
+"zma_end_user_expectation_join_within_days" = "An agent will join you within %@ days";
+"zma_end_user_expectation_join_within_hours" = "An agent will join you within %@ hours";
+"zma_end_user_expectation_join_within_minute" = "An agent will join you within %@ minute";
+"zma_end_user_expectation_join_within_minutes" = "An agent will join you within %@ minutes";
+"zma_end_user_expectation_up_next" = "You’re up next";
 "zma_form_dropdown_field_accessibility_hint" = "Double-tap to edit";
 "zma_form_dropdown_field_accessibility_label" = "Dropdown with %@ choices";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown with 1 choice";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Page failed to load";
 "zma_guide_tap_to_retry" = "Tap to retry";
 "zma_header_subtitle_accessibility_label" = "Tagline:";
-"zma_header_title_accessibility_label" = "Brand name:";
 "zma_image_message_accessibility_label" = "Double-tap to open";
 "zma_inbound_text_message_accssibility_label" = "Message received:";
 "zma_message_author_accessibility_label" = "Sender";

@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@件の未読メッセージ";
 "zma_dropdown_view_accessibility_announce" = "選択肢が%@つあるリスト";
 "zma_dropdown_view_singular_accessibility_announce" = "選択肢が1つあるリスト";
+"zma_end_user_expectation_join_in_about_days" = "%@日程度でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_in_about_hours" = "%@時間程度でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_in_about_minute" = "%@分程度でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_in_about_minutes" = "%@分程度でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_in_days" = "%@-%@日でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_in_hours" = "%@-%@時間でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_in_minutes" = "あと%@～%@分でサポート担当者が対応いたします";
+"zma_end_user_expectation_join_shortly" = "まもなくサポート担当者が対応いたします";
+"zma_end_user_expectation_join_within_days" = "%@日以内にサポート担当者が対応いたします";
+"zma_end_user_expectation_join_within_hours" = "%@時間以内にサポート担当者が対応いたします";
+"zma_end_user_expectation_join_within_minute" = "%@分以内にサポート担当者が対応いたします";
+"zma_end_user_expectation_join_within_minutes" = "%@分以内にサポート担当者が対応いたします";
+"zma_end_user_expectation_up_next" = "あなたの順番は次です";
 "zma_form_dropdown_field_accessibility_hint" = "ダブルタップして編集";
 "zma_form_dropdown_field_accessibility_label" = "選択肢が%@つあるドロップダウン";
 "zma_form_dropdown_singular_field_accessibility_label" = "選択肢が1つあるドロップダウン";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "ページを読み込めませんでした";
 "zma_guide_tap_to_retry" = "タップして再試行";
 "zma_header_subtitle_accessibility_label" = "タグライン：";
-"zma_header_title_accessibility_label" = "ブランド名：";
 "zma_image_message_accessibility_label" = "ダブルタップして開く";
 "zma_inbound_text_message_accssibility_label" = "受信メッセージ：";
 "zma_message_author_accessibility_label" = "送信者";

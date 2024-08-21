@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ messages non lus";
 "zma_dropdown_view_accessibility_announce" = "Liste avec %@ choix";
 "zma_dropdown_view_singular_accessibility_announce" = "Liste avec 1 choix";
+"zma_end_user_expectation_join_in_about_days" = "Un agent vous contactera dans environ %@ jours";
+"zma_end_user_expectation_join_in_about_hours" = "Un agent vous contactera dans environ %@ heures";
+"zma_end_user_expectation_join_in_about_minute" = "Un agent vous contactera dans environ %@ minute";
+"zma_end_user_expectation_join_in_about_minutes" = "Un agent vous contactera dans environ %@ minutes";
+"zma_end_user_expectation_join_in_days" = "Un agent vous contactera dans %@-%@ jours";
+"zma_end_user_expectation_join_in_hours" = "Un agent vous contactera dans %@-%@ heures";
+"zma_end_user_expectation_join_in_minutes" = "Un agent vous contactera dans %@-%@ minutes";
+"zma_end_user_expectation_join_shortly" = "Un agent s’occupera de vous dans les plus brefs délais";
+"zma_end_user_expectation_join_within_days" = "Un agent vous contactera dans un délai de %@ jours";
+"zma_end_user_expectation_join_within_hours" = "Un agent vous contactera dans un délai de %@ heures";
+"zma_end_user_expectation_join_within_minute" = "Un agent vous contactera dans un délai de %@ minute";
+"zma_end_user_expectation_join_within_minutes" = "Un agent vous contactera dans un délai de %@ minutes";
+"zma_end_user_expectation_up_next" = "C’est à vous";
 "zma_form_dropdown_field_accessibility_hint" = "Touchez deux fois pour modifier";
 "zma_form_dropdown_field_accessibility_label" = "Liste déroulante avec %@ choix";
 "zma_form_dropdown_singular_field_accessibility_label" = "Liste déroulante avec 1 choix";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Échec du chargement de la page";
 "zma_guide_tap_to_retry" = "Appuyez pour réessayer";
 "zma_header_subtitle_accessibility_label" = "Slogan :";
-"zma_header_title_accessibility_label" = "Nom de la marque :";
 "zma_image_message_accessibility_label" = "Touchez deux fois pour ouvrir";
 "zma_inbound_text_message_accssibility_label" = "Message reçu :";
 "zma_message_author_accessibility_label" = "Expéditeur";

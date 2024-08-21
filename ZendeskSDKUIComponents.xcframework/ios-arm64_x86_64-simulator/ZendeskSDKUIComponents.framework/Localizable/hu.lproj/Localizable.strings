@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ olvasatlan üzenet";
 "zma_dropdown_view_accessibility_announce" = "Lista %@ választási lehetőséggel";
 "zma_dropdown_view_singular_accessibility_announce" = "Lista 1 választási lehetőséggel";
+"zma_end_user_expectation_join_in_about_days" = "Egy munkatársunk körülbelül %@ napon belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_in_about_hours" = "Egy munkatársunk körülbelül %@ órán belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_in_about_minute" = "Egy munkatársunk körülbelül %@ percen belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_in_about_minutes" = "Egy munkatársunk körülbelül %@ percen belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_in_days" = "Egy munkatársunk %@–%@ napon belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_in_hours" = "Egy munkatársunk %@–%@ órán belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_in_minutes" = "Egy munkatársunk %@–%@ percen belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_shortly" = "Egy munkatársunk hamarosan csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_within_days" = "Egy munkatársunk %@ napon belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_within_hours" = "Egy munkatársunk %@ órán belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_within_minute" = "Egy munkatársunk %@ percen belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_join_within_minutes" = "Egy munkatársunk %@ percen belül csatlakozik a beszélgetéshez";
+"zma_end_user_expectation_up_next" = "Ön következik";
 "zma_form_dropdown_field_accessibility_hint" = "Koppintson duplán a szerkesztéshez";
 "zma_form_dropdown_field_accessibility_label" = "Legördülő menü %@ választási lehetőséggel";
 "zma_form_dropdown_singular_field_accessibility_label" = "Legördülő menü 1 választási lehetőséggel";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Az oldal betöltése sikertelen volt";
 "zma_guide_tap_to_retry" = "Koppintson az újrapróbálkozáshoz";
 "zma_header_subtitle_accessibility_label" = "Mottó:";
-"zma_header_title_accessibility_label" = "Márkanév:";
 "zma_image_message_accessibility_label" = "Koppintson duplán a megnyitáshoz";
 "zma_inbound_text_message_accssibility_label" = "Üzenet érkezett:";
 "zma_message_author_accessibility_label" = "Feladó";

@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ mensagens não lidas";
 "zma_dropdown_view_accessibility_announce" = "Listar com %@ opções";
 "zma_dropdown_view_singular_accessibility_announce" = "Lista com 1 opção";
+"zma_end_user_expectation_join_in_about_days" = "Um agente entrará em contato com você em aproximadamente %@ dias";
+"zma_end_user_expectation_join_in_about_hours" = "Um agente entrará em contato com você em aproximadamente %@ horas";
+"zma_end_user_expectation_join_in_about_minute" = "Um agente entrará em contato com você em aproximadamente %@ minuto";
+"zma_end_user_expectation_join_in_about_minutes" = "Um agente entrará em contato com você em aproximadamente %@ minutos";
+"zma_end_user_expectation_join_in_days" = "Um agente entrará em contato com você em %@ – %@ dias";
+"zma_end_user_expectation_join_in_hours" = "Um agente entrará em contato com você em %@ –%@ horas";
+"zma_end_user_expectation_join_in_minutes" = "Um agente entrará em contato com você em %@ – %@ minutos";
+"zma_end_user_expectation_join_shortly" = "Um agente atenderá você em breve";
+"zma_end_user_expectation_join_within_days" = "Um agente entrará em contato com você dentro de %@ dias";
+"zma_end_user_expectation_join_within_hours" = "Um agente entrará em contato com você dentro de %@ horas";
+"zma_end_user_expectation_join_within_minute" = "Um agente entrará em contato com você dentro de %@ minuto";
+"zma_end_user_expectation_join_within_minutes" = "Um agente entrará em contato com você dentro de %@ minutos";
+"zma_end_user_expectation_up_next" = "Você é o próximo";
 "zma_form_dropdown_field_accessibility_hint" = "Toque duas vezes para editar";
 "zma_form_dropdown_field_accessibility_label" = "Lista suspensa com %@ opções";
 "zma_form_dropdown_singular_field_accessibility_label" = "Lista suspensa com 1 opção";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Erro ao carregar a página";
 "zma_guide_tap_to_retry" = "Toque para tentar novamente";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
-"zma_header_title_accessibility_label" = "Nome da marca:";
 "zma_image_message_accessibility_label" = "Toque duas vezes para abrir";
 "zma_inbound_text_message_accssibility_label" = "Mensagem recebida:";
 "zma_message_author_accessibility_label" = "Remetente";

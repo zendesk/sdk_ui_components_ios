@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ pesan belum terbaca";
 "zma_dropdown_view_accessibility_announce" = "Daftar dengan %@ pilihan";
 "zma_dropdown_view_singular_accessibility_announce" = "Daftar dengan 1 pilihan";
+"zma_end_user_expectation_join_in_about_days" = "Agen akan bergabung dengan Anda dalam waktu sekitar %@ Hari";
+"zma_end_user_expectation_join_in_about_hours" = "Agen akan bergabung dengan Anda dalam waktu sekitar %@ Jam";
+"zma_end_user_expectation_join_in_about_minute" = "Agen akan bergabung dengan Anda dalam waktu sekitar %@ menit";
+"zma_end_user_expectation_join_in_about_minutes" = "Agen akan bergabung dengan Anda dalam waktu sekitar %@ Menit";
+"zma_end_user_expectation_join_in_days" = "Agen akan bergabung dengan Anda dalam %@-%@ Hari";
+"zma_end_user_expectation_join_in_hours" = "Agen akan bergabung dengan Anda dalam %@-%@ Jam";
+"zma_end_user_expectation_join_in_minutes" = "Agen akan bergabung dengan Anda %@-%@ Menit";
+"zma_end_user_expectation_join_shortly" = "Seorang agen akan segera bersama Anda";
+"zma_end_user_expectation_join_within_days" = "Agen akan bergabung dengan Anda dalam %@ Hari";
+"zma_end_user_expectation_join_within_hours" = "Agen akan bergabung dengan Anda dalam %@ Jam";
+"zma_end_user_expectation_join_within_minute" = "Agen akan bergabung dengan Anda dalam %@ menit";
+"zma_end_user_expectation_join_within_minutes" = "Agen akan bergabung dengan Anda dalam %@ Menit";
+"zma_end_user_expectation_up_next" = "Anda berikutnya";
 "zma_form_dropdown_field_accessibility_hint" = "Ketuk dua kali untuk mengedit";
 "zma_form_dropdown_field_accessibility_label" = "Dropdown dengan %@ pilihan";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown dengan 1 pilihan";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Halaman gagal dimuat";
 "zma_guide_tap_to_retry" = "Ketuk untuk mencoba lagi";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
-"zma_header_title_accessibility_label" = "Nama merek:";
 "zma_image_message_accessibility_label" = "Ketuk dua kali untuk membuka";
 "zma_inbound_text_message_accssibility_label" = "Pesan diterima:";
 "zma_message_author_accessibility_label" = "Pengirim";

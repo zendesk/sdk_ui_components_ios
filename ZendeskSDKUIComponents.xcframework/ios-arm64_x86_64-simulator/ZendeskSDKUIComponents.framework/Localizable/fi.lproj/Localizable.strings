@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ lukematonta viestiä";
 "zma_dropdown_view_accessibility_announce" = "Luettelo, jossa on %@ vaihtoehtoa";
 "zma_dropdown_view_singular_accessibility_announce" = "Luettelo, jossa on 1 vaihtoehto";
+"zma_end_user_expectation_join_in_about_days" = "Tukihenkilö on kanssasi noin %@ päivän kuluttua";
+"zma_end_user_expectation_join_in_about_hours" = "Tukihenkilö on kanssasi noin %@ tunnin kuluttua";
+"zma_end_user_expectation_join_in_about_minute" = "Tukihenkilö on kanssasi noin %@ minuutin kuluttua";
+"zma_end_user_expectation_join_in_about_minutes" = "Tukihenkilö on kanssasi noin %@ minuutin kuluttua";
+"zma_end_user_expectation_join_in_days" = "Tukihenkilö on kanssasi sinuun %@–%@ päivän kuluessa";
+"zma_end_user_expectation_join_in_hours" = "Tukihenkilö on kanssasi sinuun %@–%@ tunnin kuluessa";
+"zma_end_user_expectation_join_in_minutes" = "Tukihenkilö on kanssasi %@–%@ minuutin kuluessa";
+"zma_end_user_expectation_join_shortly" = "Tukihenkilö on kanssasi pian";
+"zma_end_user_expectation_join_within_days" = "Tukihenkilö on kanssasi %@ päivän sisällä";
+"zma_end_user_expectation_join_within_hours" = "Tukihenkilö on kanssasi %@ tunnin sisällä";
+"zma_end_user_expectation_join_within_minute" = "Tukihenkilö on kanssasi %@ minuutin sisällä";
+"zma_end_user_expectation_join_within_minutes" = "Tukihenkilö on kanssasi %@ minuutin sisällä";
+"zma_end_user_expectation_up_next" = "Olet seuraavana";
 "zma_form_dropdown_field_accessibility_hint" = "Muokkaa kaksoisnapauttamalla";
 "zma_form_dropdown_field_accessibility_label" = "Pudotusvalikko, jossa on %@ vaihtoehtoa";
 "zma_form_dropdown_singular_field_accessibility_label" = "Pudotusvalikko, jossa on 1 vaihtoehto";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Sivun lataaminen epäonnistui";
 "zma_guide_tap_to_retry" = "Yritä uudelleen napauttamalla";
 "zma_header_subtitle_accessibility_label" = "Iskulause:";
-"zma_header_title_accessibility_label" = "Brändin nimi:";
 "zma_image_message_accessibility_label" = "Avaa kaksoisnapauttamalla";
 "zma_inbound_text_message_accssibility_label" = "Viesti vastaanotettu:";
 "zma_message_author_accessibility_label" = "Lähettäjä";

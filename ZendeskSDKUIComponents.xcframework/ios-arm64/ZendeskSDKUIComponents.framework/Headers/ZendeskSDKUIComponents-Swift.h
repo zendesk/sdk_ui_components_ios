@@ -370,6 +370,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleViewerView")
 
 
 
+
 @class UITableView;
 
 @interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDataSource>
@@ -380,7 +381,6 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleViewerView")
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForFooterInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24ArticleViewerWebViewCell")
@@ -775,6 +775,14 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16UnreadBannerView")
 - (void)layoutSubviews;
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+SWIFT_CLASS("_TtC22ZendeskSDKUIComponents18WaitTimeBannerView")
+@interface WaitTimeBannerView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 

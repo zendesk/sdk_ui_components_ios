@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ mesaje necitite";
 "zma_dropdown_view_accessibility_announce" = "Listă cu %@ opțiuni";
 "zma_dropdown_view_singular_accessibility_announce" = "Listă cu 1 opțiune";
+"zma_end_user_expectation_join_in_about_days" = "Un agent vi se va alătura în aproximativ %@ zile";
+"zma_end_user_expectation_join_in_about_hours" = "Un agent vi se va alătura în aproximativ %@ ore";
+"zma_end_user_expectation_join_in_about_minute" = "Un agent vi se va alătura în aproximativ %@ minut";
+"zma_end_user_expectation_join_in_about_minutes" = "Un agent vi se va alătura în aproximativ %@ minute";
+"zma_end_user_expectation_join_in_days" = "Un agent vi se va alătura %@-%@ zile";
+"zma_end_user_expectation_join_in_hours" = "Un agent vi se va alătura %@-%@ ore";
+"zma_end_user_expectation_join_in_minutes" = "Un agent vi se va alătura în %@ - %@ minute";
+"zma_end_user_expectation_join_shortly" = "Un agent vă va ajuta în curând";
+"zma_end_user_expectation_join_within_days" = "Un agent vi se va alătura în termen de %@ zile";
+"zma_end_user_expectation_join_within_hours" = "Un agent vi se va alătura în termen de %@ ore";
+"zma_end_user_expectation_join_within_minute" = "Un agent vi se va alătura într-un %@ minut";
+"zma_end_user_expectation_join_within_minutes" = "Un agent vi se va alătura în termen de %@ minute";
+"zma_end_user_expectation_up_next" = "Dumneavoastră urmați";
 "zma_form_dropdown_field_accessibility_hint" = "Atingeți de două ori pentru a edita";
 "zma_form_dropdown_field_accessibility_label" = "Listă derulantă cu %@ opțiuni";
 "zma_form_dropdown_singular_field_accessibility_label" = "Listă derulantă cu 1 opțiune";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Pagina nu a putut fi încărcată";
 "zma_guide_tap_to_retry" = "Atingeți pentru a reîncerca";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
-"zma_header_title_accessibility_label" = "Nume marcă:";
 "zma_image_message_accessibility_label" = "Atingeți de două ori pentru a deschide";
 "zma_inbound_text_message_accssibility_label" = "Mesaj primit:";
 "zma_message_author_accessibility_label" = "Expeditor";

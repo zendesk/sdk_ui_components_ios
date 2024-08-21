@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ ongelezen berichten";
 "zma_dropdown_view_accessibility_announce" = "Lijst met %@ keuzes";
 "zma_dropdown_view_singular_accessibility_announce" = "Lijst met 1 keuze";
+"zma_end_user_expectation_join_in_about_days" = "Een agent komt over ongeveer %@ dag bij u";
+"zma_end_user_expectation_join_in_about_hours" = "Een agent komt over ongeveer %@ uur bij u";
+"zma_end_user_expectation_join_in_about_minute" = "Een agent komt over ongeveer %@ minuut bij u";
+"zma_end_user_expectation_join_in_about_minutes" = "Een agent komt over ongeveer %@ minuten bij u";
+"zma_end_user_expectation_join_in_days" = "Een agent komt over %@-%@ dagen bij u";
+"zma_end_user_expectation_join_in_hours" = "Een agent komt over %@-%@ uur bij u";
+"zma_end_user_expectation_join_in_minutes" = "Een agent komt over %@-%@ minuten bij u";
+"zma_end_user_expectation_join_shortly" = "Er komt zo dadelijk een agent bij u";
+"zma_end_user_expectation_join_within_days" = "Een agent komt binnen %@ dagen bij u";
+"zma_end_user_expectation_join_within_hours" = "Een agent komt binnen %@ uur bij u";
+"zma_end_user_expectation_join_within_minute" = "Een agent komt binnen %@ minuut bij u";
+"zma_end_user_expectation_join_within_minutes" = "Een agent komt binnen %@ minuten bij u";
+"zma_end_user_expectation_up_next" = "U bent aan de beurt";
 "zma_form_dropdown_field_accessibility_hint" = "Dubbeltik om te bewerken";
 "zma_form_dropdown_field_accessibility_label" = "Vervolgkeuzelijst met %@ keuzes";
 "zma_form_dropdown_singular_field_accessibility_label" = "Vervolgkeuzelijst met 1 keuze";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Pagina kan niet laden";
 "zma_guide_tap_to_retry" = "Tik om het opnieuw te proberen";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
-"zma_header_title_accessibility_label" = "Merknaam:";
 "zma_image_message_accessibility_label" = "Dubbeltik om te openen";
 "zma_inbound_text_message_accssibility_label" = "Bericht ontvangen:";
 "zma_message_author_accessibility_label" = "Afzender";

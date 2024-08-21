@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ okunmamış mesaj";
 "zma_dropdown_view_accessibility_announce" = "%@ seçenekli liste";
 "zma_dropdown_view_singular_accessibility_announce" = "1 seçenekli liste";
+"zma_end_user_expectation_join_in_about_days" = "Yaklaşık %@ gün içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_in_about_hours" = "Yaklaşık %@ saat içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_in_about_minute" = "Yaklaşık %@ dakika içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_in_about_minutes" = "Yaklaşık %@ dakika içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_in_days" = "%@-%@ gün sonra bir temsilci size katılacak";
+"zma_end_user_expectation_join_in_hours" = "%@-%@ saat sonra bir temsilci size katılacak";
+"zma_end_user_expectation_join_in_minutes" = "%@-%@ dakika sonra bir temsilci size katılacak";
+"zma_end_user_expectation_join_shortly" = "Bir temsilci kısa süre içinde sizinle olacak";
+"zma_end_user_expectation_join_within_days" = "%@ gün içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_within_hours" = "%@ saat içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_within_minute" = "%@ dakika içinde bir temsilci size katılacak";
+"zma_end_user_expectation_join_within_minutes" = "%@ dakika içinde bir temsilci size katılacak";
+"zma_end_user_expectation_up_next" = "Sıra sizde";
 "zma_form_dropdown_field_accessibility_hint" = "Düzenlemek için iki kez dokunun";
 "zma_form_dropdown_field_accessibility_label" = "%@ seçenekli açılır menü";
 "zma_form_dropdown_singular_field_accessibility_label" = "1 seçenekli açılır menü";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Sayfa yüklenemedi";
 "zma_guide_tap_to_retry" = "Yeniden denemek için dokun";
 "zma_header_subtitle_accessibility_label" = "Etiket satırı:";
-"zma_header_title_accessibility_label" = "Marka adı:";
 "zma_image_message_accessibility_label" = "Açmak için iki kez dokunun";
 "zma_inbound_text_message_accssibility_label" = "Mesaj alındı:";
 "zma_message_author_accessibility_label" = "Gönderen";

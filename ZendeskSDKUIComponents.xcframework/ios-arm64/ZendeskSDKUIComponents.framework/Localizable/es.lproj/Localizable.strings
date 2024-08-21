@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ mensajes sin leer";
 "zma_dropdown_view_accessibility_announce" = "Lista con %@ opciones";
 "zma_dropdown_view_singular_accessibility_announce" = "Lista con 1 opción";
+"zma_end_user_expectation_join_in_about_days" = "Un agente lo atenderá en aproximadamente %@ días";
+"zma_end_user_expectation_join_in_about_hours" = "Un agente lo atenderá en aproximadamente %@ horas";
+"zma_end_user_expectation_join_in_about_minute" = "Un agente lo atenderá en aproximadamente %@ minuto";
+"zma_end_user_expectation_join_in_about_minutes" = "Un agente lo atenderá en aproximadamente %@ minutos";
+"zma_end_user_expectation_join_in_days" = "Un agente lo atenderá en %@ a %@ días";
+"zma_end_user_expectation_join_in_hours" = "Un agente lo atenderá en %@ a %@ horas";
+"zma_end_user_expectation_join_in_minutes" = "Un agente lo atenderá en %@ a %@ minutos";
+"zma_end_user_expectation_join_shortly" = "Un agente lo atenderá en breve";
+"zma_end_user_expectation_join_within_days" = "Un agente lo atenderá dentro de %@ días";
+"zma_end_user_expectation_join_within_hours" = "Un agente lo atenderá dentro de %@ horas";
+"zma_end_user_expectation_join_within_minute" = "Un agente lo atenderá dentro de %@ minuto";
+"zma_end_user_expectation_join_within_minutes" = "Un agente lo atenderá dentro de %@ minutos";
+"zma_end_user_expectation_up_next" = "Usted es el siguiente";
 "zma_form_dropdown_field_accessibility_hint" = "Toque dos veces para editar";
 "zma_form_dropdown_field_accessibility_label" = "Menú desplegable con %@ opciones";
 "zma_form_dropdown_singular_field_accessibility_label" = "Menú desplegable con 1 opción";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "La página no se pudo cargar";
 "zma_guide_tap_to_retry" = "Tocar para volver a intentar";
 "zma_header_subtitle_accessibility_label" = "Eslogan:";
-"zma_header_title_accessibility_label" = "Nombre de marca:";
 "zma_image_message_accessibility_label" = "Toque dos veces para abrir";
 "zma_inbound_text_message_accssibility_label" = "Mensaje recibido:";
 "zma_message_author_accessibility_label" = "Remitente";

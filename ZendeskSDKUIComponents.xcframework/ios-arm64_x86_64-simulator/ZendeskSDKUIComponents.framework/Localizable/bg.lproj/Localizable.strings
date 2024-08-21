@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ непрочетени съобщения";
 "zma_dropdown_view_accessibility_announce" = "Списък с %@ възможности";
 "zma_dropdown_view_singular_accessibility_announce" = "Списък с 1 възможност";
+"zma_end_user_expectation_join_in_about_days" = "Консултант ще се присъедини към вас след около %@ дни";
+"zma_end_user_expectation_join_in_about_hours" = "Консултант ще се присъедини към вас след около %@ часа";
+"zma_end_user_expectation_join_in_about_minute" = "Консултант ще се присъедини към вас след около %@ минута";
+"zma_end_user_expectation_join_in_about_minutes" = "Консултант ще се присъедини към вас след около %@ минути";
+"zma_end_user_expectation_join_in_days" = "Консултант ще се присъедини към вас до %@ – %@ дни";
+"zma_end_user_expectation_join_in_hours" = "Консултант ще се присъедини към вас до %@ – %@ часа";
+"zma_end_user_expectation_join_in_minutes" = "Консултант ще се присъедини към вас до %@ – %@ минути";
+"zma_end_user_expectation_join_shortly" = "Консултант ще се свърже с вас скоро";
+"zma_end_user_expectation_join_within_days" = "Консултант ще се присъедини към вас в рамките на %@ дни";
+"zma_end_user_expectation_join_within_hours" = "Консултант ще се присъедини към вас в рамките на %@ часа";
+"zma_end_user_expectation_join_within_minute" = "Консултант ще се присъедини към вас в рамките на %@ минута";
+"zma_end_user_expectation_join_within_minutes" = "Консултант ще се присъедини към вас в рамките на %@ минути";
+"zma_end_user_expectation_up_next" = "Вие сте следващият";
 "zma_form_dropdown_field_accessibility_hint" = "Докоснете двукратно за редактиране";
 "zma_form_dropdown_field_accessibility_label" = "Падащо меню с %@ възможности за избор";
 "zma_form_dropdown_singular_field_accessibility_label" = "Падащо меню с 1 възможност за избор";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Неуспешно зареждане на страницата";
 "zma_guide_tap_to_retry" = "Докоснете за повторен опит";
 "zma_header_subtitle_accessibility_label" = "Слоган:";
-"zma_header_title_accessibility_label" = "Наименование на бранда:";
 "zma_image_message_accessibility_label" = "Докоснете двукратно за отваряне";
 "zma_inbound_text_message_accssibility_label" = "Съобщението е получено:";
 "zma_message_author_accessibility_label" = "Подател";

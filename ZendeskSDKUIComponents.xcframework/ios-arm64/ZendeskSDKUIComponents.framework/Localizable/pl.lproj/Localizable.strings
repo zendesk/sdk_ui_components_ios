@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ nieprzeczytane(-ych) wiadomości";
 "zma_dropdown_view_accessibility_announce" = "Lista z %@ wyborami";
 "zma_dropdown_view_singular_accessibility_announce" = "Lista z 1 wyborem";
+"zma_end_user_expectation_join_in_about_days" = "Agent dołączy do Ciebie za około %@ dni";
+"zma_end_user_expectation_join_in_about_hours" = "Agent dołączy do Ciebie za około %@ godz.";
+"zma_end_user_expectation_join_in_about_minute" = "Agent dołączy do Ciebie za około %@ min";
+"zma_end_user_expectation_join_in_about_minutes" = "Agent dołączy do Ciebie za około %@ min";
+"zma_end_user_expectation_join_in_days" = "Agent dołączy do Ciebie za %@–%@ dni";
+"zma_end_user_expectation_join_in_hours" = "Agent dołączy do Ciebie za %@–%@ godz.";
+"zma_end_user_expectation_join_in_minutes" = "Agent dołączy do Ciebie za %@–%@ min";
+"zma_end_user_expectation_join_shortly" = "Agent wkrótce się do Ciebie odezwie";
+"zma_end_user_expectation_join_within_days" = "Agent dołączy do Ciebie w ciągu %@ dni";
+"zma_end_user_expectation_join_within_hours" = "Agent dołączy do Ciebie w ciągu %@ godz.";
+"zma_end_user_expectation_join_within_minute" = "Agent dołączy do Ciebie w ciągu %@ min";
+"zma_end_user_expectation_join_within_minutes" = "Agent dołączy do Ciebie w ciągu %@ min";
+"zma_end_user_expectation_up_next" = "Ty jesteś następny";
 "zma_form_dropdown_field_accessibility_hint" = "Stuknij dwukrotnie, aby edytować";
 "zma_form_dropdown_field_accessibility_label" = "Lista rozwijana z %@ wyborami";
 "zma_form_dropdown_singular_field_accessibility_label" = "Lista rozwijana z 1 wyborem";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Nie udało się załadować strony";
 "zma_guide_tap_to_retry" = "Stuknij, aby spróbować ponownie";
 "zma_header_subtitle_accessibility_label" = "Tagline:";
-"zma_header_title_accessibility_label" = "Nazwa marki:";
 "zma_image_message_accessibility_label" = "Stuknij dwukrotnie, aby otworzyć";
 "zma_inbound_text_message_accssibility_label" = "Otrzymana wiadomość:";
 "zma_message_author_accessibility_label" = "Nadawca";

@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ 條未讀訊息";
 "zma_dropdown_view_accessibility_announce" = "包含 %@ 個選項的清單";
 "zma_dropdown_view_singular_accessibility_announce" = "包含 1 個選項的清單";
+"zma_end_user_expectation_join_in_about_days" = "一名代理將在約 %@ 天內加入";
+"zma_end_user_expectation_join_in_about_hours" = "一名代理將在約 %@ 小時內加入";
+"zma_end_user_expectation_join_in_about_minute" = "一名代理將在約 %@ 分鐘內加入";
+"zma_end_user_expectation_join_in_about_minutes" = "一名代理將在約 %@ 分鐘內加入";
+"zma_end_user_expectation_join_in_days" = "一名代理將在 %@-%@ 天內加入";
+"zma_end_user_expectation_join_in_hours" = "一名代理將在 %@-%@ 小時內加入";
+"zma_end_user_expectation_join_in_minutes" = "一名代理將在 %@-%@ 分鐘內加入";
+"zma_end_user_expectation_join_shortly" = "代理將很快為您服務";
+"zma_end_user_expectation_join_within_days" = "一名代理將在 %@ 天內加入";
+"zma_end_user_expectation_join_within_hours" = "一名代理將在 %@ 小時內加入";
+"zma_end_user_expectation_join_within_minute" = "一名代理將在 %@ 分鐘內加入";
+"zma_end_user_expectation_join_within_minutes" = "一名代理將在 %@ 分鐘內加入";
+"zma_end_user_expectation_up_next" = "您是下一位";
 "zma_form_dropdown_field_accessibility_hint" = "點兩下以編輯";
 "zma_form_dropdown_field_accessibility_label" = "有 %@ 個選項的下拉式功能表";
 "zma_form_dropdown_singular_field_accessibility_label" = "有 1 個選項的下拉式功能表";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "載入頁面失敗";
 "zma_guide_tap_to_retry" = "點選以重試";
 "zma_header_subtitle_accessibility_label" = "標語：";
-"zma_header_title_accessibility_label" = "品牌名稱：";
 "zma_image_message_accessibility_label" = "點兩下以開啟";
 "zma_inbound_text_message_accssibility_label" = "已接收訊息：";
 "zma_message_author_accessibility_label" = "寄件者";

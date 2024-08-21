@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ uleste meldinger";
 "zma_dropdown_view_accessibility_announce" = "Liste med %@ valg";
 "zma_dropdown_view_singular_accessibility_announce" = "Liste med 1 valg";
+"zma_end_user_expectation_join_in_about_days" = "En kundekonsulent hjelper deg om ca %@ dager";
+"zma_end_user_expectation_join_in_about_hours" = "En kundekonsulent hjelper deg om ca %@ timer";
+"zma_end_user_expectation_join_in_about_minute" = "En kundekonsulent hjelper deg om ca %@ minutt";
+"zma_end_user_expectation_join_in_about_minutes" = "En kundekonsulent hjelper deg om ca %@ minutter";
+"zma_end_user_expectation_join_in_days" = "En kundekonsulent hjelper deg om %@-%@ dager";
+"zma_end_user_expectation_join_in_hours" = "En kundekonsulent hjelper deg om %@-%@ timer";
+"zma_end_user_expectation_join_in_minutes" = "En kundekonsulent hjelper deg om %@-%@ minutter";
+"zma_end_user_expectation_join_shortly" = "Du får høre fra en kundekonsulent snart";
+"zma_end_user_expectation_join_within_days" = "En kundekonsulent hjelper deg innen %@ dager";
+"zma_end_user_expectation_join_within_hours" = "En kundekonsulent hjelper deg innen %@ timer";
+"zma_end_user_expectation_join_within_minute" = "En kundekonsulent hjelper deg innen %@ minutt";
+"zma_end_user_expectation_join_within_minutes" = "En kundekonsulent hjelper deg innen %@ minutter";
+"zma_end_user_expectation_up_next" = "Du er nestemann";
 "zma_form_dropdown_field_accessibility_hint" = "Dobbelttrykk for å redigere";
 "zma_form_dropdown_field_accessibility_label" = "Rullegardinmeny med %@ valg";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rullegardinmeny med 1 valg";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Siden kunne ikke lastes inn";
 "zma_guide_tap_to_retry" = "Trykk for å prøve igjen";
 "zma_header_subtitle_accessibility_label" = "Slagord:";
-"zma_header_title_accessibility_label" = "Merkevarenavn:";
 "zma_image_message_accessibility_label" = "Dobbelttrykk for å åpne";
 "zma_inbound_text_message_accssibility_label" = "Melding mottatt:";
 "zma_message_author_accessibility_label" = "Avsender";

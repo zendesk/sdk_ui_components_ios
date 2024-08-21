@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "Непрочитанных сообщений: %@";
 "zma_dropdown_view_accessibility_announce" = "Список с вариантами: %@";
 "zma_dropdown_view_singular_accessibility_announce" = "Список с 1 вариантом";
+"zma_end_user_expectation_join_in_about_days" = "Агент присоединится к вам примерно через %@ дн.";
+"zma_end_user_expectation_join_in_about_hours" = "Агент присоединится к вам примерно через %@ ч.";
+"zma_end_user_expectation_join_in_about_minute" = "Агент присоединится к вам примерно через %@ минуту";
+"zma_end_user_expectation_join_in_about_minutes" = "Агент присоединится к вам примерно через %@ мин.";
+"zma_end_user_expectation_join_in_days" = "Агент присоединится к вам через %@–%@ дн.";
+"zma_end_user_expectation_join_in_hours" = "Агент присоединится к вам через %@–%@ ч.";
+"zma_end_user_expectation_join_in_minutes" = "Агент присоединится к вам через %@–%@ мин.";
+"zma_end_user_expectation_join_shortly" = "Агент скоро с вами свяжется";
+"zma_end_user_expectation_join_within_days" = "Агент присоединится к вам в течение %@ дн.";
+"zma_end_user_expectation_join_within_hours" = "Агент присоединится к вам в течение %@ ч.";
+"zma_end_user_expectation_join_within_minute" = "Агент присоединится к вам в течение %@ минуты";
+"zma_end_user_expectation_join_within_minutes" = "Агент присоединится к вам в течение %@ мин.";
+"zma_end_user_expectation_up_next" = "Вы следующие";
 "zma_form_dropdown_field_accessibility_hint" = "Дважды нажмите для редактирования";
 "zma_form_dropdown_field_accessibility_label" = "Раскрывающийся список с таким количеством вариантов: %@";
 "zma_form_dropdown_singular_field_accessibility_label" = "Раскрывающийся список с 1 вариантом";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Не удалось загрузить страницу";
 "zma_guide_tap_to_retry" = "Нажмите, чтобы повторить попытку";
 "zma_header_subtitle_accessibility_label" = "Слоган:";
-"zma_header_title_accessibility_label" = "Название бренда:";
 "zma_image_message_accessibility_label" = "Нажмите дважды, чтобы открыть";
 "zma_inbound_text_message_accssibility_label" = "Получено сообщение:";
 "zma_message_author_accessibility_label" = "Отправитель";

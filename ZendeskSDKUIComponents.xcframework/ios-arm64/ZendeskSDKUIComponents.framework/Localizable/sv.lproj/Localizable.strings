@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ olästa meddelanden";
 "zma_dropdown_view_accessibility_announce" = "Lista med %@ alternativ";
 "zma_dropdown_view_singular_accessibility_announce" = "Lista med 1 alternativ";
+"zma_end_user_expectation_join_in_about_days" = "En agent kommer att ansluta sig till dig om cirka %@ dagar";
+"zma_end_user_expectation_join_in_about_hours" = "En agent kommer att ansluta sig till dig om cirka %@ timmar";
+"zma_end_user_expectation_join_in_about_minute" = "En agent kommer att ansluta sig till dig om cirka %@ minut";
+"zma_end_user_expectation_join_in_about_minutes" = "En agent kommer att ansluta sig till dig om cirka %@ minuter";
+"zma_end_user_expectation_join_in_days" = "En agent kommer att ansluta sig till dig om %@-%@ dagar";
+"zma_end_user_expectation_join_in_hours" = "En agent kommer att ansluta sig till dig om %@-%@ timmar";
+"zma_end_user_expectation_join_in_minutes" = "En agent kommer att ansluta sig till dig om %@-%@ minuter";
+"zma_end_user_expectation_join_shortly" = "En agent kommer att ansluta sig till dig inom kort";
+"zma_end_user_expectation_join_within_days" = "En agent kommer att ansluta sig till dig inom %@ dagar";
+"zma_end_user_expectation_join_within_hours" = "En agent kommer att ansluta sig till dig inom %@ timmar";
+"zma_end_user_expectation_join_within_minute" = "En agent kommer att ansluta sig till dig inom %@ minut";
+"zma_end_user_expectation_join_within_minutes" = "En agent kommer att ansluta sig till dig inom %@ minuter";
+"zma_end_user_expectation_up_next" = "Du står på tur";
 "zma_form_dropdown_field_accessibility_hint" = "Tryck snabbt två gånger för att redigera";
 "zma_form_dropdown_field_accessibility_label" = "Listruta med %@ val";
 "zma_form_dropdown_singular_field_accessibility_label" = "Lustruta med 1 val";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Det gick inte att ladda sidan";
 "zma_guide_tap_to_retry" = "Tryck för att försöka igen";
 "zma_header_subtitle_accessibility_label" = "Tagline:";
-"zma_header_title_accessibility_label" = "Märkets namn:";
 "zma_image_message_accessibility_label" = "Dubbeltryck för att öppna";
 "zma_inbound_text_message_accssibility_label" = "Meddelande mottaget:";
 "zma_message_author_accessibility_label" = "Avsändare";

@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ ข้อความที่ยังไม่ได้อ่าน";
 "zma_dropdown_view_accessibility_announce" = "รายการที่มี %@ ตัวเลือก";
 "zma_dropdown_view_singular_accessibility_announce" = "รายการที่มี 1 ตัวเลือก";
+"zma_end_user_expectation_join_in_about_days" = "เจ้าหน้าที่จะเข้าร่วมกับคุณในอีกประมาณ %@ วัน";
+"zma_end_user_expectation_join_in_about_hours" = "เจ้าหน้าที่จะเข้าร่วมกับคุณในอีกประมาณ %@ ชั่วโมง";
+"zma_end_user_expectation_join_in_about_minute" = "เจ้าหน้าที่จะเข้าร่วมกับคุณในอีกประมาณ %@ นาที";
+"zma_end_user_expectation_join_in_about_minutes" = "เจ้าหน้าที่จะเข้าร่วมกับคุณในอีกประมาณ %@ นาที";
+"zma_end_user_expectation_join_in_days" = "เจ้าหน้าที่นจะเข้าร่วมกับคุณใน %@ - %@ วัน";
+"zma_end_user_expectation_join_in_hours" = "เจ้าหน้าที่จะเข้าร่วมกับคุณใน %@ - %@ ชั่วโมง";
+"zma_end_user_expectation_join_in_minutes" = "เจ้าหน้าที่จะเข้าร่วมกับคุณใน %@-%@ นาที";
+"zma_end_user_expectation_join_shortly" = "เจ้าหน้าที่จะเข้าร่วมกับคุณในไม่ช้า";
+"zma_end_user_expectation_join_within_days" = "เจ้าหน้าที่จะเข้าร่วมกับคุณภายใน %@ วัน";
+"zma_end_user_expectation_join_within_hours" = "เจ้าหน้าที่จะเข้าร่วมกับคุณภายใน %@ ชั่วโมง";
+"zma_end_user_expectation_join_within_minute" = "เจ้าหน้าที่จะเข้าร่วมกับคุณภายใน %@ นาที";
+"zma_end_user_expectation_join_within_minutes" = "เจ้าหน้าที่จะเข้าร่วมกับคุณภายใน %@ นาที";
+"zma_end_user_expectation_up_next" = "คุณจะเป็นรายถัดไป";
 "zma_form_dropdown_field_accessibility_hint" = "แตะสองครั้งเพื่อแก้ไข";
 "zma_form_dropdown_field_accessibility_label" = "ดรอปดาวน์พร้อม %@ ตัวเลือก";
 "zma_form_dropdown_singular_field_accessibility_label" = "ดรอปดาวน์พร้อม 1 ตัวเลือก";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "โหลดหน้าเว็บไม่สําเร็จ";
 "zma_guide_tap_to_retry" = "แตะเพื่อลองอีกครั้ง";
 "zma_header_subtitle_accessibility_label" = "ข้อความประกอบ:";
-"zma_header_title_accessibility_label" = "ชื่อแบรนด์:";
 "zma_image_message_accessibility_label" = "แตะสองครั้งเพื่อเปิด";
 "zma_inbound_text_message_accssibility_label" = "ข้อความที่ได้รับ:";
 "zma_message_author_accessibility_label" = "ผู้ส่ง";

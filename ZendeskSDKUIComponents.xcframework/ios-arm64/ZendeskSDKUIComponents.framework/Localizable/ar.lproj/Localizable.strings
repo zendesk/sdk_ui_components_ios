@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "رسائل جديدة (%@)";
 "zma_dropdown_view_accessibility_announce" = "قائمة تضم خيارات %@";
 "zma_dropdown_view_singular_accessibility_announce" = "قائمة تضم خيارًا واحدًا";
+"zma_end_user_expectation_join_in_about_days" = "سوف ينضم إليك وكيل خلال %@ يوم/أيام";
+"zma_end_user_expectation_join_in_about_hours" = "سوف ينضم إليك وكيل خلال %@ ساعة/ساعات";
+"zma_end_user_expectation_join_in_about_minute" = "سوف ينضم إليك وكيل خلال %@ دقيقة";
+"zma_end_user_expectation_join_in_about_minutes" = "سوف ينضم إليك وكيل خلال %@ دقيقة/دقائق";
+"zma_end_user_expectation_join_in_days" = "سوف ينضم إليك وكيل خلال %@-%@ يوم/أيام";
+"zma_end_user_expectation_join_in_hours" = "سوف ينضم إليك وكيل خلال %@-%@ ساعة/ساعات";
+"zma_end_user_expectation_join_in_minutes" = "سوف ينضم إليك وكيل خلال %@-%@ دقيقة/دقائق";
+"zma_end_user_expectation_join_shortly" = "سيتواصل معك أحد الوكلاء بعد قليل";
+"zma_end_user_expectation_join_within_days" = "سوف ينضم إليك وكيل خلال %@ يوم/أيام";
+"zma_end_user_expectation_join_within_hours" = "سوف ينضم إليك وكيل خلال %@ ساعة/ساعات";
+"zma_end_user_expectation_join_within_minute" = "سوف ينضم إليك وكيل خلال %@ دقيقة";
+"zma_end_user_expectation_join_within_minutes" = "سوف ينضم إليك وكيل خلال %@ دقيقة/دقائق";
+"zma_end_user_expectation_up_next" = "أنت التالي";
 "zma_form_dropdown_field_accessibility_hint" = "اضغط ضغطة مزدوجة للتحرير";
 "zma_form_dropdown_field_accessibility_label" = "قائمة منسدلة تضم %@ مع الخيارات";
 "zma_form_dropdown_singular_field_accessibility_label" = "قائمة منسدلة تضم خيارًا واحدًا";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "فشل تحميل الصفحة";
 "zma_guide_tap_to_retry" = "اضغط لإعادة المحاولة";
 "zma_header_subtitle_accessibility_label" = "سطر الوصف:";
-"zma_header_title_accessibility_label" = "اسم العلامة التجارية:";
 "zma_image_message_accessibility_label" = "اضغط ضغطة مزدوجة للفتح";
 "zma_inbound_text_message_accssibility_label" = "موعد تلقي الرسالة:";
 "zma_message_author_accessibility_label" = "المُرسِل";

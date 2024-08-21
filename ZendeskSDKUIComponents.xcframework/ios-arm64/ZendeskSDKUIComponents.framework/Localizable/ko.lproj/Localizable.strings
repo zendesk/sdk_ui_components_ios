@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@개의 읽지 않은 메시지";
 "zma_dropdown_view_accessibility_announce" = "%@가지 선택 항목이 있는 목록";
 "zma_dropdown_view_singular_accessibility_announce" = "1가지 선택 항목이 있는 목록";
+"zma_end_user_expectation_join_in_about_days" = "약 %@일 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_in_about_hours" = "약 %@시간 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_in_about_minute" = "약 %@분 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_in_about_minutes" = "약 %@분 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_in_days" = "%@~%@일 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_in_hours" = "%@~%@시간 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_in_minutes" = "%@~%@분 후 상담사가 참여합니다.";
+"zma_end_user_expectation_join_shortly" = "상담사가 곧 연락 드릴 것입니다.";
+"zma_end_user_expectation_join_within_days" = "%@일 내 상담사가 참여합니다.";
+"zma_end_user_expectation_join_within_hours" = "%@시간 내 상담사가 참여합니다.";
+"zma_end_user_expectation_join_within_minute" = "%@분 내 상담사가 참여합니다.";
+"zma_end_user_expectation_join_within_minutes" = "%@분 내 상담사가 참여합니다.";
+"zma_end_user_expectation_up_next" = "다음 차례입니다.";
 "zma_form_dropdown_field_accessibility_hint" = "편집하려면 두 번 탭하세요.";
 "zma_form_dropdown_field_accessibility_label" = "%@개 선택 항목이 있는 드롭다운";
 "zma_form_dropdown_singular_field_accessibility_label" = "1개 선택 항목이 있는 드롭다운";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "페이지를 로드하지 못함";
 "zma_guide_tap_to_retry" = "다시 시도하려면 탭하세요";
 "zma_header_subtitle_accessibility_label" = "태그라인:";
-"zma_header_title_accessibility_label" = "브랜드 이름:";
 "zma_image_message_accessibility_label" = "열려면 두 번 탭하세요.";
 "zma_inbound_text_message_accssibility_label" = "메시지 수신됨:";
 "zma_message_author_accessibility_label" = "보낸 사람";

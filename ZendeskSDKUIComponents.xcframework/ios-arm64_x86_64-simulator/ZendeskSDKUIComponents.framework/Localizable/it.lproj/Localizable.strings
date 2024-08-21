@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ messaggi non letti";
 "zma_dropdown_view_accessibility_announce" = "Elenco con %@ scelte";
 "zma_dropdown_view_singular_accessibility_announce" = "Elenco con 1 scelta";
+"zma_end_user_expectation_join_in_about_days" = "Un agente ti risponderà tra circa %@ giorni";
+"zma_end_user_expectation_join_in_about_hours" = "Un agente ti risponderà tra circa %@ ore";
+"zma_end_user_expectation_join_in_about_minute" = "Un agente ti risponderà tra circa %@ minuto";
+"zma_end_user_expectation_join_in_about_minutes" = "Un agente ti risponderà tra circa %@ minuti";
+"zma_end_user_expectation_join_in_days" = "Un agente ti risponderà tra %@-%@ giorni";
+"zma_end_user_expectation_join_in_hours" = "Un agente ti risponderà tra %@-%@ ore";
+"zma_end_user_expectation_join_in_minutes" = "Un agente ti risponderà tra %@-%@ minuti";
+"zma_end_user_expectation_join_shortly" = "Un agente ti risponderà a breve";
+"zma_end_user_expectation_join_within_days" = "Un agente ti risponderà entro %@ giorni";
+"zma_end_user_expectation_join_within_hours" = "Un agente ti risponderà entro %@ ore";
+"zma_end_user_expectation_join_within_minute" = "Un agente ti risponderà entro %@ minuto";
+"zma_end_user_expectation_join_within_minutes" = "Un agente ti risponderà entro %@ minuti";
+"zma_end_user_expectation_up_next" = "Sei il prossimo";
 "zma_form_dropdown_field_accessibility_hint" = "Tocca due volte per modificare";
 "zma_form_dropdown_field_accessibility_label" = "Menu a discesa con %@ scelte";
 "zma_form_dropdown_singular_field_accessibility_label" = "Menu a discesa con 1 scelta";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Caricamento pagina non riuscito";
 "zma_guide_tap_to_retry" = "Tocca per riprovare";
 "zma_header_subtitle_accessibility_label" = "Didascalia:";
-"zma_header_title_accessibility_label" = "Nome brand:";
 "zma_image_message_accessibility_label" = "Tocca due volte per aprire";
 "zma_inbound_text_message_accssibility_label" = "Messaggio ricevuto:";
 "zma_message_author_accessibility_label" = "Mittente";

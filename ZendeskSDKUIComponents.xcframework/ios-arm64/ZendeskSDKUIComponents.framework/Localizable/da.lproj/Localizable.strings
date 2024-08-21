@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ ulæste meddelelser";
 "zma_dropdown_view_accessibility_announce" = "Liste med %@ valg";
 "zma_dropdown_view_singular_accessibility_announce" = "Liste med 1 valg";
+"zma_end_user_expectation_join_in_about_days" = "En agent vil hjælpe dig om ca. %@ dage";
+"zma_end_user_expectation_join_in_about_hours" = "En agent vil hjælpe dig om ca. %@ timer";
+"zma_end_user_expectation_join_in_about_minute" = "En agent vil hjælpe dig om ca. %@ minut";
+"zma_end_user_expectation_join_in_about_minutes" = "En agent vil hjælpe dig om ca. %@ minutter";
+"zma_end_user_expectation_join_in_days" = "En agent vil hjælpe dig om %@-%@ dage";
+"zma_end_user_expectation_join_in_hours" = "En agent vil hjælpe dig om %@-%@ timer";
+"zma_end_user_expectation_join_in_minutes" = "En agent vil hjælpe dig om %@-%@ minutter";
+"zma_end_user_expectation_join_shortly" = "En agent vil kontakte dig om et øjeblik";
+"zma_end_user_expectation_join_within_days" = "En agent vil hjælpe dig i løbet af %@ dage";
+"zma_end_user_expectation_join_within_hours" = "En agent vil hjælpe dig i løbet af %@ timer";
+"zma_end_user_expectation_join_within_minute" = "En agent vil hjælpe dig i løbet af %@ minut";
+"zma_end_user_expectation_join_within_minutes" = "En agent vil hjælpe dig i løbet af %@ minutter";
+"zma_end_user_expectation_up_next" = "Du er nr. 1 i køen";
 "zma_form_dropdown_field_accessibility_hint" = "Dobbelttryk for at redigere";
 "zma_form_dropdown_field_accessibility_label" = "Rullemenu med %@ valg";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rullemenu med 1 valg";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Siden kunne ikke indlæses";
 "zma_guide_tap_to_retry" = "Tryk for at prøve igen";
 "zma_header_subtitle_accessibility_label" = "Slogan:";
-"zma_header_title_accessibility_label" = "Brandnavn:";
 "zma_image_message_accessibility_label" = "Dobbelttryk for at åbne";
 "zma_inbound_text_message_accssibility_label" = "Meddelelse modtaget:";
 "zma_message_author_accessibility_label" = "Afsender";

@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "Nepřečtené zprávy: %@";
 "zma_dropdown_view_accessibility_announce" = "Seznam s %@ možnostmi";
 "zma_dropdown_view_singular_accessibility_announce" = "Seznam s 1 možností";
+"zma_end_user_expectation_join_in_about_days" = "Agent se s vámi spojí za několik dní (asi %@).";
+"zma_end_user_expectation_join_in_about_hours" = "Agent se s vámi spojí za několik hodin (asi %@).";
+"zma_end_user_expectation_join_in_about_minute" = "Agent se s vámi spojí asi za %@ minutu.";
+"zma_end_user_expectation_join_in_about_minutes" = "Agent se s vámi spojí za několik minut (asi %@).";
+"zma_end_user_expectation_join_in_days" = "Agent se s vámi spojí za několik dní (%@–%@).";
+"zma_end_user_expectation_join_in_hours" = "Agent se s vámi spojí za několik hodin (%@–%@).";
+"zma_end_user_expectation_join_in_minutes" = "Agent se s vámi spojí za několik minut (%@–%@).";
+"zma_end_user_expectation_join_shortly" = "Agent se vám bude brzy věnovat.";
+"zma_end_user_expectation_join_within_days" = "Agent se s vámi spojí během několika dní (%@).";
+"zma_end_user_expectation_join_within_hours" = "Agent se s vámi spojí během několika hodin (%@).";
+"zma_end_user_expectation_join_within_minute" = "Agent se s vámi spojí během %@ minuty.";
+"zma_end_user_expectation_join_within_minutes" = "Agent se s vámi spojí během několika minut (%@).";
+"zma_end_user_expectation_up_next" = "Jste na řadě";
 "zma_form_dropdown_field_accessibility_hint" = "Upravit dvojím klepnutím";
 "zma_form_dropdown_field_accessibility_label" = "Rozbalovací seznam s %@ možnostmi";
 "zma_form_dropdown_singular_field_accessibility_label" = "Rozbalovací nabídka s 1 možností";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Stránku se nepodařilo načíst";
 "zma_guide_tap_to_retry" = "Klepnutím opakovat";
 "zma_header_subtitle_accessibility_label" = "Doplňující text:";
-"zma_header_title_accessibility_label" = "Název značky:";
 "zma_image_message_accessibility_label" = "Dvojitým klepnutím otevřít";
 "zma_inbound_text_message_accssibility_label" = "Zpráva přijata:";
 "zma_message_author_accessibility_label" = "Odesílatel";

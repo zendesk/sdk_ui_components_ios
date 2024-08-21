@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ הודעות שלא נקראו";
 "zma_dropdown_view_accessibility_announce" = "רשימה עם %@ אפשרויות";
 "zma_dropdown_view_singular_accessibility_announce" = "רשימה עם אפשרות אחת";
+"zma_end_user_expectation_join_in_about_days" = "נציג יצטרף אליך בערך בעוד %@ ימים";
+"zma_end_user_expectation_join_in_about_hours" = "נציג יצטרף אליך בערך בעוד %@ שעות";
+"zma_end_user_expectation_join_in_about_minute" = "נציג יצטרף אליך בערך בעוד דקה %@";
+"zma_end_user_expectation_join_in_about_minutes" = "נציג יצטרף אליך בערך בעוד %@ דקות";
+"zma_end_user_expectation_join_in_days" = "נציג יצטרף אליך תוך %@-%@ ימים";
+"zma_end_user_expectation_join_in_hours" = "נציג יצטרף אליך תוך %@-%@ שעות";
+"zma_end_user_expectation_join_in_minutes" = "נציג יצטרף אליך בעוד %@-%@ דקות";
+"zma_end_user_expectation_join_shortly" = "נציג ידבר אתך בהקדם";
+"zma_end_user_expectation_join_within_days" = "נציג יצטרף אליך בתוך %@ ימים";
+"zma_end_user_expectation_join_within_hours" = "יצטרף אליך בתוך %@ שעות";
+"zma_end_user_expectation_join_within_minute" = "יצטרף אליך תוך דקה %@";
+"zma_end_user_expectation_join_within_minutes" = "יצטרף אליך תוך %@ דקות";
+"zma_end_user_expectation_up_next" = "אתה הבא בתור";
 "zma_form_dropdown_field_accessibility_hint" = "הקש פעמיים כדי לערוך";
 "zma_form_dropdown_field_accessibility_label" = "תפריט נפתח עם %@ אפשרויות";
 "zma_form_dropdown_singular_field_accessibility_label" = "תפריט נפתח עם אפשרות אחת";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "טעינת הדף נכשלה";
 "zma_guide_tap_to_retry" = "הקש לניסיון נוסף";
 "zma_header_subtitle_accessibility_label" = "כותרת משנה:";
-"zma_header_title_accessibility_label" = "שם מותג:";
 "zma_image_message_accessibility_label" = "הקש פעמיים כדי לפתוח";
 "zma_inbound_text_message_accssibility_label" = "ההודעה שהתקבלה:";
 "zma_message_author_accessibility_label" = "שולח";

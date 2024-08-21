@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ μη διαβασμένα μηνύματα";
 "zma_dropdown_view_accessibility_announce" = "Λίστα με %@ επιλογές";
 "zma_dropdown_view_singular_accessibility_announce" = "Λίστα με 1 επιλογή";
+"zma_end_user_expectation_join_in_about_days" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε περίπου %@ ημέρες";
+"zma_end_user_expectation_join_in_about_hours" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε περίπου %@ ώρες";
+"zma_end_user_expectation_join_in_about_minute" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε περίπου %@ λεπτό";
+"zma_end_user_expectation_join_in_about_minutes" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε περίπου %@ λεπτά";
+"zma_end_user_expectation_join_in_days" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε %@-%@ ημέρες";
+"zma_end_user_expectation_join_in_hours" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε %@-%@ ώρες";
+"zma_end_user_expectation_join_in_minutes" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας σε %@-%@ λεπτά";
+"zma_end_user_expectation_join_shortly" = "Ένας εκπρόσωπος θα είναι μαζί σας σύντομα";
+"zma_end_user_expectation_join_within_days" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας εντός %@ ημερών";
+"zma_end_user_expectation_join_within_hours" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας εντός %@ ωρών";
+"zma_end_user_expectation_join_within_minute" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας εντός %@ λεπτού";
+"zma_end_user_expectation_join_within_minutes" = "Ένας εκπρόσωπος θα συνδεθεί μαζί σας εντός %@ λεπτών";
+"zma_end_user_expectation_up_next" = "Είστε οι επόμενοι";
 "zma_form_dropdown_field_accessibility_hint" = "Πατήστε δύο φορές για επεξεργασία";
 "zma_form_dropdown_field_accessibility_label" = "Αναπτυσσόμενο μενού με %@ επιλογές";
 "zma_form_dropdown_singular_field_accessibility_label" = "Αναπτυσσόμενο μενού με 1 επιλογή";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Η φόρτωση της σελίδας απέτυχε";
 "zma_guide_tap_to_retry" = "Πατήστε για επανάληψη";
 "zma_header_subtitle_accessibility_label" = "Λεζάντα:";
-"zma_header_title_accessibility_label" = "Όνομα επωνυμίας:";
 "zma_image_message_accessibility_label" = "Πατήστε δύο φορές για άνοιγμα";
 "zma_inbound_text_message_accssibility_label" = "Το μήνυμα ελήφθη:";
 "zma_message_author_accessibility_label" = "Αποστολέας";

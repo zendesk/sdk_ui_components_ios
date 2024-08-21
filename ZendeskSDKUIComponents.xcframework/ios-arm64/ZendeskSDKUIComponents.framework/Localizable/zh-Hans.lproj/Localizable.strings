@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ 条未读消息";
 "zma_dropdown_view_accessibility_announce" = "包含 %@ 个选项的列表";
 "zma_dropdown_view_singular_accessibility_announce" = "包含 1 个选项的列表";
+"zma_end_user_expectation_join_in_about_days" = "专员将在大约 %@ 天后加入您的对话";
+"zma_end_user_expectation_join_in_about_hours" = "专员将在大约 %@ 小时后加入您的对话";
+"zma_end_user_expectation_join_in_about_minute" = "专员将在大约 %@ 分钟后加入您的对话";
+"zma_end_user_expectation_join_in_about_minutes" = "专员将在大约 %@ 分钟后加入您的对话";
+"zma_end_user_expectation_join_in_days" = "专员将在 %@ 到 %@ 天后加入您的对话";
+"zma_end_user_expectation_join_in_hours" = "专员将在 %@ 到 %@ 小时后加入您的对话";
+"zma_end_user_expectation_join_in_minutes" = "专员将在 %@ 到 %@ 分钟后加入您的对话";
+"zma_end_user_expectation_join_shortly" = "专员将很快为您服务";
+"zma_end_user_expectation_join_within_days" = "专员将在 %@ 天内加入您的对话";
+"zma_end_user_expectation_join_within_hours" = "专员将在 %@ 小时内加入您的对话";
+"zma_end_user_expectation_join_within_minute" = "专员将在 %@ 分钟内加入您的对话";
+"zma_end_user_expectation_join_within_minutes" = "专员将在 %@ 分钟内加入您的对话";
+"zma_end_user_expectation_up_next" = "下一个就到您";
 "zma_form_dropdown_field_accessibility_hint" = "双击以编辑";
 "zma_form_dropdown_field_accessibility_label" = "包含 %@ 个选项的下拉列表";
 "zma_form_dropdown_singular_field_accessibility_label" = "包含 1 个选项的下拉列表";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "页面加载失败";
 "zma_guide_tap_to_retry" = "点击以重试";
 "zma_header_subtitle_accessibility_label" = "标语：";
-"zma_header_title_accessibility_label" = "品牌名称：";
 "zma_image_message_accessibility_label" = "双击以打开";
 "zma_inbound_text_message_accssibility_label" = "已收到的消息：";
 "zma_message_author_accessibility_label" = "发送人";

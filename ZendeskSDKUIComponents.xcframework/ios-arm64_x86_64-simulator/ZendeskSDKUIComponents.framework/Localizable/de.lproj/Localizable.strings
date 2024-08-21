@@ -11,6 +11,19 @@
 "zma_conversation_list_item_unread_messages_accessibility_label" = "%@ ungelesene Nachrichten";
 "zma_dropdown_view_accessibility_announce" = "Liste mit %@ Auswahlmöglichkeiten";
 "zma_dropdown_view_singular_accessibility_announce" = "Liste mit 1 Auswahlmöglichkeit";
+"zma_end_user_expectation_join_in_about_days" = "Ein Agent wird sich in ca. %@ Tagen bei Ihnen melden";
+"zma_end_user_expectation_join_in_about_hours" = "Ein Agent wird sich in ca. %@ Stunden bei Ihnen melden";
+"zma_end_user_expectation_join_in_about_minute" = "Ein Agent wird sich in ca. %@ Minute bei Ihnen melden";
+"zma_end_user_expectation_join_in_about_minutes" = "Ein Agent wird sich in ca. %@ Minuten bei Ihnen melden";
+"zma_end_user_expectation_join_in_days" = "Ein Agent wird sich in %@–%@ Tagen bei Ihnen melden";
+"zma_end_user_expectation_join_in_hours" = "Ein Agent wird sich in %@-%@ Stunden bei Ihnen melden";
+"zma_end_user_expectation_join_in_minutes" = "Ein Agent wird sich in %@-%@ Minuten bei Ihnen melden";
+"zma_end_user_expectation_join_shortly" = "Ein Agent wird sich in Kürze melden";
+"zma_end_user_expectation_join_within_days" = "Ein Agent wird sich innerhalb von %@ Tagen bei Ihnen melden";
+"zma_end_user_expectation_join_within_hours" = "Ein Agent wird sich innerhalb von %@ Stunden bei Ihnen melden";
+"zma_end_user_expectation_join_within_minute" = "Ein Agent wird sich innerhalb von %@ Minute bei Ihnen melden";
+"zma_end_user_expectation_join_within_minutes" = "Ein Agent wird sich innerhalb von %@ Minuten bei Ihnen melden";
+"zma_end_user_expectation_up_next" = "Sie sind als Nächstes dran";
 "zma_form_dropdown_field_accessibility_hint" = "Zum Bearbeiten doppeltippen";
 "zma_form_dropdown_field_accessibility_label" = "Dropdown mit %@ Auswahlmöglichkeiten";
 "zma_form_dropdown_singular_field_accessibility_label" = "Dropdown mit 1 Auswahlmöglichkeit";
@@ -24,7 +37,6 @@
 "zma_guide_page_failed_label" = "Fehler beim Laden der Seite";
 "zma_guide_tap_to_retry" = "Tippen, um es erneut zu versuchen";
 "zma_header_subtitle_accessibility_label" = "Tagline:";
-"zma_header_title_accessibility_label" = "Name der Marke:";
 "zma_image_message_accessibility_label" = "Zum Öffnen doppeltippen";
 "zma_inbound_text_message_accssibility_label" = "Nachricht erhalten:";
 "zma_message_author_accessibility_label" = "Absender";
