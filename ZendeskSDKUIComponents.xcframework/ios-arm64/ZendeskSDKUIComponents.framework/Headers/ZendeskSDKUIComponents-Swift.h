@@ -783,6 +783,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16UnreadBannerView")
 SWIFT_CLASS("_TtC22ZendeskSDKUIComponents18WaitTimeBannerView")
 @interface WaitTimeBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
