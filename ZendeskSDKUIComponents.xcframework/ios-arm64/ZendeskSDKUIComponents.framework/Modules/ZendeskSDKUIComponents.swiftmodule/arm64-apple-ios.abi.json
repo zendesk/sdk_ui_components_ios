@@ -7427,6 +7427,72 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:description:logo:verticalSizeClass:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConversationHeaderRendering",
+                "printedName": "ZendeskSDKUIComponents.ConversationHeaderRendering",
+                "usr": "s:22ZendeskSDKUIComponents27ConversationHeaderRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIUserInterfaceSizeClass",
+                "printedName": "UIKit.UIUserInterfaceSizeClass",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIUserInterfaceSizeClass"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZendeskSDKUIComponents27ConversationHeaderRenderingV5title11description4logo17verticalSizeClassACSS_SSSgSo7UIImageCSgSo015UIUserInterfacejK0Vtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents27ConversationHeaderRenderingV5title11description4logo17verticalSizeClassACSS_SSSgSo7UIImageCSgSo015UIUserInterfacejK0Vtcfc",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "update",
             "printedName": "update(title:description:logo:verticalSizeClass:isMultiConvoHeader:isDefaultConversationHeader:)",
@@ -7508,6 +7574,7 @@
                 "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
                 "usr": "s:Sb"
               }
             ],
@@ -51139,10 +51206,38 @@
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderViewRendering.swift",
+      "kind": "StringLiteral",
+      "offset": 1600,
+      "length": 9,
+      "value": "\"Zendesk\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderViewRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 1666,
+      "offset": 1924,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderViewRendering.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1973,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderViewRendering.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2200,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationHeader\/ConversationHeaderViewRendering.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2251,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ArticleViewer\/ArticleViewerRendering.swift",
