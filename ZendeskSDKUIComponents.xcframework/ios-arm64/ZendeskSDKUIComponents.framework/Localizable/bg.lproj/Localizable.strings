@@ -5,6 +5,7 @@
 "zma_back_button_accessibility_label" = "Назад";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Съдържание на въртележката:";
 "zma_carousel_message_content_title_accessibility_label" = "Заглавие на въртележката:";
+"zma_conversation_header_accessibility_label" = "Разговор %@";
 "zma_conversation_list_item_content_accessibility_label" = "%@, Съобщение от %@: %@, %@, %@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Вие";
 "zma_conversation_list_item_one_unread_message_accessibility_label" = "1 непрочетено съобщение";

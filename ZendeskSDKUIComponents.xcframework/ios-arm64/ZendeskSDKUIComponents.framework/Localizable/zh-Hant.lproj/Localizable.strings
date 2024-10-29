@@ -5,6 +5,7 @@
 "zma_back_button_accessibility_label" = "返回";
 "zma_carousel_message_content_subtitle_accessibility_label" = "輪播圖內容：";
 "zma_carousel_message_content_title_accessibility_label" = "輪播圖標題：";
+"zma_conversation_header_accessibility_label" = "對話「%@」";
 "zma_conversation_list_item_content_accessibility_label" = "%@，來自%@的訊息：%@，%@，%@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "您";
 "zma_conversation_list_item_one_unread_message_accessibility_label" = "1 條未讀訊息";

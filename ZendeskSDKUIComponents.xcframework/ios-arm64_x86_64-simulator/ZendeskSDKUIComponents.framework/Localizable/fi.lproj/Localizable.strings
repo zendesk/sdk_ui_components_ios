@@ -5,6 +5,7 @@
 "zma_back_button_accessibility_label" = "Siirry takaisin";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Karusellin sisältö:";
 "zma_carousel_message_content_title_accessibility_label" = "Karusellin otsikko:";
+"zma_conversation_header_accessibility_label" = "Keskustelu %@";
 "zma_conversation_list_item_content_accessibility_label" = "%@, viesti lähettäjältä %@: %@, %@, %@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Sinä";
 "zma_conversation_list_item_one_unread_message_accessibility_label" = "Yksi lukematon viesti";

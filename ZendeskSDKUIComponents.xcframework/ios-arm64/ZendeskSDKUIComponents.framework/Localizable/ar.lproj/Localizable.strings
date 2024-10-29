@@ -5,6 +5,7 @@
 "zma_back_button_accessibility_label" = "رجوع";
 "zma_carousel_message_content_subtitle_accessibility_label" = "محتوى عنصر عرض دوّار:";
 "zma_carousel_message_content_title_accessibility_label" = "عنوان عنصر عرض دوّار:";
+"zma_conversation_header_accessibility_label" = "المحادثة %@";
 "zma_conversation_list_item_content_accessibility_label" = "يا %@، لديك رسالة من : %@، %@، %@، %@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "أنت";
 "zma_conversation_list_item_one_unread_message_accessibility_label" = "رسالة جديدة واحدة";

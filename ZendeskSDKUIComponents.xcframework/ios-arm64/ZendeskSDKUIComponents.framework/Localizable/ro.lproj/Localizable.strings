@@ -5,6 +5,7 @@
 "zma_back_button_accessibility_label" = "Revenire";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Conținut carusel:";
 "zma_carousel_message_content_title_accessibility_label" = "Titlu carusel:";
+"zma_conversation_header_accessibility_label" = "Conversație %@";
 "zma_conversation_list_item_content_accessibility_label" = "%@, mesaj de la %@: %@, %@, %@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Dumneavoastră";
 "zma_conversation_list_item_one_unread_message_accessibility_label" = "1 mesaj necitit";

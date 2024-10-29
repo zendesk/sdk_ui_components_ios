@@ -5,6 +5,7 @@
 "zma_back_button_accessibility_label" = "Geri dön";
 "zma_carousel_message_content_subtitle_accessibility_label" = "Döner menü içeriği:";
 "zma_carousel_message_content_title_accessibility_label" = "Döner menü başlığı:";
+"zma_conversation_header_accessibility_label" = "Görüşme %@";
 "zma_conversation_list_item_content_accessibility_label" = "%@, %@ tarafından mesaj: %@, %@, %@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Siz";
 "zma_conversation_list_item_one_unread_message_accessibility_label" = "1 okunmamış mesaj";
