@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "已傳送訊息";
 "zma_quick_reply_button_accessibility_label" = "%@，快速回覆按鈕";
 "zma_send_button_accessibility_label" = "傳送訊息";
+"zma_static_wait_time_banner_queue_position.few" = "前面有%@ 人在等待";
+"zma_static_wait_time_banner_queue_position.many" = "前面有%@ 人在等待";
+"zma_static_wait_time_banner_queue_position.one" = "前面有 1 人在等待";
+"zma_static_wait_time_banner_queue_position.other" = "前面有%@ 人在等待";
+"zma_static_wait_time_banner_queue_position.two" = "前面有 2 人在等待";
+"zma_static_wait_time_banner_queue_position.zero" = "前面有0 人在等待";
 "zma_time_divider_accessibility_label" = "時間戳記";

@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "Zpráva byla odeslána.";
 "zma_quick_reply_button_accessibility_label" = "%@, tlačítko rychlé odpovědi";
 "zma_send_button_accessibility_label" = "Poslat zprávu";
+"zma_static_wait_time_banner_queue_position.few" = "Počet lidí, kteří čekají před vámi: %@";
+"zma_static_wait_time_banner_queue_position.many" = "Počet lidí, kteří čekají před vámi: %@";
+"zma_static_wait_time_banner_queue_position.one" = "Před vámi čeká 1 osoba";
+"zma_static_wait_time_banner_queue_position.other" = "Počet lidí, kteří čekají před vámi: %@";
+"zma_static_wait_time_banner_queue_position.two" = "Před vámi čekají 2 lidé";
+"zma_static_wait_time_banner_queue_position.zero" = "Před vámi čeká 0 lidí";
 "zma_time_divider_accessibility_label" = "Časové razítko";

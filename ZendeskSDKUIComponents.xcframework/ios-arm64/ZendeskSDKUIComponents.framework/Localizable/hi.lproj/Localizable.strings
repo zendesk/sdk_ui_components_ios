@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "Message भेजा गया";
 "zma_quick_reply_button_accessibility_label" = "%@, त्वरित जवाब दें बटन";
 "zma_send_button_accessibility_label" = "Message भेजें";
+"zma_static_wait_time_banner_queue_position.few" = "%@ लोग आपके आगे इंतजार कर रहे हैं";
+"zma_static_wait_time_banner_queue_position.many" = "%@ लोग आपके आगे इंतजार कर रहे हैं";
+"zma_static_wait_time_banner_queue_position.one" = "1 व्यक्ति आपके आगे इंतजार कर रहा है";
+"zma_static_wait_time_banner_queue_position.other" = "%@ लोग आपके आगे इंतजार कर रहे हैं";
+"zma_static_wait_time_banner_queue_position.two" = "2 लोग आपके आगे इंतजार कर रहे हैं";
+"zma_static_wait_time_banner_queue_position.zero" = "0 लोग आपके आगे इंतजार कर रहे हैं";
 "zma_time_divider_accessibility_label" = "टाइमस्टैम्प";

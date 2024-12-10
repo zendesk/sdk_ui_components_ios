@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "Bericht verzonden";
 "zma_quick_reply_button_accessibility_label" = "%@: knop voor snel reageren";
 "zma_send_button_accessibility_label" = "Bericht verzenden";
+"zma_static_wait_time_banner_queue_position.few" = "Er wachten %@ mensen voor u";
+"zma_static_wait_time_banner_queue_position.many" = "Er wachten %@ mensen voor u";
+"zma_static_wait_time_banner_queue_position.one" = "Er wacht 1 persoon voor u";
+"zma_static_wait_time_banner_queue_position.other" = "Er wachten %@ mensen voor u";
+"zma_static_wait_time_banner_queue_position.two" = "Er wachten 2 mensen voor u";
+"zma_static_wait_time_banner_queue_position.zero" = "Er wachten 0 mensen voor u";
 "zma_time_divider_accessibility_label" = "Tijdstempel";

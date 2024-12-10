@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "メッセージが送信されました";
 "zma_quick_reply_button_accessibility_label" = "%@：クイック返信ボタン";
 "zma_send_button_accessibility_label" = "メッセージの送信";
+"zma_static_wait_time_banner_queue_position.few" = "あなたより前に%@人が待機中です";
+"zma_static_wait_time_banner_queue_position.many" = "あなたより前に%@人が待機中です";
+"zma_static_wait_time_banner_queue_position.one" = "あなたより前に1人が待機中です";
+"zma_static_wait_time_banner_queue_position.other" = "あなたより前に%@人が待機中です";
+"zma_static_wait_time_banner_queue_position.two" = "あなたより前に2人が待機中です";
+"zma_static_wait_time_banner_queue_position.zero" = "あなたより前に0人が待機中です";
 "zma_time_divider_accessibility_label" = "タイムスタンプ";

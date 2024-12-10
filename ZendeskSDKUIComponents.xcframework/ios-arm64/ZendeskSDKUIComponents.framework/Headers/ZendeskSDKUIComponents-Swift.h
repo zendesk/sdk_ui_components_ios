@@ -304,8 +304,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 @class NSCoder;
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents29ArticleAttachmentCarouselView")
-@interface ArticleAttachmentCarouselView : UIView
+SWIFT_CLASS_NAMED("ArticleAttachmentCarouselView")
+@interface ZDKArticleAttachmentCarouselView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -315,13 +315,13 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents29ArticleAttachmentCarouselView")
 @class UICollectionViewLayout;
 @class NSIndexPath;
 
-@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegateFlowLayout>
+@interface ZDKArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegateFlowLayout>
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIScrollView;
 
-@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegate>
+@interface ZDKArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDelegate>
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
@@ -329,7 +329,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents29ArticleAttachmentCarouselView")
 
 @class UICollectionViewCell;
 
-@interface ArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource>
+@interface ZDKArticleAttachmentCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -352,14 +352,14 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents22ArticleViewerTitleCell")
 @end
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleViewerView")
-@interface ArticleViewerView : UIView
+SWIFT_CLASS_NAMED("ArticleViewerView")
+@interface ZDKArticleViewerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
-@interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDelegate>
+@interface ZDKArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDelegate>
 @end
 
 
@@ -373,7 +373,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17ArticleViewerView")
 
 @class UITableView;
 
-@interface ArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDataSource>
+@interface ZDKArticleViewerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITableViewDataSource>
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -400,8 +400,8 @@ SWIFT_CLASS_NAMED("AvatarView")
 
 /// ButtonBannerView represents a banner. It always contains text and can optionally include a button on either the leading or trailing side.
 /// This banner supports tap events on both the banner, and button itself.
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ButtonBannerView")
-@interface ButtonBannerView : UIView
+SWIFT_CLASS_NAMED("ButtonBannerView")
+@interface ZDKButtonBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -410,8 +410,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ButtonBannerView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents11ButtonsView")
-@interface ButtonsView : UIStackView
+SWIFT_CLASS_NAMED("ButtonsView")
+@interface ZDKButtonsView : UIStackView
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -423,14 +423,14 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents11ButtonsView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
-@interface CarouselView : UIView
+SWIFT_CLASS_NAMED("CarouselView")
+@interface ZDKCarouselView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
-@interface CarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIScrollViewDelegate>
+@interface ZDKCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UIScrollViewDelegate>
 /// note:
 /// used to snap the cell to most centered card
 - (void)scrollViewWillEndDragging:(UIScrollView * _Nonnull)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(CGPoint * _Nonnull)targetContentOffset;
@@ -438,7 +438,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
 
 @class UIEvent;
 
-@interface CarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
+@interface ZDKCarouselView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -446,8 +446,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CarouselView")
 
 
 /// <code>ConnectionBannerView</code> encapsulates UI, state and logic for displaying a connection banner.
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
-@interface ConnectionBannerView : UIView
+SWIFT_CLASS_NAMED("ConnectionBannerView")
+@interface ZDKConnectionBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -457,8 +457,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents20ConnectionBannerView")
 
 
 /// <code>ConversationErrorView</code> encapsulates UI, state and logic for displaying a connection banner.
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents21ConversationErrorView")
-@interface ConversationErrorView : UIView
+SWIFT_CLASS_NAMED("ConversationErrorView")
+@interface ZDKConversationErrorView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -466,8 +466,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents21ConversationErrorView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents31ConversationExtensionHeaderView")
-@interface ConversationExtensionHeaderView : UIView
+SWIFT_CLASS_NAMED("ConversationExtensionHeaderView")
+@interface ZDKConversationExtensionHeaderView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -475,8 +475,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents31ConversationExtensionHeaderView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents25ConversationExtensionView")
-@interface ConversationExtensionView : UIView
+SWIFT_CLASS_NAMED("ConversationExtensionView")
+@interface ZDKConversationExtensionView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -487,8 +487,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents25ConversationExtensionView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents28ConversationExtensionWebView")
-@interface ConversationExtensionWebView : UIView
+SWIFT_CLASS_NAMED("ConversationExtensionWebView")
+@interface ZDKConversationExtensionWebView : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
@@ -496,7 +496,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents28ConversationExtensionWebView")
 @class WKUserContentController;
 @class WKScriptMessage;
 
-@interface ConversationExtensionWebView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <WKScriptMessageHandler>
+@interface ZDKConversationExtensionWebView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <WKScriptMessageHandler>
 - (void)userContentController:(WKUserContentController * _Nonnull)userContentController didReceiveScriptMessage:(WKScriptMessage * _Nonnull)message;
 @end
 
@@ -504,7 +504,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents28ConversationExtensionWebView")
 @class WKNavigation;
 @class WKNavigationAction;
 
-@interface ConversationExtensionWebView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <WKNavigationDelegate>
+@interface ZDKConversationExtensionWebView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <WKNavigationDelegate>
 - (void)webView:(WKWebView * _Nonnull)webView didFinishNavigation:(WKNavigation * _Null_unspecified)navigation;
 - (void)webView:(WKWebView * _Nonnull)webView decidePolicyForNavigationAction:(WKNavigationAction * _Nonnull)navigationAction decisionHandler:(void (^ _Nonnull)(WKNavigationActionPolicy))decisionHandler;
 - (void)webView:(WKWebView * _Nonnull)webView didFailNavigation:(WKNavigation * _Null_unspecified)navigation withError:(NSError * _Nonnull)error;
@@ -512,8 +512,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents28ConversationExtensionWebView")
 @end
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents22ConversationHeaderView")
-@interface ConversationHeaderView : UIView
+SWIFT_CLASS_NAMED("ConversationHeaderView")
+@interface ZDKConversationHeaderView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -521,30 +521,30 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents22ConversationHeaderView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24ConversationListItemView")
-@interface ConversationListItemView : UIView
+SWIFT_CLASS_NAMED("ConversationListItemView")
+@interface ZDKConversationListItemView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents12CustomButton")
-@interface CustomButton : UIButton
+SWIFT_CLASS_NAMED("CustomButton")
+@interface ZDKCustomButton : UIButton
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
-@interface CustomButton (SWIFT_EXTENSION(ZendeskSDKUIComponents))
+@interface ZDKCustomButton (SWIFT_EXTENSION(ZendeskSDKUIComponents))
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
 @property (nonatomic, getter=isEnabled) BOOL enabled;
 @end
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15FileMessageView")
-@interface FileMessageView : UIView
+SWIFT_CLASS_NAMED("FileMessageView")
+@interface ZDKFileMessageView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -553,8 +553,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15FileMessageView")
 
 @class UITraitCollection;
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16FormResponseView")
-@interface FormResponseView : UIView
+SWIFT_CLASS_NAMED("FormResponseView")
+@interface ZDKFormResponseView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -562,8 +562,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16FormResponseView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents8FormView")
-@interface FormView : UIView
+SWIFT_CLASS_NAMED("FormView")
+@interface ZDKFormView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (void)layoutSubviews;
@@ -572,8 +572,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents8FormView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14IconCircleView")
-@interface IconCircleView : UIView
+SWIFT_CLASS_NAMED("IconCircleView")
+@interface ZDKIconCircleView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -581,8 +581,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14IconCircleView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16ImageMessageView")
-@interface ImageMessageView : UIView
+SWIFT_CLASS_NAMED("ImageMessageView")
+@interface ZDKImageMessageView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
@@ -626,8 +626,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14KeyboardHelper")
 @end
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents18LoadingSpinnerView")
-@interface LoadingSpinnerView : UIView
+SWIFT_CLASS_NAMED("LoadingSpinnerView")
+@interface ZDKLoadingSpinnerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -635,8 +635,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents18LoadingSpinnerView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
-@interface MessageComposerView : UIView
+SWIFT_CLASS_NAMED("MessageComposerView")
+@interface ZDKMessageComposerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
@@ -646,7 +646,7 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 
 @class UITextView;
 
-@interface MessageComposerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
+@interface ZDKMessageComposerView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (void)textViewDidChange:(UITextView * _Nonnull)textView;
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString * _Nonnull)text SWIFT_WARN_UNUSED_RESULT;
 @end
@@ -655,24 +655,24 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessageComposerView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents17MessageFooterView")
-@interface MessageFooterView : UIView
+SWIFT_CLASS_NAMED("MessageFooterView")
+@interface ZDKMessageFooterView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
 /// <code>MessageReceiptView</code> is a view which can be used to display message information such as message status
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents18MessageReceiptView")
-@interface MessageReceiptView : UIView
+SWIFT_CLASS_NAMED("MessageReceiptView")
+@interface ZDKMessageReceiptView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessagesDividerView")
-@interface MessagesDividerView : UIView
+SWIFT_CLASS_NAMED("MessagesDividerView")
+@interface ZDKMessagesDividerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
@@ -682,14 +682,14 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19MessagesDividerView")
 
 /// <code>QuickReplyView</code> displays a collection of quick reply options
 /// A user can select an option, and the view’s delegate will be notified
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents14QuickReplyView")
-@interface QuickReplyView : UIView
+SWIFT_CLASS_NAMED("QuickReplyView")
+@interface ZDKQuickReplyView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
-@interface QuickReplyView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface ZDKQuickReplyView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UICollectionViewDataSource, UICollectionViewDelegate>
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
@@ -709,8 +709,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents29ReplyOptionCollectionViewCell")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24TextAndMessageButtonView")
-@interface TextAndMessageButtonView : UIView
+SWIFT_CLASS_NAMED("TextAndMessageButtonView")
+@interface ZDKTextAndMessageButtonView : UIView
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -718,8 +718,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents24TextAndMessageButtonView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
-@interface TextMessageView : UIView
+SWIFT_CLASS_NAMED("TextMessageView")
+@interface ZDKTextMessageView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (void)layoutSubviews;
@@ -729,15 +729,15 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents15TextMessageView")
 
 @class NSURL;
 
-@interface TextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
+@interface ZDKTextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19TypingIndicatorView")
-@interface TypingIndicatorView : UIView
+SWIFT_CLASS_NAMED("TypingIndicatorView")
+@interface ZDKTypingIndicatorView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -769,8 +769,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents19TypingIndicatorView")
 
 
 /// <code>UnreadBannerView</code> encapsulates UI and logic for displaying an unread banner.
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16UnreadBannerView")
-@interface UnreadBannerView : UIView
+SWIFT_CLASS_NAMED("UnreadBannerView")
+@interface ZDKUnreadBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
 - (UIView * _Nullable)hitTest:(CGPoint)point withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
@@ -780,8 +780,8 @@ SWIFT_CLASS("_TtC22ZendeskSDKUIComponents16UnreadBannerView")
 
 
 
-SWIFT_CLASS("_TtC22ZendeskSDKUIComponents18WaitTimeBannerView")
-@interface WaitTimeBannerView : UIView
+SWIFT_CLASS_NAMED("WaitTimeBannerView")
+@interface ZDKWaitTimeBannerView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;

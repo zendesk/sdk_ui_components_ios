@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ZendeskSDKUIComponents-Swift.h</key>
 		<data>
-		f4ZX8olVD/rwjeRb6OEzf+UaJU0=
+		GooXTlLX+ZFKefsxHuJfGTTdbzc=
 		</data>
 		<key>Headers/ZendeskSDKUIComponents.h</key>
 		<data>
@@ -18,13 +18,17 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cIrmIpUyPcRW+XJjJ+Ktx76Je8g=
+		Vc+7z0n9azO1rIS3QQwuQuAnSBA=
+		</data>
+		<key>Localizable/PluralLocalizableKeys.stringsdict</key>
+		<data>
+		v711bWNZY+rIaCprisqOrI2WJeQ=
 		</data>
 		<key>Localizable/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D43PoIqumO/XHkhwIRNlVBkkwfk=
+			Yxi8Ueh4cfP8HQi8bLG4W3t+EzY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -33,7 +37,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wfjKiEpnl0LHsYsOblpn/2pUUY0=
+			y6yZpbN/rSukwGYNeXAXWaqcnMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -42,7 +46,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zO8btWXrUGV4wNsfmF+gQS9r6XE=
+			v80322GUBqGgksdG1Q0VZFUctoc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -51,7 +55,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hqMegBzr/HNUK1Lp2kBf0NyLJXE=
+			CpuzRJGOoXP0Dt7eQtBbF75zxq4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -60,7 +64,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LXYw7e+XrG5uOzgbMG4C+DRu/oE=
+			fOwrkaJfjoP1DSHFXrNGrLge+Cg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,7 +73,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aNHVuBsgh+ZqBzQQb8MmJJmon48=
+			00RzuiSKBuIZGWT4AV50Y+WjLYg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -78,7 +82,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mBFra+alvM9qFFGJ2YseeTvxuo4=
+			4cynZuK3Ho55pYp9q6BTAIh9BcM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -87,7 +91,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mBFra+alvM9qFFGJ2YseeTvxuo4=
+			4cynZuK3Ho55pYp9q6BTAIh9BcM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -96,7 +100,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e8S/p7hg4qmd6Ohrvtm7nUFi3gE=
+			AbFHHghwJ2EvD+FqfeXXcLdbqqI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -105,7 +109,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CXDH0jytZ8hEOsLw9jjjFnerfQM=
+			ux3Mt6HL/p2DI6e8987oJXHVAjo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -114,7 +118,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mBFra+alvM9qFFGJ2YseeTvxuo4=
+			4cynZuK3Ho55pYp9q6BTAIh9BcM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -123,7 +127,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2OxgAqnaAefcsdUQG96pvLb0a00=
+			XMMLuEhjh04HUgmojvd9Xz2I6m8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -132,7 +136,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wcZAqK/T21hxDU0p0N2FCWHBWCc=
+			wKEtmm3n3OUROsh9IpbE6bFpLl4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -141,7 +145,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q22CG4CGrxRSKzmrJ2oKQKE/ROQ=
+			hNz5AUwo0tvqsjo+ubyCmZImPPU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -150,7 +154,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gCyr8LK3/cZz7waictofFc0xxh4=
+			HaTHtIiZxhCcVX1N0/GwSjCUZHM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -159,7 +163,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+25jq6rzKd2VDYRWM2Q8CANsuDM=
+			/m/yWwKLZ5lSsm5RwK50dhF9hoU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -168,7 +172,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9wctc8IgwNYXunnW09mpSASikFk=
+			BZQ6yM2Ys/GqsX66fLDfYDuj/Q4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -177,7 +181,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B7qfKaesRwir2QKwnO6N8q8LAPE=
+			69A1khkokmK6cIBRMW/JrVAjXq0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -186,7 +190,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HKAIJ5XOO/WINDHOLw3Z+SlIpiM=
+			nrahBWd+TpR6vAWcglAmJUOvWaw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,7 +199,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			saZxSnNPDG6/X59XjOyZtn4EOIc=
+			r1Sej/9VFEVV525oDm/fZYgHtW4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -204,7 +208,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mBFra+alvM9qFFGJ2YseeTvxuo4=
+			4cynZuK3Ho55pYp9q6BTAIh9BcM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,7 +217,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ed3Ts9djUZ42SDVQBFNh6WMO7lY=
+			ycMySCz413BDeMVPgotoc08QmNQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -222,7 +226,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HC2UO62wAbCgYPAY6rbESHhKXjU=
+			dHh+/FFAnTPb7h9EDzHNfFXs8w8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -231,7 +235,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O4ZskgwzCd31hgv7wCGY1FShkiA=
+			6evqwxYf/Hx2ZkN1BTK8YfzAsas=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -240,7 +244,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Km9YcSpI1Vn9UMFQ0mRPdpA2L+c=
+			vpF2hSP+lMkQEiceIHM0yiqdx2k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -249,7 +253,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Km9YcSpI1Vn9UMFQ0mRPdpA2L+c=
+			vpF2hSP+lMkQEiceIHM0yiqdx2k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -258,7 +262,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C/t/pjB4l+6p1tfqrfl+YPCA/ms=
+			9Z+qtEeqM/RwacTB4r4Q+Iv/C54=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -267,7 +271,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aaW82EytBSw1GzI3v19csTbLwfE=
+			kqYR9O8Bxyroi/MUVNw4LqeJdHs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -276,7 +280,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D0MSERhCo/PCmMHBux7gsy2oDhM=
+			kbfjWW337WBzjWHjWl8c2U4Mf+g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -285,7 +289,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dXh9WGkzFsPdyrUAeK1myzIO9BM=
+			GobHbgrcTkqJ6qBoH436Ms+EZx0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -294,7 +298,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4pUdTwAF/RD3DXo4m+bb7ky5ifQ=
+			IQ4VQ1qxfScHbX5T+78ydnBBAnI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -303,7 +307,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8CnHrp+lm+pS+yKxms/UduZi0RA=
+			LJzefglvM6JulzfG6QUeGq6mEFk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -312,7 +316,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B4StyUE7cp66VJg8bLlc4p5Gfqw=
+			rN1OkqgULsG41X0p/taxN0Ju7sg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -321,50 +325,50 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HFxviRaLSNyu/lxfU1jMwM9ZT/E=
+			KPIRB3Gy/0MNRKoXP6LpwbUthXo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kjHhXojnG4mifISe7XqIUOzKYi8=
+		oLPfpXU7FkW22K1IJKr1pRUmhIk=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Vk3dzvQMVLtl7uIXOs9lMUf14Ow=
+		o+/iRbsoTh92UBNW1fD+/WVhGrA=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		RS+b6pC0GGSZ/XHE2290r1+lQOY=
+		XJeOgmPANV3U/luZPcMxkk3t+pQ=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Vk3dzvQMVLtl7uIXOs9lMUf14Ow=
+		o+/iRbsoTh92UBNW1fD+/WVhGrA=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zgkTATTQEinbHRwYDdPRAGjahFc=
+		fA/NKqaStDU+CT0UXWJQ8MRgDMM=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kjHhXojnG4mifISe7XqIUOzKYi8=
+		oLPfpXU7FkW22K1IJKr1pRUmhIk=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		91MgOQdHrKHb1v2p8y+j7uB8r3w=
+		k1SPVfdqMIakKvRPIODxPieGLnE=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4LxKjriAau63DbFYT7H/e3/h2Pg=
+		RcoJ8e+q2ve3+G7OAziFuInQgz8=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		91MgOQdHrKHb1v2p8y+j7uB8r3w=
+		k1SPVfdqMIakKvRPIODxPieGLnE=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iriAQ9rHyMNEXztfcpPca1XdO3o=
+		Sht2dojB+lYZlrYYEnYR+qF1dzs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -388,7 +392,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDwxk7Ek482TnariDEIn+cSx4W6aUXV1xYxjJflEve0=
+			8NwlAF7RV1MhE+IhnzwyYRdJxcD7PhLKRkyod1kEW1U=
 			</data>
 		</dict>
 		<key>Headers/ZendeskSDKUIComponents.h</key>
@@ -398,11 +402,18 @@
 			5N+g4UYkXyefLxkWpJI04hDlOtUHA98vyS7CrVPCZ5o=
 			</data>
 		</dict>
+		<key>Localizable/PluralLocalizableKeys.stringsdict</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9XlnJdgB+UddWabbSG78lfKrXFOrE+gSU/zs+S4/XmU=
+			</data>
+		</dict>
 		<key>Localizable/ar.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			atmbsA0rbQF2n2cQzw8ZklpImyxwZ7HIzvBN93K9y/g=
+			ne0rhikU0aLczVI5BjOvN2KR1oAoja3+f0OOigpDcWg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -411,7 +422,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wkXhzAgv0LzWxXoM2wMoSZY2Xz4L8hI1ejlyyFXSsYg=
+			acYo9DZCp+OWf6t7uNN+2z45d6ySoBVR38GhfmCfhwU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -420,7 +431,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SPMrRMO7JRHRbEmQHcEkzeT5DyHVk7OgnCVORtwxxS4=
+			2oE0J9FhHItXmfTv9VhPr83tdSMvXXW/893poXRTVBw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -429,7 +440,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6+GjMV2b3DErFeLXFhZiSb3phcWC6w6ZpV1EtpA7q7s=
+			RJda2P1c7cLzDp67KCy1qwVek+VEzK9ymCFQ+snuJmI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -438,7 +449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8IwlDOH4V3kU6t9UTArSIvv6QL+kfPTmeaRbJJh1Vmc=
+			nCXN8fqFfwZFKX4sT6J4sxIE8KkSQ/ntV8roMu1ON7c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -447,7 +458,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xTn25N0QZdQA0ksMzpguDXV0GH5efiFCbneUQHsPUAY=
+			MqcKdJ/KFa1H/6ovn5FSJjH2axDfiwr8QcnadiWl3w4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -456,7 +467,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lg8L1C85nzLR5U2yK+q8xJql58UXsNjVPlUb0HfcbKA=
+			27N1y+e2/Ems2VQxzi/SU7NhzguB0jTCoiuJqxf0yEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -465,7 +476,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lg8L1C85nzLR5U2yK+q8xJql58UXsNjVPlUb0HfcbKA=
+			27N1y+e2/Ems2VQxzi/SU7NhzguB0jTCoiuJqxf0yEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -474,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eq6pOuw8qcG5jNeCjdU30OmHBELbMcg++Bb3qGPQDdE=
+			nj1HESPAVd//7/62MVnUqLPx6ADjbH+C817DHqosFYw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -483,7 +494,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYy0jGzoHxHyXIqYmV2w2eoIdVjpbSXaCsRiXn1ztgk=
+			5jUI3yXXDBurXYvjvb7T/gjJ81uZNj2ksJFnOBj41Qs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -492,7 +503,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lg8L1C85nzLR5U2yK+q8xJql58UXsNjVPlUb0HfcbKA=
+			27N1y+e2/Ems2VQxzi/SU7NhzguB0jTCoiuJqxf0yEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -501,7 +512,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zdKSnph5tbaEfeJsM6rhqjS4GxyY/rT9qkGZ832NgY=
+			z3dmL46FaRA7BSsATQ8558NiwbaEI4dRFI+DeWJRxBM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -510,7 +521,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vdB50snPDZYMmuZRWQIbyIv+JIxyhmMOf1BxDTh5NDI=
+			bAQa5ERvHX1+7YA5goLacEB6f4r+ADhmmtBTewD/6sA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -519,7 +530,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jnrF8yW24Ufz4B1IheUq7npDzcqNSuoM+ut2CRqYGi4=
+			tU4aO29eJBohrX5khi83jZnNd/BgsgxUCXmgpqf/whY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -528,7 +539,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/64sOQoO+5tar/OTpwaPbdu0En+989LAYlk5FwhHN0=
+			9AqXJfsojQzKyPgKh7yZRBvS+CnkoZQl+YepYs3/qv8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -537,7 +548,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oz4UyN6sPBNIcqUzXvVTY+53TGrlMNbFKlFBfMcx6qQ=
+			SyJz/kBevOidMEgYo+Fr6IAKxN3N1ES1GHiqFMTnjEQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -546,7 +557,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AsYFdPvU12XlgjTsqtqdJEwy/JkCYAsa1nL9xzL7ZxU=
+			O2gyQzatdhEOtlSZnFMKqgHvaZdy9LxBJASLrLshXjI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -555,7 +566,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZv6ZsYU4hhQsB2gCBo1W5Ydu//IGlj3+lW+X1O0YXM=
+			QmLO4YVXr9dEcqsZhwKaAW88EPJkalpvJAjtrr3KZW0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -564,7 +575,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r9fpdmsm3U1N6RBKkItExMlxEX/OMHR6rzdrvXc5p+0=
+			i1Le9vjbqwLrr4xh/x9dgwA4UjReCmChsRRe4xpUmEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -573,7 +584,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tJqKAiT9CwTXOCAXfOkkdaUYMGOneQLcpfKH6gkZHew=
+			Ejb/Sie/1yZzXj8NeAr6lcXXDdC54KUMmWw1ZWnbp/w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -582,7 +593,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lg8L1C85nzLR5U2yK+q8xJql58UXsNjVPlUb0HfcbKA=
+			27N1y+e2/Ems2VQxzi/SU7NhzguB0jTCoiuJqxf0yEk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -591,7 +602,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			neMWL4vcjDoY4y24bw4niEaheaGVwT9sM50JBBz631U=
+			QVALeAREHGXCfudVo2UxVJsBN+zecWXqH2jmoFfrdhI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -600,7 +611,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xo1vaF8AV/xmfJm5bI5H2C+NJco68RHhSHxV2Do8fag=
+			FhX1Ae6sadPGM55Li8/QSYL4EkQK7hXZff2dLsClmrg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -609,7 +620,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qJXqyxPrQsfp/4wK2hDQbhJqtQBGBiQaszuzjCdA33I=
+			WqeW1xycz2qX5mmgoQfy/GPpFZHgMgjxhyBHWq1KSD4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -618,7 +629,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tToumW4+m9GKHrLwoHPIQ11C2boginVqv7Ady3mcS1Y=
+			RCxyazv0Ba/WMauyB8QNcwJrgd4yC2e3IJGiLE3JvfE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -627,7 +638,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tToumW4+m9GKHrLwoHPIQ11C2boginVqv7Ady3mcS1Y=
+			RCxyazv0Ba/WMauyB8QNcwJrgd4yC2e3IJGiLE3JvfE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -636,7 +647,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0vjuRU3ggNQJDYubFikk/3T+rW+Pg0YB3J2B3wuiHU=
+			c+kr9pIT84JBBOSm17WkatY4OZqRm5Qd1ovhaaz/TPY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -645,7 +656,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sToa4I+S2cco76Wxet3m95JHNN4FeMQiO7P55ztBNDg=
+			MWdNEwxf4va5C/FWJnGVlWjTqCM9O1woUJ0jF/B07Pk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -654,7 +665,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SlHQarKdBRLH9r6JLggnvDlNMcZ8jDpq1FRl4hj7reI=
+			susCsSkddcSbRvFD+eb+OFjMUY81iV482OnBDvMW+5s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -663,7 +674,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JEhiprYQzZouWevrjnT0GLphx0b4D2P7wIZChwqPDsY=
+			+j3YhDP8pn6mVhJUjk2r8gUiHhdX1xZ1COkO530gifw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -672,7 +683,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			plgvN+67gdFNr049R8iYR75/FzKCtKDsxhHQ3ghz0Ks=
+			ZYU6D6CSdjZ/XW2VeYe6os3QK5q4T77R6F5D6n8Pgr8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -681,7 +692,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fuoSjsmkByNa9KYfCDHjNRboJwQXoecCcdDSmtxLFaE=
+			yxRUcpnoTK085OiRQJVdNLCdUkD5g4U5yDruKYKmNkk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -690,7 +701,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6SCIbH2IEo/3UvPpPLJe9M+KXhjMEurOY7DQoCmxPcc=
+			2piM6jb/MwSYzbw9w6QMLndhN+62Lt/ZZA0kXKFsRtY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -699,7 +710,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C425d6GoLmfE1GKiS8foQbKENhqLrbuENNOkD/FBabs=
+			R8nrbKkMi4sM4eYRLw63bl1Zo9qc7BwcFL8rfDtu3vM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -708,70 +719,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfsRUwomHCZ9k5MbdAySlFf7PPZJmURQ2LY+8Bcw17E=
+			Jw5IjxFgxyzcCVc2rYW6z0anZHAse8R0t3K8OwakaFM=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jC/INiidMBSAjCCwQ1uaPLGDLBynYIqFiBMDJ6OMmL8=
+			Nbxdjrl3BujOifBXDXhQ1TiMlRcE5dw1KDud0sO2Ae8=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YnIPozmkpIHM1+XHPdoHV63WqAyToe7x0NfijGxPwo0=
+			FeKzSYKHm0/Q4MTkBeuxd8jGZ/XULC3P8pCuKE1d/xo=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jC/INiidMBSAjCCwQ1uaPLGDLBynYIqFiBMDJ6OMmL8=
+			Nbxdjrl3BujOifBXDXhQ1TiMlRcE5dw1KDud0sO2Ae8=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f9/CrT5Okl2JYzjgZTgrmn1XlaGq6X3B+qbIIc80Jlc=
+			000onYPh+y4l/OUR/tjtZeIcROShkMOi3Zu/UkZkE1o=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfsRUwomHCZ9k5MbdAySlFf7PPZJmURQ2LY+8Bcw17E=
+			Jw5IjxFgxyzcCVc2rYW6z0anZHAse8R0t3K8OwakaFM=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jloAFE3PpiD5Gjf/3ktGKk9qXJp+vbuja0DpWRygTXw=
+			HjYY0AStBC6oRwboAqcFRGZBHdmtnHsykLhMKEFgjSk=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bZ0jeNM0VnhbKrOeh5AF0SOit+ydZbfZYL0rzZ4Rwm8=
+			c3o9P+5nl9Ss8SlSo5T+QKvROCHdBriFMuv/QNMVoEs=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jloAFE3PpiD5Gjf/3ktGKk9qXJp+vbuja0DpWRygTXw=
+			HjYY0AStBC6oRwboAqcFRGZBHdmtnHsykLhMKEFgjSk=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vb4XDGGFFGzhrxcPQE8JVmCX7009Eg1wasx6a48sMtE=
+			LBD4nF60PsagHbeumD2W3ntZ4IKgcozVWr+ad6jsa4c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

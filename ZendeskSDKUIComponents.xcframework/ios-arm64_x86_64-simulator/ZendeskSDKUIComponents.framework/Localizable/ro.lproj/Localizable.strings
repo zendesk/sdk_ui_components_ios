@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "Mesaj trimis";
 "zma_quick_reply_button_accessibility_label" = "%@, butonul de răspuns rapid";
 "zma_send_button_accessibility_label" = "Trimitere mesaj";
+"zma_static_wait_time_banner_queue_position.few" = "%@ persoane așteaptă înaintea dumneavoastră";
+"zma_static_wait_time_banner_queue_position.many" = "%@ persoane așteaptă înaintea dumneavoastră";
+"zma_static_wait_time_banner_queue_position.one" = "1 persoană așteaptă înaintea dumneavoastră";
+"zma_static_wait_time_banner_queue_position.other" = "%@ persoane așteaptă înaintea dumneavoastră";
+"zma_static_wait_time_banner_queue_position.two" = "2 persoane așteaptă în fața dumneavoastră";
+"zma_static_wait_time_banner_queue_position.zero" = "0 persoane așteaptă în fața dumneavoastră";
 "zma_time_divider_accessibility_label" = "Marcaj temporal";

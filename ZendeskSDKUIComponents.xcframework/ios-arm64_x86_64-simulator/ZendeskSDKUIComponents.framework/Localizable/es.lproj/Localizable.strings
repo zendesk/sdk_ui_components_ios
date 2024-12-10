@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "Mensaje enviado";
 "zma_quick_reply_button_accessibility_label" = "%@, botón de respuesta rápida";
 "zma_send_button_accessibility_label" = "Enviar mensaje";
+"zma_static_wait_time_banner_queue_position.few" = "Hay %@ personas esperando delante de usted";
+"zma_static_wait_time_banner_queue_position.many" = "Hay %@ personas esperando delante de usted";
+"zma_static_wait_time_banner_queue_position.one" = "Hay 1 persona esperando delante de usted";
+"zma_static_wait_time_banner_queue_position.other" = "Hay %@ personas esperando delante de usted";
+"zma_static_wait_time_banner_queue_position.two" = "Hay 2 personas esperando delante de usted";
+"zma_static_wait_time_banner_queue_position.zero" = "Hay 0 personas esperando delante de usted";
 "zma_time_divider_accessibility_label" = "Marca de tiempo";

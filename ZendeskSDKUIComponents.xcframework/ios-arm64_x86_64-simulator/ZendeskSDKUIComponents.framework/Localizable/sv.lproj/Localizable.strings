@@ -52,4 +52,10 @@
 "zma_outbound_text_message_accessibility_label" = "Meddelande skickat";
 "zma_quick_reply_button_accessibility_label" = "%@, snabbsvarsknapp";
 "zma_send_button_accessibility_label" = "Skicka meddelande";
+"zma_static_wait_time_banner_queue_position.few" = "%@ personer väntar före dig";
+"zma_static_wait_time_banner_queue_position.many" = "%@ personer väntar före dig";
+"zma_static_wait_time_banner_queue_position.one" = "1 person väntar före dig";
+"zma_static_wait_time_banner_queue_position.other" = "%@ personer väntar före dig";
+"zma_static_wait_time_banner_queue_position.two" = "2 personer väntar före dig";
+"zma_static_wait_time_banner_queue_position.zero" = "0 personer väntar före dig";
 "zma_time_divider_accessibility_label" = "Tidsstämpel";
