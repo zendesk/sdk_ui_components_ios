@@ -1187,6 +1187,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1909,6 +1916,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2433,6 +2447,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "ZendeskSDKCoreUtilities",
+        "printedName": "ZendeskSDKCoreUtilities",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKUIComponents"
+      },
+      {
         "kind": "TypeDecl",
         "name": "TextMessageRendering",
         "printedName": "TextMessageRendering",
@@ -2671,6 +2692,13 @@
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -2871,6 +2899,13 @@
                 "printedName": "Hashable",
                 "usr": "s:SH",
                 "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -2912,6 +2947,67 @@
                 "declKind": "Accessor",
                 "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV7messageSSvg",
                 "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV7messageSSvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "richTextMessage",
+            "printedName": "richTextMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV04richcD0SSSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV04richcD0SSSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV04richcD0SSSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV04richcD0SSSgvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3217,7 +3313,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(message:corners:style:isAnimated:messageStatus:messageDirection:messageFooterString:)",
+            "printedName": "init(message:richTextMessage:corners:style:isAnimated:messageStatus:messageDirection:messageFooterString:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3231,6 +3327,21 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3292,8 +3403,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV7message7corners5style10isAnimated0F6Status0F9Direction0F12FooterStringACSS_So12UIRectCornerVSgAA0cD5StyleVSbAC0dK0OAC0dL0OSSSgtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV7message7corners5style10isAnimated0F6Status0F9Direction0F12FooterStringACSS_So12UIRectCornerVSgAA0cD5StyleVSbAC0dK0OAC0dL0OSSSgtcfc",
+            "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV7message04richcD07corners5style10isAnimated0F6Status0F9Direction0F12FooterStringACSS_SSSgSo12UIRectCornerVSgAA0cD5StyleVSbAC0dL0OAC0dM0OALtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV7message04richcD07corners5style10isAnimated0F6Status0F9Direction0F12FooterStringACSS_SSSgSo12UIRectCornerVSgAA0cD5StyleVSbAC0dL0OAC0dM0OALtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -3341,6 +3452,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3765,6 +3883,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4170,6 +4295,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5012,6 +5144,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6770,6 +6909,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6858,6 +7004,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8265,6 +8418,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8660,7 +8820,6 @@
                 "kind": "TypeNominal",
                 "name": "WaitTimeBannerViewStyle",
                 "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewStyle",
-                "hasDefaultArg": true,
                 "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV"
               }
             ],
@@ -8672,6 +8831,38 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WaitTimeBannerViewRendering",
+                "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewRendering",
+                "usr": "s:22ZendeskSDKUIComponents27WaitTimeBannerViewRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WaitTimeBannerViewRendering",
+                "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewRendering",
+                "usr": "s:22ZendeskSDKUIComponents27WaitTimeBannerViewRenderingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents27WaitTimeBannerViewRenderingV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22ZendeskSDKUIComponents27WaitTimeBannerViewRenderingV2eeoiySbAC_ACtFZ",
+            "moduleName": "ZendeskSDKUIComponents",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -8680,6 +8871,15 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
@@ -11146,6 +11346,15 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -15847,6 +16056,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -16245,6 +16461,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -16265,48 +16482,6 @@
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV4textSSvs",
-                "mangledName": "$s22ZendeskSDKUIComponents30ConversationErrorViewRenderingV4textSSvs",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV4textSSvM",
-                "mangledName": "$s22ZendeskSDKUIComponents30ConversationErrorViewRenderingV4textSSvM",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -16330,6 +16505,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -16350,48 +16526,6 @@
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV10buttonTextSSvs",
-                "mangledName": "$s22ZendeskSDKUIComponents30ConversationErrorViewRenderingV10buttonTextSSvs",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV10buttonTextSSvM",
-                "mangledName": "$s22ZendeskSDKUIComponents30ConversationErrorViewRenderingV10buttonTextSSvM",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -16452,6 +16586,7 @@
               "HasStorage"
             ],
             "isFromExtension": true,
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -16474,52 +16609,6 @@
                 "implicit": true,
                 "isFromExtension": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ConversationErrorViewRendering",
-                    "printedName": "ZendeskSDKUIComponents.ConversationErrorViewRendering",
-                    "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV7defaultACvsZ",
-                "mangledName": "$s22ZendeskSDKUIComponents30ConversationErrorViewRenderingV7defaultACvsZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV7defaultACvMZ",
-                "mangledName": "$s22ZendeskSDKUIComponents30ConversationErrorViewRenderingV7defaultACvMZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "_modify"
               }
             ]
           }
@@ -16530,6 +16619,15 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -18138,6 +18236,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -22244,6 +22349,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -22288,7 +22400,6 @@
                 "kind": "TypeNominal",
                 "name": "WaitTimeBannerViewStyle",
                 "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewStyle",
-                "hasDefaultArg": true,
                 "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV"
               }
             ],
@@ -24005,6 +24116,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -25117,6 +25235,67 @@
           },
           {
             "kind": "Var",
+            "name": "richTextMessage",
+            "printedName": "richTextMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents25ImageMessageViewRenderingV08richTextD0SSSgvp",
+            "mangledName": "$s22ZendeskSDKUIComponents25ImageMessageViewRenderingV08richTextD0SSSgvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents25ImageMessageViewRenderingV08richTextD0SSSgvg",
+                "mangledName": "$s22ZendeskSDKUIComponents25ImageMessageViewRenderingV08richTextD0SSSgvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "imagePlaceHolderText",
             "printedName": "imagePlaceHolderText",
             "children": [
@@ -25386,7 +25565,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(animatableImage:messageText:imagePlaceHolderText:corners:style:state:customButtonRenderings:)",
+            "printedName": "init(animatableImage:messageText:richTextMessage:imagePlaceHolderText:corners:style:state:customButtonRenderings:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -25400,6 +25579,21 @@
                 "printedName": "ZendeskSDKUIComponents.AnimatableImage",
                 "hasDefaultArg": true,
                 "usr": "s:22ZendeskSDKUIComponents15AnimatableImageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -25477,8 +25671,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents25ImageMessageViewRenderingV010animatableC011messageText016imagePlaceHolderI07corners5style5state22customButtonRenderingsAcA010AnimatableC0V_SSSgAMSo12UIRectCornerVSgAA0cdE5StyleVAA0cdE5StateOSayAA06CustomqF0VGtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents25ImageMessageViewRenderingV010animatableC011messageText016imagePlaceHolderI07corners5style5state22customButtonRenderingsAcA010AnimatableC0V_SSSgAMSo12UIRectCornerVSgAA0cdE5StyleVAA0cdE5StateOSayAA06CustomqF0VGtcfc",
+            "usr": "s:22ZendeskSDKUIComponents25ImageMessageViewRenderingV010animatableC011messageText04richiD0016imagePlaceHolderI07corners5style5state22customButtonRenderingsAcA010AnimatableC0V_SSSgA2NSo12UIRectCornerVSgAA0cdE5StyleVAA0cdE5StateOSayAA06CustomrF0VGtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents25ImageMessageViewRenderingV010animatableC011messageText04richiD0016imagePlaceHolderI07corners5style5state22customButtonRenderingsAcA010AnimatableC0V_SSSgA2NSo12UIRectCornerVSgAA0cdE5StyleVAA0cdE5StateOSayAA06CustomrF0VGtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -26664,6 +26858,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28766,6 +28967,15 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -29271,6 +29481,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -29593,6 +29810,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -30142,6 +30366,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -31398,6 +31629,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -31550,6 +31788,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -36176,6 +36421,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -36197,50 +36443,6 @@
                 "static": true,
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvsZ",
-                "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvsZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvMZ",
-                "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvMZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -36287,6 +36489,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -36316,6 +36525,54 @@
         "name": "ButtonBannerRendering",
         "printedName": "ButtonBannerRendering",
         "children": [
+          {
+            "kind": "Var",
+            "name": "empty",
+            "printedName": "empty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonBannerRendering",
+                "printedName": "ZendeskSDKUIComponents.ButtonBannerRendering",
+                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvpZ",
+            "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvpZ",
+            "moduleName": "ZendeskSDKUIComponents",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ButtonBannerRendering",
+                    "printedName": "ZendeskSDKUIComponents.ButtonBannerRendering",
+                    "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvgZ",
+                "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvgZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -36399,97 +36656,6 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "empty",
-            "printedName": "empty",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ButtonBannerRendering",
-                "printedName": "ZendeskSDKUIComponents.ButtonBannerRendering",
-                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvpZ",
-            "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvpZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ButtonBannerRendering",
-                    "printedName": "ZendeskSDKUIComponents.ButtonBannerRendering",
-                    "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvgZ",
-                "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ButtonBannerRendering",
-                    "printedName": "ZendeskSDKUIComponents.ButtonBannerRendering",
-                    "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvsZ",
-                "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvsZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvMZ",
-                "mangledName": "$s22ZendeskSDKUIComponents21ButtonBannerRenderingV5emptyACvMZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
           }
         ],
         "declKind": "Struct",
@@ -37687,6 +37853,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -38550,6 +38723,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -39318,6 +39498,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -40022,13 +40209,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(titleColor:subtitleColor:background:)",
+            "printedName": "init(titleColor:subtitleColor:background:borderColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "WaitTimeBannerViewStyle",
                 "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewStyle",
                 "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
               },
               {
                 "kind": "TypeNominal",
@@ -40050,8 +40243,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV10titleColor08subtitleI010backgroundACSo7UIColorC_A2Htcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV10titleColor08subtitleI010backgroundACSo7UIColorC_A2Htcfc",
+            "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV10titleColor08subtitleI010background06borderI0ACSo7UIColorC_A3Itcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV10titleColor08subtitleI010background06borderI0ACSo7UIColorC_A3Itcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -40059,10 +40252,22 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Var",
-            "name": "default",
-            "printedName": "default",
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WaitTimeBannerViewStyle",
+                "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewStyle",
+                "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "WaitTimeBannerViewStyle",
@@ -40070,41 +40275,13 @@
                 "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV7defaultACvpZ",
-            "mangledName": "$s22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV7defaultACvpZ",
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV2eeoiySbAC_ACtFZ",
             "moduleName": "ZendeskSDKUIComponents",
             "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "isFromExtension": true,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WaitTimeBannerViewStyle",
-                    "printedName": "ZendeskSDKUIComponents.WaitTimeBannerViewStyle",
-                    "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV7defaultACvgZ",
-                "mangledName": "$s22ZendeskSDKUIComponents23WaitTimeBannerViewStyleV7defaultACvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -40113,6 +40290,15 @@
         "moduleName": "ZendeskSDKUIComponents",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
@@ -41394,6 +41580,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -43062,6 +43255,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -43241,6 +43441,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -44357,6 +44564,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -44535,6 +44749,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -46418,6 +46639,36 @@
             "kind": "TypeDecl",
             "name": "EndUserExpectationStrings",
             "printedName": "EndUserExpectationStrings",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "waitTimeBannerQueue",
+                "printedName": "waitTimeBannerQueue(position:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:22ZendeskSDKUIComponents8ResourceO25EndUserExpectationStringsO19waitTimeBannerQueue8positionSSSi_tFZ",
+                "mangledName": "$s22ZendeskSDKUIComponents8ResourceO25EndUserExpectationStringsO19waitTimeBannerQueue8positionSSSi_tFZ",
+                "moduleName": "ZendeskSDKUIComponents",
+                "static": true,
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
             "declKind": "Enum",
             "usr": "s:22ZendeskSDKUIComponents8ResourceO25EndUserExpectationStringsO",
             "mangledName": "$s22ZendeskSDKUIComponents8ResourceO25EndUserExpectationStringsO",
@@ -50150,13 +50401,6 @@
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/TextAndMessageButtonView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5086,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/TextAndMessageButtonView.swift",
       "kind": "StringLiteral",
       "offset": 656,
       "length": 24,
@@ -50648,7 +50892,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1428,
+      "offset": 1465,
       "length": 3,
       "value": "0.5"
     },
@@ -50767,14 +51011,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1111,
+      "offset": 1255,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 1224,
+      "offset": 1408,
       "length": 4,
       "value": "true"
     },
@@ -50788,7 +51032,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ArticleAttachmentCarousel\/ArticleAttachmentCarouselViewStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1666,
+      "offset": 1676,
       "length": 4,
       "value": "0.65"
     },
@@ -50907,98 +51151,91 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6810,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6868,
+      "offset": 6882,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "StringLiteral",
-      "offset": 7393,
+      "offset": 7428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7709,
+      "offset": 7865,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8267,
+      "offset": 8423,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8441,
+      "offset": 8597,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8517,
+      "offset": 8673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8795,
+      "offset": 8951,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8845,
+      "offset": 9001,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9488,
+      "offset": 9644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "FloatLiteral",
-      "offset": 9869,
+      "offset": 10025,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11210,
+      "offset": 11366,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/ButtonsViewStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1055,
       "length": 9,
       "value": "\"#008847\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/ButtonsViewStyle.swift",
       "kind": "StringLiteral",
-      "offset": 1100,
+      "offset": 1110,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
@@ -51068,7 +51305,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3027,
+      "offset": 3065,
       "length": 4,
       "value": "true"
     },
@@ -51082,84 +51319,91 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5554,
+      "offset": 5592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
+      "kind": "Dictionary",
+      "offset": 6372,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6457,
+      "offset": 6536,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6461,
+      "offset": 6540,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6601,
+      "offset": 6680,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6639,
+      "offset": 6718,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "StringLiteral",
-      "offset": 7561,
+      "offset": 7640,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "StringLiteral",
-      "offset": 7582,
+      "offset": 7661,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "StringLiteral",
-      "offset": 7600,
+      "offset": 7679,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8035,
+      "offset": 8114,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8072,
+      "offset": 8151,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8629,
+      "offset": 8708,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8693,
+      "offset": 8772,
       "length": 2,
       "value": "10"
     },
@@ -51250,14 +51494,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 1928,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/CardViewRendering.swift",
       "kind": "Array",
-      "offset": 1988,
+      "offset": 1998,
       "length": 2,
       "value": "[]"
     },
@@ -51397,7 +51641,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ArticleFeedbackBanner\/ArticleFeedbackBannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1492,
+      "offset": 1502,
       "length": 3,
       "value": "0.3"
     },
@@ -51418,21 +51662,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerViewRendering.swift",
       "kind": "FloatLiteral",
-      "offset": 731,
+      "offset": 742,
       "length": 4,
       "value": "22.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerViewRendering.swift",
       "kind": "FloatLiteral",
-      "offset": 793,
+      "offset": 804,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1128,
+      "offset": 1139,
       "length": 2,
       "value": "\"\""
     },
@@ -51978,7 +52222,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormViewStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1642,
+      "offset": 1652,
       "length": 4,
       "value": "0.65"
     },
@@ -52993,14 +53237,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationError\/ConversationErrorViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationError\/ConversationErrorViewRendering.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 801,
       "length": 2,
       "value": "\"\""
     },
@@ -54358,14 +54602,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Button\/CustomButtonRendering.swift",
       "kind": "StringLiteral",
-      "offset": 2003,
+      "offset": 2013,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Button\/CustomButtonRendering.swift",
       "kind": "StringLiteral",
-      "offset": 2095,
+      "offset": 2105,
       "length": 2,
       "value": "\"\""
     },
@@ -54414,49 +54658,42 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1333,
+      "offset": 1256,
       "length": 4,
       "value": "36.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 1390,
+      "offset": 1313,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1989,
+      "offset": 1912,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 2117,
-      "length": 21,
-      "value": "\"waitTimeBannerLabel\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2629,
+      "offset": 2490,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3010,
+      "offset": 2875,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3520,
+      "offset": 3403,
       "length": 5,
       "value": "false"
     },
@@ -54470,42 +54707,56 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5322,
+      "offset": 5209,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 6500,
+      "offset": 6387,
       "length": 20,
       "value": "\"waitTimeBannerView\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6573,
+      "offset": 6446,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6500,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6557,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 6771,
+      "offset": 6733,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 6790,
+      "offset": 6752,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 6811,
+      "offset": 6773,
       "length": 1,
       "value": "\"\""
     },
@@ -54869,7 +55120,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageViewRendering.swift",
       "kind": "Array",
-      "offset": 1292,
+      "offset": 1415,
       "length": 2,
       "value": "[]"
     },
@@ -55184,14 +55435,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/ActionButton\/ActionButtonRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 990,
+      "offset": 1000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/ActionButton\/ActionButtonRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1013,
       "length": 2,
       "value": "\"\""
     },
@@ -55688,21 +55939,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormViewStrings.swift",
       "kind": "StringLiteral",
-      "offset": 1128,
+      "offset": 1138,
       "length": 10,
       "value": "\"%@ of %@\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormViewStrings.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1156,
       "length": 6,
       "value": "\"Send\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/Form\/FormViewStrings.swift",
       "kind": "StringLiteral",
-      "offset": 1160,
+      "offset": 1170,
       "length": 6,
       "value": "\"Next\""
     },
@@ -56430,21 +56681,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1116,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerRendering.swift",
       "kind": "FloatLiteral",
-      "offset": 833,
+      "offset": 809,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1012,
       "length": 2,
       "value": "\"\""
     },
@@ -56836,28 +57087,28 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/ActionButton\/ActionButtonStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1638,
+      "offset": 1648,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/ActionButton\/ActionButtonStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2284,
+      "offset": 2294,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/ActionButton\/ActionButtonStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2417,
+      "offset": 2427,
       "length": 4,
       "value": "0.04"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Carousel\/Card\/ActionButton\/ActionButtonStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2494,
+      "offset": 2504,
       "length": 4,
       "value": "0.12"
     },
@@ -57340,14 +57591,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageViewStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1185,
+      "offset": 1194,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ImageMessage\/ImageMessageViewStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1384,
+      "offset": 1393,
       "length": 4,
       "value": "true"
     },
@@ -57494,7 +57745,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/WaitTimeBanner\/WaitTimeBannerViewStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1163,
+      "offset": 1295,
       "length": 4,
       "value": "0.65"
     },
@@ -57669,42 +57920,42 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",
       "kind": "Array",
-      "offset": 1526,
+      "offset": 1536,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1555,
+      "offset": 1565,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1580,
+      "offset": 1590,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1928,
+      "offset": 1938,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 2059,
+      "offset": 2084,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 2457,
+      "offset": 2482,
       "length": 1,
       "value": "0"
     },
@@ -57893,21 +58144,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/ButtonsViewRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 871,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageAction\/ButtonsViewRendering.swift",
       "kind": "Array",
-      "offset": 1464,
+      "offset": 1474,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/QuickReply\/ReplyOption\/ReplyOptionCollectionViewCellStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 1602,
+      "offset": 1612,
       "length": 3,
       "value": "0.2"
     },
@@ -57987,6 +58238,13 @@
       "offset": 2146,
       "length": 5,
       "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Helpers\/String+Utils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2390,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Button\/CustomButtonLoadingIndicatorView.swift",
@@ -60273,14 +60531,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 27613,
+      "offset": 27620,
       "length": 44,
       "value": "\"zma_static_wait_time_banner_queue_position\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 27723,
+      "offset": 27730,
       "length": 35,
       "value": "\"@ people are waiting ahead of you\""
     },

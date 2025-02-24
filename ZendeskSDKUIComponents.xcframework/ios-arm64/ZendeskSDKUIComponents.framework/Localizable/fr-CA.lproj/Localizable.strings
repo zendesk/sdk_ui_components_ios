@@ -8,8 +8,8 @@
 "zma_conversation_header_accessibility_label" = "Conversation %@";
 "zma_conversation_list_item_content_accessibility_label" = "%@, message de %@ : %@, %@, %@";
 "zma_conversation_list_item_message_author_name_as_end_user_accessibility_label" = "Vous";
-"zma_conversation_list_item_one_unread_message_accessibility_label" = "1 message non lu";
-"zma_conversation_list_item_unread_messages_accessibility_label" = "%@ messages non lus";
+"zma_conversation_list_item_one_unread_message_accessibility_label" = "1 message non lu";
+"zma_conversation_list_item_unread_messages_accessibility_label" = "%@ messages non lus";
 "zma_dropdown_view_accessibility_announce" = "Liste avec %@ choix";
 "zma_dropdown_view_singular_accessibility_announce" = "Liste avec 1 choix";
 "zma_end_user_expectation_join_in_about_days" = "Un agent vous contactera dans environ %@ jours";
