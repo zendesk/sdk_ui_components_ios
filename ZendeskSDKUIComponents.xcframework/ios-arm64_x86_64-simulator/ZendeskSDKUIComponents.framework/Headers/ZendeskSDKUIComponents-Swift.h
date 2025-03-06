@@ -426,6 +426,7 @@ SWIFT_CLASS_NAMED("ButtonsView")
 SWIFT_CLASS_NAMED("CarouselView")
 @interface ZDKCarouselView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -1224,6 +1225,7 @@ SWIFT_CLASS_NAMED("ButtonsView")
 SWIFT_CLASS_NAMED("CarouselView")
 @interface ZDKCarouselView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
