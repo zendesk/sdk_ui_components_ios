@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oFDBLwd0MANx6aYiN2SlDHxkBB0=
+		CKgsc2IFp7ow+pd05tOavu+eT+k=
 		</data>
 		<key>Localizable/PluralLocalizableKeys.stringsdict</key>
 		<data>
@@ -272,6 +272,15 @@
 			<key>hash</key>
 			<data>
 			kqYR9O8Bxyroi/MUVNw4LqeJdHs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Localizable/sk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EPKiwPfW+IylCf3qK45Fifew0e4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -666,6 +675,15 @@
 			<key>hash2</key>
 			<data>
 			MWdNEwxf4va5C/FWJnGVlWjTqCM9O1woUJ0jF/B07Pk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Localizable/sk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+xnvw9OVuFyb8A4kB9+f+kGH9qMx4u0Ov4ui4INrvXI=
 			</data>
 			<key>optional</key>
 			<true/>
