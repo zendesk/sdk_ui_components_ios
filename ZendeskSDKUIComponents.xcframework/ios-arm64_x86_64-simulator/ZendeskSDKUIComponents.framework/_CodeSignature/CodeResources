@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YhU/ong1ttZsyNsMYnUC9ysXo88=
+		y1CFBWO0M0ZgdbNW27U7dyNChGs=
 		</data>
 		<key>Headers/ZendeskSDKUIComponents-Swift.h</key>
 		<data>
-		AMBOUA7cQU5bEi5wpvp8qDRaBSY=
+		zkLSp5Fo6kh6+vl+rFtm2kqaQ0Y=
 		</data>
 		<key>Headers/ZendeskSDKUIComponents.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CKgsc2IFp7ow+pd05tOavu+eT+k=
+		zz8mI1NhWTy+gVoySNf/0/vtfac=
 		</data>
 		<key>Localizable/PluralLocalizableKeys.stringsdict</key>
 		<data>
@@ -350,43 +350,43 @@
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Y7FTjDKD3CbkknEHuO38yQvseq8=
+		OcgakOnVEqBdkx3IptokCef0f1c=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dZ3KH92AWGYCgcszqKA4dD+3ivE=
+		VgaSZpiA/l7j8usgFmrPjAf/df4=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qlhVGCdHQ6U5LEdd/ix9+VYE8QU=
+		9ouvUy+gJCqZ7ccHgvZC7I24C/Q=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dZ3KH92AWGYCgcszqKA4dD+3ivE=
+		VgaSZpiA/l7j8usgFmrPjAf/df4=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AaQlABrfgxo7qVDdx06mpL+oIvs=
+		eNxHh8L93WdF55S4bKUROqnAQ1A=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Y7FTjDKD3CbkknEHuO38yQvseq8=
+		OcgakOnVEqBdkx3IptokCef0f1c=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		urRNix5oLboOvueKIqU/mZt34JA=
+		AnWQi0csRR2ZPfvL2MRIqd/kyiU=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sbSAgP51CP6S+6zoxAnWhvn5Lu0=
+		M8b2JRDgMchJC/blFxtalofMSds=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		urRNix5oLboOvueKIqU/mZt34JA=
+		AnWQi0csRR2ZPfvL2MRIqd/kyiU=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1rFFffPO8T0OwRg+s1hjH7DF+Tc=
+		8reCDNSpAg3Px159px5evYj5BHw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -403,14 +403,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v+fUBHDciu4hUQ7ArJlK/QnKDM4gZXfPHUbd43TaYIA=
+			zBNie18B6j7gvhGoV0XGae4VZ9Xc1Gq+bBeyrrLSRNU=
 			</data>
 		</dict>
 		<key>Headers/ZendeskSDKUIComponents-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BsnoVaueM2rf0a9/XqCl2djF1yvyMEDODXZHObEgHCk=
+			zKEvhNPPYFdby3CaBpzWisnpmw8+/WEEwksMGMHDRt0=
 			</data>
 		</dict>
 		<key>Headers/ZendeskSDKUIComponents.h</key>
@@ -755,70 +755,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/wnZf36THtol/9JHFfNmzb9Cj3EYzEmYMB5ya8TpMCM=
+			Y5NXmao/JyVdKDnNfXhpEbcP9VmJhKdACFIREuoOY8A=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BccjZmIwkuUXfqMESFdpX7ax6IhFHpQpD/RW4wZrsHs=
+			5PLGGuhM4sP7TT9w1Z7XTkOJDX5AvwHzCPCL/GRqv6Y=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H/+3LZXM9EXs2ugcD9luFGj8owbCuZ+UT0QRbCuNUtM=
+			4sG8s0wC855c7VNWedZZNyYql1EZi0x+hJrEDJsa8Xw=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BccjZmIwkuUXfqMESFdpX7ax6IhFHpQpD/RW4wZrsHs=
+			5PLGGuhM4sP7TT9w1Z7XTkOJDX5AvwHzCPCL/GRqv6Y=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IA2Y9ro/3HbufjFDsTI0QxhFk4UdhVT1E+0Um9X+eUM=
+			5BZwcQ0xmicPGL3+J4P3dRyl7j8D+oiiaV97vB0IWHg=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/wnZf36THtol/9JHFfNmzb9Cj3EYzEmYMB5ya8TpMCM=
+			Y5NXmao/JyVdKDnNfXhpEbcP9VmJhKdACFIREuoOY8A=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItH+BpARgjy6klr4mwEJuXzxRKwxbkYuPUKt3IAwJSQ=
+			AWWpdP9IQmAQgxEPHk/5u5bN8FnhLQw6u0ciQeyd3+A=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rmBhLGTiROlTcWey9HdENolgYyUnFnrL4NV7XZgY92Y=
+			+HAsPqCCeAh1GHNq6iH/y1FaYiPihfnC8hwZmri7s2Y=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItH+BpARgjy6klr4mwEJuXzxRKwxbkYuPUKt3IAwJSQ=
+			AWWpdP9IQmAQgxEPHk/5u5bN8FnhLQw6u0ciQeyd3+A=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y5e8g42tcrEi06mcpcAridy0r3QgWPyPULtgXxM3DKI=
+			YQBS77Lyda0Yp+X4fMQn6sbfUKAD3eZYo1zuIx4XcW4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
