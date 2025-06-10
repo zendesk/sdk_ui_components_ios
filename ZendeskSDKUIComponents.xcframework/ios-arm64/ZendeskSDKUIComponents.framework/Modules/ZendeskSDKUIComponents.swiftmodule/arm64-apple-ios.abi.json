@@ -42673,9 +42673,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "extentionURL",
+            "printedName": "extentionURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZendeskSDKUIComponents30ConversationExtensionRenderingV12extentionURLSSvp",
+            "mangledName": "$s22ZendeskSDKUIComponents30ConversationExtensionRenderingV12extentionURLSSvp",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZendeskSDKUIComponents30ConversationExtensionRenderingV12extentionURLSSvg",
+                "mangledName": "$s22ZendeskSDKUIComponents30ConversationExtensionRenderingV12extentionURLSSvg",
+                "moduleName": "ZendeskSDKUIComponents",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(state:conversationExtensionHeaderRendering:errorViewRendering:)",
+            "printedName": "init(state:conversationExtensionHeaderRendering:errorViewRendering:extentionURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -42702,11 +42746,18 @@
                 "printedName": "ZendeskSDKUIComponents.ConversationErrorViewRendering",
                 "hasDefaultArg": true,
                 "usr": "s:22ZendeskSDKUIComponents30ConversationErrorViewRenderingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents30ConversationExtensionRenderingV5state012conversationd6HeaderE009errorViewE0AcA0cD5StateO_AA0cdhE0VAA0c5ErrorjE0Vtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents30ConversationExtensionRenderingV5state012conversationd6HeaderE009errorViewE0AcA0cD5StateO_AA0cdhE0VAA0c5ErrorjE0Vtcfc",
+            "usr": "s:22ZendeskSDKUIComponents30ConversationExtensionRenderingV5state012conversationd6HeaderE009errorViewE012extentionURLAcA0cD5StateO_AA0cdhE0VAA0c5ErrorjE0VSStcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents30ConversationExtensionRenderingV5state012conversationd6HeaderE009errorViewE012extentionURLAcA0cD5StateO_AA0cdhE0VAA0c5ErrorjE0VSStcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -53220,28 +53271,35 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 1038,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageRendering.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageRendering.swift",
+      "kind": "StringLiteral",
+      "offset": 1229,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1109,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageRendering.swift",
-      "kind": "StringLiteral",
-      "offset": 1216,
+      "offset": 1486,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageRendering.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 1516,
       "length": 1,
       "value": "0"
     },
@@ -56156,6 +56214,13 @@
       "offset": 1295,
       "length": 4,
       "value": "0.65"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ConversationExtension\/ConversationExtensionRendering.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/Forms\/FormResponse\/FormResponseView.swift",

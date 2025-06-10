@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zz8mI1NhWTy+gVoySNf/0/vtfac=
+		9uICNUg3YfQ4Z9l/S2+FNf5LBa0=
 		</data>
 		<key>Localizable/PluralLocalizableKeys.stringsdict</key>
 		<data>
@@ -350,11 +350,11 @@
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OcgakOnVEqBdkx3IptokCef0f1c=
+		XROkBivSUclyu43PFw0nuD90KPE=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VgaSZpiA/l7j8usgFmrPjAf/df4=
+		MbI1eKc/7tVdNPLGkbjcIEj/G6M=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -362,19 +362,19 @@
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VgaSZpiA/l7j8usgFmrPjAf/df4=
+		MbI1eKc/7tVdNPLGkbjcIEj/G6M=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eNxHh8L93WdF55S4bKUROqnAQ1A=
+		rkOBY0fNRAILpGwfY+IVYyx1ZSI=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OcgakOnVEqBdkx3IptokCef0f1c=
+		XROkBivSUclyu43PFw0nuD90KPE=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AnWQi0csRR2ZPfvL2MRIqd/kyiU=
+		7yLxFdsvUDd751A3YZZwnlWH2TQ=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -382,11 +382,11 @@
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AnWQi0csRR2ZPfvL2MRIqd/kyiU=
+		7yLxFdsvUDd751A3YZZwnlWH2TQ=
 		</data>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8reCDNSpAg3Px159px5evYj5BHw=
+		ZM0DFvMduPR6k2jdh9jTSF5/cYI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -755,14 +755,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y5NXmao/JyVdKDnNfXhpEbcP9VmJhKdACFIREuoOY8A=
+			SYeDH6kTJyhAC24hSB31lUPsOBZTzZOlLfAcud9HkU4=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5PLGGuhM4sP7TT9w1Z7XTkOJDX5AvwHzCPCL/GRqv6Y=
+			F8iFmSil4SmmulOt++TZwSP81x/Tc1mCm/BZPiqeNo4=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -776,28 +776,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5PLGGuhM4sP7TT9w1Z7XTkOJDX5AvwHzCPCL/GRqv6Y=
+			F8iFmSil4SmmulOt++TZwSP81x/Tc1mCm/BZPiqeNo4=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5BZwcQ0xmicPGL3+J4P3dRyl7j8D+oiiaV97vB0IWHg=
+			iNnXD/PcXsB8+X3ZMngnBS9yBuXewq1mbRyNJNYxv4M=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y5NXmao/JyVdKDnNfXhpEbcP9VmJhKdACFIREuoOY8A=
+			SYeDH6kTJyhAC24hSB31lUPsOBZTzZOlLfAcud9HkU4=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AWWpdP9IQmAQgxEPHk/5u5bN8FnhLQw6u0ciQeyd3+A=
+			44jkvcnUvXQ4Asl0wwqYr6VXBrdqxd6Uxe5YFoSIchQ=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -811,14 +811,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AWWpdP9IQmAQgxEPHk/5u5bN8FnhLQw6u0ciQeyd3+A=
+			44jkvcnUvXQ4Asl0wwqYr6VXBrdqxd6Uxe5YFoSIchQ=
 			</data>
 		</dict>
 		<key>Modules/ZendeskSDKUIComponents.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YQBS77Lyda0Yp+X4fMQn6sbfUKAD3eZYo1zuIx4XcW4=
+			6VvVx4xxgsTmEpX7NDwXuFny5SbTM+ytNoAQiHKjvHI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
