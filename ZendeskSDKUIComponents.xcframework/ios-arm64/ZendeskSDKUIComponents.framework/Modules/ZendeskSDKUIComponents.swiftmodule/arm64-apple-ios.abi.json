@@ -31,8 +31,8 @@
         "children": [
           {
             "kind": "Var",
-            "name": "enabled",
-            "printedName": "enabled",
+            "name": "disabled",
+            "printedName": "disabled",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -42,8 +42,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents24MessageComposerRenderingV7enabledSbvp",
-            "mangledName": "$s22ZendeskSDKUIComponents24MessageComposerRenderingV7enabledSbvp",
+            "usr": "s:22ZendeskSDKUIComponents24MessageComposerRenderingV8disabledSbvp",
+            "mangledName": "$s22ZendeskSDKUIComponents24MessageComposerRenderingV8disabledSbvp",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "HasStorage",
@@ -65,8 +65,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents24MessageComposerRenderingV7enabledSbvg",
-                "mangledName": "$s22ZendeskSDKUIComponents24MessageComposerRenderingV7enabledSbvg",
+                "usr": "s:22ZendeskSDKUIComponents24MessageComposerRenderingV8disabledSbvg",
+                "mangledName": "$s22ZendeskSDKUIComponents24MessageComposerRenderingV8disabledSbvg",
                 "moduleName": "ZendeskSDKUIComponents",
                 "implicit": true,
                 "accessorKind": "get"
@@ -334,7 +334,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(enabled:attachmentsEnabled:text:keyboardType:style:)",
+            "printedName": "init(disabled:attachmentsEnabled:text:keyboardType:style:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -379,8 +379,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents24MessageComposerRenderingV7enabled18attachmentsEnabled4text12keyboardType5styleACSb_SbSSSo010UIKeyboardK0VAA0cD5StyleVtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents24MessageComposerRenderingV7enabled18attachmentsEnabled4text12keyboardType5styleACSb_SbSSSo010UIKeyboardK0VAA0cD5StyleVtcfc",
+            "usr": "s:22ZendeskSDKUIComponents24MessageComposerRenderingV8disabled18attachmentsEnabled4text12keyboardType5styleACSb_SbSSSo010UIKeyboardK0VAA0cD5StyleVtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents24MessageComposerRenderingV8disabled18attachmentsEnabled4text12keyboardType5styleACSb_SbSSSo010UIKeyboardK0VAA0cD5StyleVtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -53173,21 +53173,21 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageComposer\/MessageComposerRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 869,
+      "offset": 871,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageComposer\/MessageComposerRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 910,
+      "offset": 912,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageComposer\/MessageComposerRendering.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 941,
       "length": 2,
       "value": "\"\""
     },
