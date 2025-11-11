@@ -770,6 +770,30 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "prepareForReuse",
+            "printedName": "prepareForReuse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents24TextAndMessageButtonViewC15prepareForReuseyyF",
+            "mangledName": "$s22ZendeskSDKUIComponents24TextAndMessageButtonViewC15prepareForReuseyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -6235,6 +6259,30 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "prepareForReuse",
+            "printedName": "prepareForReuse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents15TextMessageViewC15prepareForReuseyyF",
+            "mangledName": "$s22ZendeskSDKUIComponents15TextMessageViewC15prepareForReuseyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -6267,6 +6315,59 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "textView",
+            "printedName": "textView(_:primaryActionFor:defaultAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIAction",
+                    "printedName": "UIKit.UIAction",
+                    "usr": "c:objc(cs)UIAction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextView",
+                "printedName": "UIKit.UITextView",
+                "usr": "c:objc(cs)UITextView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITextItem",
+                "printedName": "UIKit.UITextItem",
+                "usr": "c:objc(cs)UITextItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIAction",
+                "printedName": "UIKit.UIAction",
+                "usr": "c:objc(cs)UIAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@ZendeskSDKUIComponents@objc(cs)ZDKTextMessageView(im)textView:primaryActionForTextItem:defaultAction:",
+            "mangledName": "$s22ZendeskSDKUIComponents15TextMessageViewC04textE0_16primaryActionFor07defaultH0So8UIActionCSgSo06UITextE0C_So0L4ItemCAHtF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "objc_name": "textView:primaryActionForTextItem:defaultAction:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -53306,14 +53407,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
+      "offset": 1423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 1408,
+      "offset": 1576,
       "length": 4,
       "value": "true"
     },
@@ -53446,7 +53547,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6139,
+      "offset": 6563,
       "length": 5,
       "value": "false"
     },

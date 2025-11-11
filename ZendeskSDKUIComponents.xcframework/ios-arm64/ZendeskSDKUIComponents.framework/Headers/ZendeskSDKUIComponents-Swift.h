@@ -731,9 +731,18 @@ SWIFT_CLASS_NAMED("TextMessageView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class UITextItem;
+@class UIAction;
+
+SWIFT_AVAILABILITY(ios,introduced=17.0)
+@interface ZDKTextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
+- (UIAction * _Nullable)textView:(UITextView * _Nonnull)textView primaryActionForTextItem:(UITextItem * _Nonnull)textItem defaultAction:(UIAction * _Nonnull)defaultAction SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 @class NSURL;
 
+SWIFT_AVAILABILITY(ios,deprecated=17.0)
 @interface ZDKTextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents)) <UITextViewDelegate>
 - (BOOL)textView:(UITextView * _Nonnull)textView shouldInteractWithURL:(NSURL * _Nonnull)URL inRange:(NSRange)characterRange interaction:(UITextItemInteraction)interaction SWIFT_WARN_UNUSED_RESULT;
 @end
