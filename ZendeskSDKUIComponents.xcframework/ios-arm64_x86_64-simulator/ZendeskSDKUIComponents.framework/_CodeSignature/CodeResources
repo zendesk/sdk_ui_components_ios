@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		e8xM6NjADVD8T44pXL762YpYsWU=
+		Gs64lRUzU/9/BRoeT/aKqOG8w/I=
 		</data>
 		<key>Headers/ZendeskSDKUIComponents-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pHzTFuzgsm+uR4avuUpwnq62c/0=
+		twJ3GLSvNroW5QqKajyhFYWPJaI=
 		</data>
 		<key>Localizable/PluralLocalizableKeys.stringsdict</key>
 		<data>
@@ -38,6 +38,15 @@
 			<key>hash</key>
 			<data>
 			y6yZpbN/rSukwGYNeXAXWaqcnMQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Localizable/ca.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rnJ3kkGncOvHrjLaZRWjUj/2lTg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -403,7 +412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WgXLasxhwHVPLxK23eK518H/ozk8/6K+yLIPkvdWSsI=
+			9A5nGkhFwzyQvDYGfN5AsyOv3hysr4K9Phstmz+TEIM=
 			</data>
 		</dict>
 		<key>Headers/ZendeskSDKUIComponents-Swift.h</key>
@@ -441,6 +450,15 @@
 			<key>hash2</key>
 			<data>
 			acYo9DZCp+OWf6t7uNN+2z45d6ySoBVR38GhfmCfhwU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Localizable/ca.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dVZSDfck2k5vicoU+OGOYVzQzQJuyl6ejSUFZ4mRt/U=
 			</data>
 			<key>optional</key>
 			<true/>
