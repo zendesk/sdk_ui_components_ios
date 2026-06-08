@@ -480,57 +480,6 @@
           },
           {
             "kind": "Var",
-            "name": "messageFooter",
-            "printedName": "messageFooter",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterView",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterView",
-                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKMessageFooterView"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents24TextAndMessageButtonViewC13messageFooterAA0eiG0Cvp",
-            "mangledName": "$s22ZendeskSDKUIComponents24TextAndMessageButtonViewC13messageFooterAA0eiG0Cvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterView",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterView",
-                    "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKMessageFooterView"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents24TextAndMessageButtonViewC13messageFooterAA0eiG0Cvg",
-                "mangledName": "$s22ZendeskSDKUIComponents24TextAndMessageButtonViewC13messageFooterAA0eiG0Cvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "textMessageView",
             "printedName": "textMessageView",
             "children": [
@@ -3468,69 +3417,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "messageFooterString",
-            "printedName": "messageFooterString",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV19messageFooterStringSSSgvp",
-            "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV19messageFooterStringSSSgvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV19messageFooterStringSSSgvg",
-                "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV19messageFooterStringSSSgvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(message:richTextMessage:corners:style:isAnimated:messageStatus:messageDirection:messageFooterString:)",
+            "printedName": "init(message:richTextMessage:corners:style:isAnimated:messageStatus:messageDirection:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3602,26 +3491,11 @@
                 "printedName": "ZendeskSDKUIComponents.TextMessageRendering.MessageDirection",
                 "hasDefaultArg": true,
                 "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV0D9DirectionO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV7message04richcD07corners5style10isAnimated0F6Status0F9Direction0F12FooterStringACSS_SSSgSo12UIRectCornerVSgAA0cD5StyleVSbAC0dL0OAC0dM0OALtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV7message04richcD07corners5style10isAnimated0F6Status0F9Direction0F12FooterStringACSS_SSSgSo12UIRectCornerVSgAA0cD5StyleVSbAC0dL0OAC0dM0OALtcfc",
+            "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV7message04richcD07corners5style10isAnimated0F6Status0F9DirectionACSS_SSSgSo12UIRectCornerVSgAA0cD5StyleVSbAC0dL0OAC0dM0Otcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents20TextMessageRenderingV7message04richcD07corners5style10isAnimated0F6Status0F9DirectionACSS_SSSgSo12UIRectCornerVSgAA0cD5StyleVSbAC0dL0OAC0dM0Otcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -3696,127 +3570,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZendeskSDKUIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MessageFooterStyle",
-        "printedName": "MessageFooterStyle",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(foregroundColor:backgroundColor:dividerColor:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterStyle",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterStyle",
-                "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV15foregroundColor010backgroundG007dividerG0ACSo7UIColorC_A2Htcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents18MessageFooterStyleV15foregroundColor010backgroundG007dividerG0ACSo7UIColorC_A2Htcfc",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "default",
-            "printedName": "default",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterStyle",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterStyle",
-                "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV7defaultACvpZ",
-            "mangledName": "$s22ZendeskSDKUIComponents18MessageFooterStyleV7defaultACvpZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterStyle",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterStyle",
-                    "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV7defaultACvgZ",
-                "mangledName": "$s22ZendeskSDKUIComponents18MessageFooterStyleV7defaultACvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV",
-        "mangledName": "$s22ZendeskSDKUIComponents18MessageFooterStyleV",
-        "moduleName": "ZendeskSDKUIComponents",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5031,6 +4784,30 @@
             "declKind": "Func",
             "usr": "s:22ZendeskSDKUIComponents16ImageMessageViewC07restartC9AnimationyyF",
             "mangledName": "$s22ZendeskSDKUIComponents16ImageMessageViewC07restartC9AnimationyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelAnimation",
+            "printedName": "cancelAnimation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents16ImageMessageViewC15cancelAnimationyyF",
+            "mangledName": "$s22ZendeskSDKUIComponents16ImageMessageViewC15cancelAnimationyyF",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "Preconcurrency",
@@ -30945,6 +30722,30 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "cancelAnimation",
+            "printedName": "cancelAnimation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZendeskSDKUIComponents10AvatarViewC15cancelAnimationyyF",
+            "mangledName": "$s22ZendeskSDKUIComponents10AvatarViewC15cancelAnimationyyF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -38366,360 +38167,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "MessageFooterRendering",
-        "printedName": "MessageFooterRendering",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "messageFooterString",
-            "printedName": "messageFooterString",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV07messageD6StringSSvp",
-            "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV07messageD6StringSSvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV07messageD6StringSSvg",
-                "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV07messageD6StringSSvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "iconImage",
-            "printedName": "iconImage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV9iconImageSo7UIImageCSgvp",
-            "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV9iconImageSo7UIImageCSgvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIImage?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV9iconImageSo7UIImageCSgvg",
-                "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV9iconImageSo7UIImageCSgvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "accessibilityLabel",
-            "printedName": "accessibilityLabel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV18accessibilityLabelSSSgvp",
-            "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV18accessibilityLabelSSSgvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV18accessibilityLabelSSSgvg",
-                "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV18accessibilityLabelSSSgvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(icon:messageFooterString:accessibilityLabel:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterRendering",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV4icon07messageD6String18accessibilityLabelACSo7UIImageCSg_S2SSgtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV4icon07messageD6String18accessibilityLabelACSo7UIImageCSg_S2SSgtcfc",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "empty",
-            "printedName": "empty",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterRendering",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvpZ",
-            "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvpZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvgZ",
-                "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV5emptyACvgZ",
-                "moduleName": "ZendeskSDKUIComponents",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterRendering",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterRendering",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV2eeoiySbAC_ACtFZ",
-            "moduleName": "ZendeskSDKUIComponents",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV",
-        "mangledName": "$s22ZendeskSDKUIComponents22MessageFooterRenderingV",
-        "moduleName": "ZendeskSDKUIComponents",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZendeskSDKUIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -43564,310 +43011,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "MessageFooterView",
-        "printedName": "MessageFooterView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(style:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterView",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterView",
-                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKMessageFooterView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterStyle",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterStyle",
-                "hasDefaultArg": true,
-                "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents17MessageFooterViewC5styleAcA0cD5StyleV_tcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents17MessageFooterViewC5styleAcA0cD5StyleV_tcfc",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "render",
-            "printedName": "render(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZendeskSDKUIComponents.MessageFooterRendering) -> ZendeskSDKUIComponents.MessageFooterRendering",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents17MessageFooterViewC6renderyyAA0cD9RenderingVAFXEF",
-            "mangledName": "$s22ZendeskSDKUIComponents17MessageFooterViewC6renderyyAA0cD9RenderingVAFXEF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setAccessibility",
-            "printedName": "setAccessibility(accessibilityLabel:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents17MessageFooterViewC16setAccessibility18accessibilityLabelySSSg_tF",
-            "mangledName": "$s22ZendeskSDKUIComponents17MessageFooterViewC16setAccessibility18accessibilityLabelySSSg_tF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFooterView",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterView",
-                "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKMessageFooterView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKMessageFooterView(im)initWithFrame:",
-            "mangledName": "$s22ZendeskSDKUIComponents17MessageFooterViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "ZendeskSDKUIComponents",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKMessageFooterView",
-        "mangledName": "$s22ZendeskSDKUIComponents17MessageFooterViewC",
-        "moduleName": "ZendeskSDKUIComponents",
-        "objc_name": "ZDKMessageFooterView",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Renderer",
-            "printedName": "Renderer",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Style",
-                "printedName": "Style",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterStyle",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterStyle",
-                    "usr": "s:22ZendeskSDKUIComponents18MessageFooterStyleV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Rendering",
-                "printedName": "Rendering",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:22ZendeskSDKUIComponents8RendererP",
-            "mangledName": "$s22ZendeskSDKUIComponents8RendererP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZendeskSDKUIComponents",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "AnimatableImage",
         "printedName": "AnimatableImage",
         "children": [
@@ -46972,66 +46115,6 @@
           },
           {
             "kind": "Var",
-            "name": "messageFooterRendering",
-            "printedName": "messageFooterRendering",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterRendering?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV013messageFooterH0AA0ejH0VSgvp",
-            "mangledName": "$s22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV013messageFooterH0AA0ejH0VSgvp",
-            "moduleName": "ZendeskSDKUIComponents",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MessageFooterRendering",
-                        "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                        "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV013messageFooterH0AA0ejH0VSgvg",
-                "mangledName": "$s22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV013messageFooterH0AA0ejH0VSgvg",
-                "moduleName": "ZendeskSDKUIComponents",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "style",
             "printedName": "style",
             "children": [
@@ -47137,7 +46220,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(buttonsViewRendering:textMessageRendering:messageFooterRendering:style:corners:)",
+            "printedName": "init(buttonsViewRendering:textMessageRendering:style:corners:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -47156,21 +46239,6 @@
                 "name": "TextMessageRendering",
                 "printedName": "ZendeskSDKUIComponents.TextMessageRendering",
                 "usr": "s:22ZendeskSDKUIComponents20TextMessageRenderingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZendeskSDKUIComponents.MessageFooterRendering?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MessageFooterRendering",
-                    "printedName": "ZendeskSDKUIComponents.MessageFooterRendering",
-                    "usr": "s:22ZendeskSDKUIComponents22MessageFooterRenderingV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -47194,8 +46262,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV07buttonsgH004texteH0013messageFooterH05style7cornersAcA07ButtonsgH0V_AA0ceH0VAA0elH0VSgAA0cdefG5StyleVSo12UIRectCornerVSgtcfc",
-            "mangledName": "$s22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV07buttonsgH004texteH0013messageFooterH05style7cornersAcA07ButtonsgH0V_AA0ceH0VAA0elH0VSgAA0cdefG5StyleVSo12UIRectCornerVSgtcfc",
+            "usr": "s:22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV07buttonsgH004texteH05style7cornersAcA07ButtonsgH0V_AA0ceH0VAA0cdefG5StyleVSo12UIRectCornerVSgtcfc",
+            "mangledName": "$s22ZendeskSDKUIComponents33TextAndMessageButtonViewRenderingV07buttonsgH004texteH05style7cornersAcA07ButtonsgH0V_AA0ceH0VAA0cdefG5StyleVSo12UIRectCornerVSgtcfc",
             "moduleName": "ZendeskSDKUIComponents",
             "declAttributes": [
               "AccessControl"
@@ -53562,14 +52630,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageRendering.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1379,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageRendering.swift",
       "kind": "BooleanLiteral",
-      "offset": 1576,
+      "offset": 1532,
       "length": 4,
       "value": "true"
     },
@@ -55919,13 +54987,6 @@
       "value": "\"subtitleLabel\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterRendering.swift",
-      "kind": "StringLiteral",
-      "offset": 1116,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/ButtonBanner\/ButtonBannerRendering.swift",
       "kind": "FloatLiteral",
       "offset": 809,
@@ -56505,62 +55566,6 @@
       "offset": 835,
       "length": 2,
       "value": "16"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 757,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 807,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 848,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 890,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1711,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1729,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2048,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessageFooter\/MessageFooterView.swift",
-      "kind": "StringLiteral",
-      "offset": 2090,
-      "length": 20,
-      "value": "\"messageFooterLabel\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Shared\/AnimatableImage.swift",

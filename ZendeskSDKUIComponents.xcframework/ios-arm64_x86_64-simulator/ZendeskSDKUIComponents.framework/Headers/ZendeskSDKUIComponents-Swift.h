@@ -660,13 +660,6 @@ SWIFT_CLASS_NAMED("MessageComposerView")
 
 
 
-SWIFT_CLASS_NAMED("MessageFooterView")
-@interface ZDKMessageFooterView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
 /// <code>MessageReceiptView</code> is a view which can be used to display message information such as message status
 SWIFT_CLASS_NAMED("MessageReceiptView")
 @interface ZDKMessageReceiptView : UIView
@@ -1470,13 +1463,6 @@ SWIFT_CLASS_NAMED("MessageComposerView")
 
 
 
-
-
-SWIFT_CLASS_NAMED("MessageFooterView")
-@interface ZDKMessageFooterView : UIView
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
 
 
 /// <code>MessageReceiptView</code> is a view which can be used to display message information such as message status
