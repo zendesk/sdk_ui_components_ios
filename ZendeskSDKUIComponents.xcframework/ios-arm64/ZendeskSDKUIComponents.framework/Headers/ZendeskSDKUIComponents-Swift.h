@@ -547,16 +547,17 @@ SWIFT_CLASS_NAMED("CustomButton")
 @end
 
 
+@class UITraitCollection;
 
 SWIFT_CLASS_NAMED("FileMessageView")
 @interface ZDKFileMessageView : UIView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)layoutSubviews;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
-@class UITraitCollection;
 
 SWIFT_CLASS_NAMED("FormResponseView")
 @interface ZDKFormResponseView : UIView
@@ -593,7 +594,6 @@ SWIFT_CLASS_NAMED("ImageMessageView")
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
-
 
 
 
@@ -731,7 +731,6 @@ SWIFT_AVAILABILITY(ios,introduced=17.0)
 @interface ZDKTextMessageView (SWIFT_EXTENSION(ZendeskSDKUIComponents))
 - (UIAction * _Nullable)textView:(UITextView * _Nonnull)textView primaryActionForTextItem:(UITextItem * _Nonnull)textItem defaultAction:(UIAction * _Nonnull)defaultAction SWIFT_WARN_UNUSED_RESULT;
 @end
-
 
 @class NSURL;
 

@@ -18246,38 +18246,6 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Function",
-            "name": "userInterfaceStyleDidChange",
-            "printedName": "userInterfaceStyleDidChange(style:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIUserInterfaceStyle",
-                "printedName": "UIKit.UIUserInterfaceStyle",
-                "usr": "c:@E@UIUserInterfaceStyle"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:22ZendeskSDKUIComponents19MessageComposerViewC27userInterfaceStyleDidChange5styleySo06UIUsergH0V_tF",
-            "mangledName": "$s22ZendeskSDKUIComponents19MessageComposerViewC27userInterfaceStyleDidChange5styleySo06UIUsergH0V_tF",
-            "moduleName": "ZendeskSDKUIComponents",
-            "intro_iOS": "12.0",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final",
-              "AccessControl",
-              "Available",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "composerHeight",
             "printedName": "composerHeight",
@@ -43740,6 +43708,47 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ZendeskSDKUIComponents@objc(cs)ZDKFileMessageView(im)traitCollectionDidChange:",
+            "mangledName": "$s22ZendeskSDKUIComponents15FileMessageViewC24traitCollectionDidChangeyySo07UITraitG0CSgF",
+            "moduleName": "ZendeskSDKUIComponents",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(frame:)",
@@ -52770,7 +52779,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/TextMessage\/TextMessageView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6563,
+      "offset": 6321,
       "length": 5,
       "value": "false"
     },
@@ -55500,14 +55509,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessagesDivider\/MessagesDividerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1566,
+      "offset": 1558,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/MessagesDivider\/MessagesDividerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1714,
+      "offset": 1706,
       "length": 4,
       "value": "true"
     },
@@ -55649,7 +55658,7 @@
       "kind": "IntegerLiteral",
       "offset": 1400,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Public\/Components\/FileMessage\/FileMessageView.swift",
@@ -55670,7 +55679,7 @@
       "kind": "IntegerLiteral",
       "offset": 1745,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/InputBorder\/InputBorder.swift",
@@ -55934,35 +55943,35 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 7324,
+      "offset": 6896,
       "length": 9,
       "value": "\"#2F3941\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 7466,
+      "offset": 7038,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 7497,
+      "offset": 7069,
       "length": 4,
       "value": "0.65"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "StringLiteral",
-      "offset": 7539,
+      "offset": 7111,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/UIComponents\/UIComponents\/Source\/Internal\/Resources.swift",
       "kind": "FloatLiteral",
-      "offset": 7570,
+      "offset": 7142,
       "length": 4,
       "value": "0.65"
     },
