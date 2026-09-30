@@ -50,7 +50,7 @@
 "zma_new_messages_banner_new_messages_accessibility_label" = "%@. 읽지 않은 메시지 중 가장 먼저 온 메시지로 스크롤하려면 탭하세요.";
 "zma_offline_banner_accessibility_label" = "%@, 탭하여 새로 고침 버튼";
 "zma_outbound_text_message_accessibility_label" = "메시지를 전송했습니다.";
-"zma_quick_reply_button_accessibility_label" = "%@, 빠른 답변 버튼";
+"zma_quick_reply_button_accessibility_label" = "%@, 빠른 답장 버튼";
 "zma_send_button_accessibility_label" = "메시지 보내기";
 "zma_static_wait_time_banner_queue_position.few" = "%@명이 내 앞에 대기 중입니다.";
 "zma_static_wait_time_banner_queue_position.many" = "%@명이 내 앞에 대기 중입니다.";
