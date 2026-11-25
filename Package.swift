@@ -13,7 +13,7 @@ let package = Package(
             ]
         )
     ],
-        dependencies: [
+    dependencies: [
         .package(
             name: "ZendeskSDKCoreUtilities",
             url: "https://github.com/zendesk/sdk_core_utilities_ios",
